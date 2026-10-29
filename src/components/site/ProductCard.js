@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from "@/components/site/Link";
 import { categoryById } from "@/data/catalog";
-import { tr, useLang } from "@/i18n";
+import { tr, useLang, asset } from "@/i18n";
 
 export default function ProductCard({ product }) {
   const lang = useLang();
@@ -11,7 +11,7 @@ export default function ProductCard({ product }) {
       <div className="product-card__media">
         {product.image ? (
           <img
-            src={product.image}
+            src={asset(product.image)}
             alt={`${product.brand} ${product.name}`}
             loading="lazy"
           />

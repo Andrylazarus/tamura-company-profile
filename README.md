@@ -8,10 +8,18 @@ Company profile and product catalogue for PT Tamura Trade Indonesia, built with
 ```bash
 npm install
 npm run dev      # http://localhost:3000
-npm run build    # production build
+npm run build    # static site in ./out
 ```
 
-Deploys to Vercel with no extra settings.
+## Publishing
+
+The site is a static export hosted on **GitHub Pages**. Every push to `main` runs
+`.github/workflows/deploy.yml`, which builds the site and publishes it to
+`https://andrylazarus.github.io/tamura-company-profile/`. Progress is shown on the
+repository's **Actions** tab.
+
+To use your own domain later, add it under **Settings → Pages → Custom domain** and
+remove `NEXT_PUBLIC_BASE_PATH` from the workflow.
 
 ## How the site is organised
 
@@ -56,7 +64,7 @@ A detail file looks like this; `blocks` can contain `h3`, `p`, `list`, `img`, `t
 
 ## Languages
 
-The site is in English (`/`) and Japanese (`/ja/`). The EN / 日本語 switch in the header
+The site is in English (`/`) and Japanese (`/ja/`, pages in `src/pages/ja`). The EN / 日本語 switch in the header
 keeps the visitor on the same page.
 
 - Page text lives in a `T = { en: {...}, ja: {...} }` table at the top of each component.

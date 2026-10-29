@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/router";
-import Link from "next/link";
+import Link from "@/components/site/Link";
 import PageHead from "@/components/site/PageHead";
 import AssemblyLine from "@/components/site/AssemblyLine";
 import ProductCard from "@/components/site/ProductCard";
 import { SearchIcon } from "@/components/site/icons";
 import { brands, categories, products, categoryById } from "@/data/catalog";
-import { tr, useLang } from "@/i18n";
+import { localize, tr, useLang } from "@/i18n";
 
 const T = {
   en: {
@@ -110,10 +110,14 @@ export default function Products() {
     Object.entries(state).forEach(([k, v]) => {
       if (v) params[k] = v;
     });
-    router.replace({ pathname: "/products", query: params }, undefined, {
-      shallow: true,
-      scroll: false,
-    });
+    router.replace(
+      { pathname: localize("/products", lang), query: params },
+      undefined,
+      {
+        shallow: true,
+        scroll: false,
+      },
+    );
   }
 
   const activeCategory = categoryById(category);

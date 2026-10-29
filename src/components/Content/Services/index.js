@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from "@/components/site/Link";
 import PageHead from "@/components/site/PageHead";
-import { useLang } from "@/i18n";
+import { useLang, asset } from "@/i18n";
 
 const services = [
   {
@@ -155,7 +155,7 @@ export default function Services() {
             {list.map((s) => (
               <article key={s.id} id={s.id} className="service-row">
                 <div className="service-row__media">
-                  <img src={s.image} alt={s.alt} loading="lazy" />
+                  <img src={asset(s.image)} alt={s.alt} loading="lazy" />
                 </div>
                 <div>
                   <h2 className="h2">{s.title}</h2>

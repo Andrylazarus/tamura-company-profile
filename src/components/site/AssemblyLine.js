@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/site/Link";
 import { categories, productsIn } from "@/data/catalog";
 import { tr, useLang } from "@/i18n";
 

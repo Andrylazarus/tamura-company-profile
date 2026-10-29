@@ -1,7 +1,7 @@
-import Link from "next/link";
+import Link from "@/components/site/Link";
 import { categories } from "@/data/catalog";
 import { company } from "@/data/company";
-import { tr, useLang } from "@/i18n";
+import { tr, useLang, asset } from "@/i18n";
 
 const T = {
   en: {
@@ -38,7 +38,7 @@ export default function SiteFooter() {
         <div>
           <Link href="/" className="site-footer__logo" aria-label="Home">
             <img
-              src="/logo/tamura-white.png"
+              src={asset("/logo/tamura-white.png")}
               alt="Tamura"
               width="128"
               height="22"

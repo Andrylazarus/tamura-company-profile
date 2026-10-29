@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from "@/components/site/Link";
 import ProductCard from "@/components/site/ProductCard";
-import { tr, useLang } from "@/i18n";
+import { tr, useLang, asset } from "@/i18n";
 
 const T = {
   en: {
@@ -107,7 +107,7 @@ function Blocks({ blocks, alt, t }) {
           className={`detail-gallery detail-gallery--${Math.min(group.length, 3)}`}
         >
           {group.map((g) => (
-            <img key={g.src} src={g.src} alt={alt} loading="lazy" />
+            <img key={g.src} src={asset(g.src)} alt={alt} loading="lazy" />
           ))}
         </div>,
       );
@@ -125,7 +125,7 @@ function Blocks({ blocks, alt, t }) {
     else if (b.t === "video")
       out.push(
         <div key={i} className="video-frame">
-          <video controls preload="none" playsInline src={b.src} />
+          <video controls preload="none" playsInline src={asset(b.src)} />
         </div>,
       );
     else if (b.t === "link")
@@ -144,7 +144,6 @@ function Blocks({ blocks, alt, t }) {
   }
   return out;
 }
-
 
 export default function ProductDetail({
   product: base,
@@ -186,7 +185,7 @@ export default function ProductDetail({
             </ol>
             <div className="detail-head__brand">
               {brand.logo ? (
-                <img src={brand.logo} alt={brand.name} />
+                <img src={asset(brand.logo)} alt={brand.name} />
               ) : (
                 <span className="brand-tile__wordmark">{brand.name}</span>
               )}
@@ -209,10 +208,7 @@ export default function ProductDetail({
                 {t.quote}
               </Link>
               {specIndex > -1 && (
-                <a
-                  href={`#${anchor(specIndex)}`}
-                  className="btn btn-outline"
-                >
+                <a href={`#${anchor(specIndex)}`} className="btn btn-outline">
                   {t.specs}
                 </a>
               )}
@@ -220,7 +216,10 @@ export default function ProductDetail({
           </div>
           {product.image && (
             <div className="detail-head__media">
-              <img src={product.image} alt={`${brand.name} ${product.name}`} />
+              <img
+                src={asset(product.image)}
+                alt={`${brand.name} ${product.name}`}
+              />
             </div>
           )}
         </div>
@@ -235,9 +234,7 @@ export default function ProductDetail({
                 <ul>
                   {sections.map((s, i) => (
                     <li key={i}>
-                      <a href={`#${anchor(i)}`}>
-                        {s.title || t.details}
-                      </a>
+                      <a href={`#${anchor(i)}`}>{s.title || t.details}</a>
                     </li>
                   ))}
                 </ul>
@@ -245,11 +242,7 @@ export default function ProductDetail({
             )}
             <div className="detail-sections">
               {sections.map((s, i) => (
-                <section
-                  key={i}
-                  id={anchor(i)}
-                  className="detail-section"
-                >
+                <section key={i} id={anchor(i)} className="detail-section">
                   {s.title && <h2 className="h2">{s.title}</h2>}
                   <div className="detail-copy">
                     <Blocks blocks={s.blocks} alt={product.name} t={t} />

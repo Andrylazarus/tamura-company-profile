@@ -1,9 +1,9 @@
-import Link from "next/link";
+import Link from "@/components/site/Link";
 import AssemblyLine from "@/components/site/AssemblyLine";
 import ProductCard from "@/components/site/ProductCard";
 import { brands, categories, products, featuredIds } from "@/data/catalog";
 import { company } from "@/data/company";
-import { tr, useLang } from "@/i18n";
+import { tr, useLang, asset } from "@/i18n";
 
 const T = {
   en: {
@@ -126,7 +126,11 @@ export default function HomeContent() {
   return (
     <>
       <section className="hero">
-        <img className="hero__photo" src="/images/web/pcb-dark.jpg" alt="" />
+        <img
+          className="hero__photo"
+          src={asset("/images/web/pcb-dark.jpg")}
+          alt=""
+        />
         <div className="container hero__content">
           <p className="hero__company">{company.name}</p>
           <h1 className="display">{t.heroTitle}</h1>
@@ -218,7 +222,7 @@ export default function HomeContent() {
               >
                 <div className="brand-tile__logo">
                   {b.logo ? (
-                    <img src={b.logo} alt={b.name} loading="lazy" />
+                    <img src={asset(b.logo)} alt={b.name} loading="lazy" />
                   ) : (
                     <span className="brand-tile__wordmark">{b.name}</span>
                   )}
@@ -240,7 +244,7 @@ export default function HomeContent() {
           <div>
             <img
               className="photo photo--tall"
-              src="/images/web/pcb-tweezers.jpg"
+              src={asset("/images/web/pcb-tweezers.jpg")}
               alt={t.supportAlt}
               loading="lazy"
             />

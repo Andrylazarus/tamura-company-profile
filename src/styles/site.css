@@ -6,35 +6,6 @@
   The red is reserved for the assembly-line stations and small signals.
 */
 
-@font-face {
-  font-family: "Big Shoulders";
-  src: url("/fonts/big-shoulders-700.woff") format("woff");
-  font-weight: 600 800;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Instrument Sans";
-  src: url("/fonts/instrument-sans-400.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Instrument Sans";
-  src: url("/fonts/instrument-sans-400-italic.woff") format("woff");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Instrument Sans";
-  src: url("/fonts/instrument-sans-700.woff") format("woff");
-  font-weight: 600 700;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   --navy: #0c248c;
   --navy-deep: #06175a;

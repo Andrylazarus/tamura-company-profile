@@ -1,8 +1,17 @@
 import { useEffect, useRef, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/site/Link";
 import { useRouter } from "next/router";
 import { categories, productsIn } from "@/data/catalog";
-import { LANGUAGES, tr, useLang } from "@/i18n";
+import NextLink from "next/link";
+import {
+  LANGUAGES,
+  asset,
+  basePathname,
+  localize,
+  switchPath,
+  tr,
+  useLang,
+} from "@/i18n";
 import { SearchIcon, ChevronDown, MenuIcon, CloseIcon } from "./icons";
 
 const T = {
@@ -55,17 +64,16 @@ function LanguageSwitch({ className = "" }) {
       aria-label={T[lang].language}
     >
       {LANGUAGES.map((l) => (
-        <Link
+        <NextLink
           key={l.code}
-          href={router.asPath}
-          locale={l.code}
+          href={switchPath(router.asPath, l.code)}
           lang={l.code}
           className="lang-switch__item"
           aria-current={l.code === lang ? "true" : undefined}
           scroll={false}
         >
           {l.label}
-        </Link>
+        </NextLink>
       ))}
     </div>
   );
@@ -73,13 +81,19 @@ function LanguageSwitch({ className = "" }) {
 
 function HeaderSearch({ className = "", onDone }) {
   const router = useRouter();
-  const t = T[useLang()];
+  const lang = useLang();
+  const t = T[lang];
   const [q, setQ] = useState("");
 
   function submit(e) {
     e.preventDefault();
     const term = q.trim();
-    router.push(term ? `/products?q=${encodeURIComponent(term)}` : "/products");
+    router.push(
+      localize(
+        term ? `/products?q=${encodeURIComponent(term)}` : "/products",
+        lang,
+      ),
+    );
     if (onDone) onDone();
   }
 
@@ -150,7 +164,7 @@ export default function SiteHeader({ variant = "solid" }) {
   }, [megaOpen]);
 
   const overlay = variant === "overlay" && !scrolled && !megaOpen;
-  const path = router.pathname || "";
+  const path = basePathname(router.pathname || "");
   const isActive = (href) => path === href || path.startsWith(href + "/");
 
   const openMega = () => {
@@ -187,7 +201,9 @@ export default function SiteHeader({ variant = "solid" }) {
       <div className="container site-header__inner">
         <Link href="/" className="site-header__logo" aria-label={t.home}>
           <img
-            src={overlay ? "/logo/tamura-white.png" : "/logo/tamura03.png"}
+            src={asset(
+              overlay ? "/logo/tamura-white.png" : "/logo/tamura03.png",
+            )}
             alt="Tamura"
             width="128"
             height="22"

@@ -1,12 +1,12 @@
-import Link from "next/link";
-import { useLang } from "@/i18n";
+import Link from "@/components/site/Link";
+import { useLang, asset } from "@/i18n";
 
 /** Navy page header used by the inner pages. */
 export default function PageHead({ title, lead, photo, crumb, children }) {
   const lang = useLang();
   return (
     <section className="page-head">
-      {photo && <img className="page-head__photo" src={photo} alt="" />}
+      {photo && <img className="page-head__photo" src={asset(photo)} alt="" />}
       <div className="container page-head__inner">
         <ol className="crumbs">
           <li>

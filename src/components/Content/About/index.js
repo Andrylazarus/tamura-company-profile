@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Link from "@/components/site/Link";
 import PageHead from "@/components/site/PageHead";
 import { brands } from "@/data/catalog";
 import { company } from "@/data/company";
-import { tr, useLang } from "@/i18n";
+import { asset, tr, useLang } from "@/i18n";
 
 const T = {
   en: {
@@ -102,7 +102,7 @@ export default function About() {
           <figure style={{ margin: 0 }}>
             <img
               className="photo photo--wide"
-              src="/images/web/lineup-wide.jpg"
+              src={asset("/images/web/lineup-wide.jpg")}
               alt={t.lineupAlt}
               loading="lazy"
               style={{ aspectRatio: "12 / 5" }}
@@ -144,7 +144,7 @@ export default function About() {
               >
                 <div className="brand-tile__logo">
                   {b.logo ? (
-                    <img src={b.logo} alt={b.name} loading="lazy" />
+                    <img src={asset(b.logo)} alt={b.name} loading="lazy" />
                   ) : (
                     <span className="brand-tile__wordmark">{b.name}</span>
                   )}

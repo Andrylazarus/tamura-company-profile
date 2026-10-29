@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/site/Link";
 import Seo from "@/components/site/Seo";
 import SiteLayout from "@/components/site/SiteLayout";
 import { useLang } from "@/i18n";

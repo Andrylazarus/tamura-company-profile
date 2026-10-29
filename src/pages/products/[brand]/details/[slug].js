@@ -8,15 +8,13 @@ import { brands, products, categoryById } from "@/data/catalog";
 // Each product's content lives in src/data/products/<brand>/<slug>.json.
 const DATA_DIR = path.join(process.cwd(), "src", "data", "products");
 
-export async function getStaticPaths({ locales = ["en"] }) {
+export async function getStaticPaths() {
   const paths = [];
   for (const brand of fs.readdirSync(DATA_DIR)) {
     for (const file of fs.readdirSync(path.join(DATA_DIR, brand))) {
-      if (!file.endsWith(".json")) continue;
-      const slug = file.replace(/\.json$/, "");
-      // one page per language: /products/... and /ja/products/...
-      for (const locale of locales)
-        paths.push({ params: { brand, slug }, locale });
+      if (file.endsWith(".json")) {
+        paths.push({ params: { brand, slug: file.replace(/\.json$/, "") } });
+      }
     }
   }
   return { paths, fallback: false };
