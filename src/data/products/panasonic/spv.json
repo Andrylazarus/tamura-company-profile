@@ -1,7 +1,7 @@
 {
   "name": "SPV",
   "type": "Screen Printer",
-  "image": null,
+  "image": "/images/products/panasonic/spv.jpg",
   "tagline": "10-second print-and-clean cycle with built-in board sorting",
   "intro": [
     {
@@ -48,11 +48,6 @@
         {
           "t": "p",
           "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
-        },
-        {
-          "t": "link",
-          "href": "https://connect.panasonic.com/en/products-services_fa/products/mounting-related/spv",
-          "text": "SPV"
         }
       ]
     }
@@ -105,11 +100,6 @@
           {
             "t": "p",
             "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
-          },
-          {
-            "t": "link",
-            "href": "https://connect.panasonic.com/en/products-services_fa/products/mounting-related/spv",
-            "text": "SPV"
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "name": "NPM-GH",
   "type": "Autonomous Placement Machine",
-  "image": null,
+  "image": "/images/products/panasonic/npm-gh.jpg",
   "tagline": "First of the G-series: high output with minimal operator work",
   "intro": [
     {
@@ -70,11 +70,6 @@
         {
           "t": "p",
           "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
-        },
-        {
-          "t": "link",
-          "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-gh-autonomous-labor-saving-factory-solution",
-          "text": "NPM-GH"
         }
       ]
     }
@@ -143,11 +138,6 @@
           {
             "t": "p",
             "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
-          },
-          {
-            "t": "link",
-            "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-gh-autonomous-labor-saving-factory-solution",
-            "text": "NPM-GH"
           }
         ]
       }

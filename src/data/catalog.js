@@ -278,7 +278,7 @@ export const products = [
     category: "smt",
     section: "printing",
     href: "/products/panasonic/details/npm-gp-l",
-    image: null,
+    image: "/images/catalog/panasonic-npm-gp-l.webp",
   },
   {
     id: "panasonic-spv",
@@ -287,7 +287,7 @@ export const products = [
     category: "smt",
     section: "printing",
     href: "/products/panasonic/details/spv",
-    image: null,
+    image: "/images/catalog/panasonic-spv.webp",
   },
   {
     id: "panasonic-spv-dc",
@@ -296,7 +296,7 @@ export const products = [
     category: "smt",
     section: "printing",
     href: "/products/panasonic/details/spv-dc",
-    image: null,
+    image: "/images/catalog/panasonic-spv-dc.webp",
   },
   {
     id: "panasonic-npm-gh",
@@ -305,7 +305,7 @@ export const products = [
     category: "smt",
     section: "placement",
     href: "/products/panasonic/details/npm-gh",
-    image: null,
+    image: "/images/catalog/panasonic-npm-gh.webp",
   },
   {
     id: "panasonic-npm-gw",
@@ -314,7 +314,7 @@ export const products = [
     category: "smt",
     section: "placement",
     href: "/products/panasonic/details/npm-gw",
-    image: null,
+    image: "/images/catalog/panasonic-npm-gw.webp",
   },
   {
     id: "panasonic-npm-w2",
@@ -323,7 +323,7 @@ export const products = [
     category: "smt",
     section: "placement",
     href: "/products/panasonic/details/npm-w2",
-    image: null,
+    image: "/images/catalog/panasonic-npm-w2.webp",
   },
   {
     id: "panasonic-npm-d3a",
@@ -332,7 +332,7 @@ export const products = [
     category: "smt",
     section: "placement",
     href: "/products/panasonic/details/npm-d3a",
-    image: null,
+    image: "/images/catalog/panasonic-npm-d3a.webp",
   },
   {
     id: "panasonic-npm-tt2",
@@ -341,7 +341,7 @@ export const products = [
     category: "smt",
     section: "placement",
     href: "/products/panasonic/details/npm-tt2",
-    image: null,
+    image: "/images/catalog/panasonic-npm-tt2.webp",
   },
   {
     id: "panasonic-am100",
@@ -350,7 +350,7 @@ export const products = [
     category: "smt",
     section: "placement",
     href: "/products/panasonic/details/am100",
-    image: null,
+    image: "/images/catalog/panasonic-am100.webp",
   },
   {
     id: "mpi-plm-series",
@@ -1070,7 +1070,7 @@ export const products = [
     category: "others",
     section: "profiler",
     href: "/products/kic/details/sps-smart-profiler",
-    image: null,
+    image: "/images/catalog/kic-sps-smart-profiler.webp",
   },
   {
     id: "kic-profiler-x5",
@@ -1079,7 +1079,7 @@ export const products = [
     category: "others",
     section: "profiler",
     href: "/products/kic/details/profiler-x5",
-    image: null,
+    image: "/images/catalog/kic-profiler-x5.webp",
   },
   {
     id: "kic-kic-profiler-k",

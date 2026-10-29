@@ -1,7 +1,7 @@
 {
   "name": "AM100",
   "type": "All-in-One Placement System",
-  "image": null,
+  "image": "/images/products/panasonic/am100.jpg",
   "tagline": "One machine to start high-mix production, then scale up",
   "intro": [
     {
@@ -59,11 +59,6 @@
         {
           "t": "p",
           "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
-        },
-        {
-          "t": "link",
-          "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/am100-flexible-all-in-one-placement-system",
-          "text": "AM100"
         }
       ]
     }
@@ -130,11 +125,6 @@
           {
             "t": "p",
             "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
-          },
-          {
-            "t": "link",
-            "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/am100-flexible-all-in-one-placement-system",
-            "text": "AM100"
           }
         ]
       }

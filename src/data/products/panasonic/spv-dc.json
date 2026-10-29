@@ -1,7 +1,7 @@
 {
   "name": "SPV-DC",
   "type": "Dual-Lane Screen Printer",
-  "image": null,
+  "image": "/images/products/panasonic/spv-dc.jpg",
   "tagline": "Compact dual-lane printing with paperless cleaning",
   "intro": [
     {
@@ -57,11 +57,6 @@
         {
           "t": "p",
           "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
-        },
-        {
-          "t": "link",
-          "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/screen-printers/spv-dc-screen-printer",
-          "text": "SPV-DC"
         }
       ]
     }
@@ -120,11 +115,6 @@
           {
             "t": "p",
             "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
-          },
-          {
-            "t": "link",
-            "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/screen-printers/spv-dc-screen-printer",
-            "text": "SPV-DC"
           }
         ]
       }
