@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html>
       <Head>
         <meta name="theme-color" content="#06175a" />
         <link rel="icon" href="/favicon.ico" />
@@ -19,6 +19,16 @@ export default function Document() {
           as="font"
           type="font/woff"
           crossOrigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
         />
       </Head>
       <body>

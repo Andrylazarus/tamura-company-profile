@@ -1,5 +1,39 @@
 import Link from "next/link";
 import ProductCard from "@/components/site/ProductCard";
+import { tr, useLang } from "@/i18n";
+
+const T = {
+  en: {
+    home: "Home",
+    products: "Products",
+    quote: "Request a quote",
+    specs: "View specifications",
+    onPage: "On this page",
+    details: "Details",
+    interested: (n) => `Interested in the ${n}?`,
+    ctaText:
+      "Ask for a quotation, a demonstration or the full specification sheet. Our sales team will reply.",
+    related: "Related equipment",
+    allIn: (c) => `All ${c} products`,
+    maker: (x) => `${x} on the manufacturer's website`,
+    englishOnly: "",
+  },
+  ja: {
+    home: "ホーム",
+    products: "製品",
+    quote: "お見積り依頼",
+    specs: "仕様を見る",
+    onPage: "このページの内容",
+    details: "詳細",
+    interested: (n) => `${n}にご興味がありますか？`,
+    ctaText:
+      "お見積り、デモンストレーション、詳細な仕様書をご依頼ください。営業担当からご連絡します。",
+    related: "関連製品",
+    allIn: (c) => `${c}の製品をすべて見る`,
+    maker: (x) => `メーカーのウェブサイトで${x}を見る`,
+    englishOnly: "この製品の詳細はメーカー資料に基づき英語で掲載しています。",
+  },
+};
 
 function SpecTable({ rows }) {
   return (
@@ -59,7 +93,7 @@ function Text({ text }) {
 }
 
 // Renders a list of content blocks. Consecutive images are shown as a gallery.
-function Blocks({ blocks, alt }) {
+function Blocks({ blocks, alt, t }) {
   const out = [];
   for (let i = 0; i < blocks.length; i++) {
     const b = blocks[i];
@@ -103,7 +137,7 @@ function Blocks({ blocks, alt }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {b.text} on the manufacturer&apos;s website
+            {t.maker(b.text)}
           </a>
         </p>,
       );
@@ -111,15 +145,23 @@ function Blocks({ blocks, alt }) {
   return out;
 }
 
-const slugify = (s) =>
-  s
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
 
-export default function ProductDetail({ product, brand, category, related }) {
+export default function ProductDetail({
+  product: base,
+  brand,
+  category,
+  related,
+}) {
+  const lang = useLang();
+  const t = T[lang];
+  // A product file may carry a Japanese version under "ja"; otherwise English is shown.
+  const translated = lang === "ja" && base.ja;
+  const product = translated ? { ...base, ...base.ja } : base;
   const quote = `/contact?product=${encodeURIComponent(`${brand.name} ${product.name}`)}`;
   const sections = product.sections.filter((s) => s.blocks.length);
+  // Anchors use the section position so they work for Japanese titles too.
+  const anchor = (i) => `section-${i + 1}`;
+  const specIndex = sections.findIndex((s) => /spec|仕様/i.test(s.title));
 
   return (
     <>
@@ -128,15 +170,15 @@ export default function ProductDetail({ product, brand, category, related }) {
           <div>
             <ol className="crumbs crumbs--dark">
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/">{t.home}</Link>
               </li>
               <li>
-                <Link href="/products">Products</Link>
+                <Link href="/products">{t.products}</Link>
               </li>
               {category && (
                 <li>
                   <Link href={`/products?category=${category.id}`}>
-                    {category.name}
+                    {tr(category, "name", lang)}
                   </Link>
                 </li>
               )}
@@ -156,19 +198,22 @@ export default function ProductDetail({ product, brand, category, related }) {
             {product.tagline && (
               <p className="lead detail-head__tagline">{product.tagline}</p>
             )}
+            {lang === "ja" && !translated && (
+              <p className="detail-head__note">{t.englishOnly}</p>
+            )}
             <div className="detail-copy detail-head__intro">
-              <Blocks blocks={product.intro} alt={product.name} />
+              <Blocks blocks={product.intro} alt={product.name} t={t} />
             </div>
             <div className="btn-row" style={{ marginTop: 28 }}>
               <Link href={quote} className="btn btn-primary">
-                Request a quote
+                {t.quote}
               </Link>
-              {sections.some((s) => /spec/i.test(s.title)) && (
+              {specIndex > -1 && (
                 <a
-                  href={`#${slugify(sections.find((s) => /spec/i.test(s.title)).title)}`}
+                  href={`#${anchor(specIndex)}`}
                   className="btn btn-outline"
                 >
-                  View specifications
+                  {t.specs}
                 </a>
               )}
             </div>
@@ -185,13 +230,13 @@ export default function ProductDetail({ product, brand, category, related }) {
         <section className="section">
           <div className="container detail-body">
             {sections.length > 1 && (
-              <nav className="detail-toc" aria-label="On this page">
-                <p>On this page</p>
+              <nav className="detail-toc" aria-label={t.onPage}>
+                <p>{t.onPage}</p>
                 <ul>
                   {sections.map((s, i) => (
                     <li key={i}>
-                      <a href={`#${slugify(s.title || `section-${i}`)}`}>
-                        {s.title || "Details"}
+                      <a href={`#${anchor(i)}`}>
+                        {s.title || t.details}
                       </a>
                     </li>
                   ))}
@@ -202,12 +247,12 @@ export default function ProductDetail({ product, brand, category, related }) {
               {sections.map((s, i) => (
                 <section
                   key={i}
-                  id={slugify(s.title || `section-${i}`)}
+                  id={anchor(i)}
                   className="detail-section"
                 >
                   {s.title && <h2 className="h2">{s.title}</h2>}
                   <div className="detail-copy">
-                    <Blocks blocks={s.blocks} alt={product.name} />
+                    <Blocks blocks={s.blocks} alt={product.name} t={t} />
                   </div>
                 </section>
               ))}
@@ -219,15 +264,12 @@ export default function ProductDetail({ product, brand, category, related }) {
       <section className="cta-band">
         <div className="container cta-band__inner">
           <div>
-            <h2 className="h2">Interested in the {product.name}?</h2>
-            <p>
-              Ask for a quotation, a demonstration or the full specification
-              sheet. Our sales team will reply.
-            </p>
+            <h2 className="h2">{t.interested(product.name)}</h2>
+            <p>{t.ctaText}</p>
           </div>
           <div className="btn-row">
             <Link href={quote} className="btn btn-light">
-              Request a quote
+              {t.quote}
             </Link>
           </div>
         </div>
@@ -237,13 +279,13 @@ export default function ProductDetail({ product, brand, category, related }) {
         <section className="section section--steel">
           <div className="container">
             <div className="section-head">
-              <h2 className="h2">Related equipment</h2>
+              <h2 className="h2">{t.related}</h2>
               {category && (
                 <Link
                   href={`/products?category=${category.id}`}
                   className="btn btn-outline section-head__aside"
                 >
-                  All {category.name} products
+                  {t.allIn(tr(category, "name", lang))}
                 </Link>
               )}
             </div>

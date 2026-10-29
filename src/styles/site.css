@@ -1828,3 +1828,102 @@ a.brand-tile--ask:hover {
   color: var(--navy);
   letter-spacing: 0.02em;
 }
+.detail-head__note {
+  margin: 14px 0 0;
+  padding: 8px 12px;
+  border-left: 3px solid var(--navy);
+  background: var(--white);
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+/* ---------- language switch ---------- */
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lang-switch__item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.7;
+}
+.lang-switch__item:hover {
+  opacity: 1;
+}
+.lang-switch__item[aria-current="true"] {
+  background: var(--navy);
+  color: var(--white);
+  opacity: 1;
+}
+.site-header.is-overlay .lang-switch {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.site-header.is-overlay .lang-switch__item[aria-current="true"] {
+  background: var(--white);
+  color: var(--navy);
+}
+.lang-switch--mobile {
+  height: 44px;
+  margin-bottom: 14px;
+}
+.lang-switch--mobile .lang-switch__item {
+  padding: 0 18px;
+  font-size: 0.9375rem;
+}
+
+/* ---------- Japanese ---------- */
+
+:lang(ja) {
+  --font-body: "Instrument Sans", "Noto Sans JP", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  --font-display: "Big Shoulders", "Noto Sans JP", "Hiragino Sans",
+    "Yu Gothic", Meiryo, sans-serif;
+}
+:lang(ja) body {
+  line-height: 1.8;
+  word-break: normal;
+  line-break: strict;
+}
+:lang(ja) .display {
+  font-size: clamp(2.25rem, 4.6vw, 3.75rem);
+  line-height: 1.25;
+  max-width: 20ch;
+}
+:lang(ja) .h1 {
+  font-size: clamp(2.125rem, 3.8vw, 3rem);
+  line-height: 1.25;
+}
+:lang(ja) .h2 {
+  font-size: clamp(1.625rem, 2.6vw, 2.25rem);
+  line-height: 1.35;
+}
+:lang(ja) .h3,
+:lang(ja) .detail-copy h3,
+:lang(ja) .service-list h3,
+:lang(ja) .statement h3 {
+  line-height: 1.4;
+}
+:lang(ja) .line__name,
+:lang(ja) .mega__name {
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+:lang(ja) .lead,
+:lang(ja) .hero__lead {
+  line-height: 1.8;
+}
+:lang(ja) .facts dt {
+  font-size: 2.25rem;
+}

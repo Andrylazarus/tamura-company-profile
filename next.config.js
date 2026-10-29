@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // English at /, Japanese at /ja/
+  i18n: {
+    locales: ["en", "ja"],
+    defaultLocale: "en",
+    localeDetection: false,
+  },
   async redirects() {
     return [
       // Old per-brand listing pages (e.g. /products/tamura/reflow) now live in

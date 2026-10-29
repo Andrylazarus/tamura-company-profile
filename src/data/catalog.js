@@ -7,20 +7,27 @@ export const categories = [
     id: "marking",
     name: "Marking",
     short: "Marking",
+    nameJa: "マーキング",
+    shortJa: "マーキング",
+    summaryJa:
+      "基板のトレーサビリティのためのレーザーマーキング、ラベル貼付、インクジェットマーキング。",
     summary:
       "Laser marking, label placement and ink-jet marking for board traceability.",
     sections: [
       {
         id: "laser",
         label: "Laser marking",
+        labelJa: "レーザーマーキング",
       },
       {
         id: "label",
         label: "Label placement",
+        labelJa: "ラベル貼付",
       },
       {
         id: "inkjet",
         label: "Ink-jet marking",
+        labelJa: "インクジェットマーキング",
       },
     ],
   },
@@ -28,28 +35,37 @@ export const categories = [
     id: "smt",
     name: "Surface Mount Technology (SMT)",
     short: "SMT",
+    nameJa: "表面実装（SMT）",
+    shortJa: "SMT",
+    summaryJa:
+      "スクリーン印刷、はんだ印刷検査、部品実装、リフローはんだ付け、AOI。",
     summary:
       "Screen printing, solder paste inspection, pick-and-place, reflow soldering and AOI.",
     sections: [
       {
         id: "printing",
         label: "Screen printing",
+        labelJa: "スクリーン印刷",
       },
       {
         id: "spi",
         label: "Solder paste inspection (SPI)",
+        labelJa: "はんだ印刷検査（SPI）",
       },
       {
         id: "placement",
         label: "Pick-and-place",
+        labelJa: "部品実装（マウンター）",
       },
       {
         id: "reflow",
         label: "Reflow soldering",
+        labelJa: "リフローはんだ付け",
       },
       {
         id: "aoi",
         label: "Automated optical inspection (AOI)",
+        labelJa: "自動光学検査（AOI）",
       },
     ],
   },
@@ -57,28 +73,36 @@ export const categories = [
     id: "tht",
     name: "Through-Hole Technology (THT)",
     short: "THT",
+    nameJa: "挿入実装（THT）",
+    shortJa: "THT",
+    summaryJa: "部品挿入、フラクサー、局所・フローはんだ付け、フロー後検査。",
     summary:
       "Component insertion, fluxing, selective and wave soldering, post-wave inspection.",
     sections: [
       {
         id: "insert",
         label: "Component insertion",
+        labelJa: "部品挿入",
       },
       {
         id: "fluxer",
         label: "Fluxing",
+        labelJa: "フラクサー",
       },
       {
         id: "selective",
         label: "Selective soldering",
+        labelJa: "局所はんだ付け",
       },
       {
         id: "wave",
         label: "Wave soldering",
+        labelJa: "フローはんだ付け",
       },
       {
         id: "postwave",
         label: "Post-wave inspection",
+        labelJa: "フロー後検査",
       },
     ],
   },
@@ -86,24 +110,32 @@ export const categories = [
     id: "coating",
     name: "Conformal Coating",
     short: "Coating",
+    nameJa: "コンフォーマルコーティング",
+    shortJa: "コーティング",
+    summaryJa:
+      "プラズマ処理、コンフォーマルコーティング、コーティング検査、硬化。",
     summary:
       "Plasma treatment, conformal coating, coating inspection and curing.",
     sections: [
       {
         id: "plasma",
         label: "Plasma treatment",
+        labelJa: "プラズマ処理",
       },
       {
         id: "coating",
         label: "Coating",
+        labelJa: "コーティング",
       },
       {
         id: "inspection",
         label: "Coating inspection",
+        labelJa: "コーティング検査",
       },
       {
         id: "curing",
         label: "Curing",
+        labelJa: "硬化",
       },
     ],
   },
@@ -111,40 +143,52 @@ export const categories = [
     id: "others",
     name: "Others",
     short: "Others",
+    nameJa: "その他",
+    shortJa: "その他",
+    summaryJa:
+      "基板搬送、初品検査、ICT・FCT、温度プロファイル測定、フリップチップボンディング、三次元形状測定。",
     summary:
       "Board handling, FAI, in-circuit and functional test, thermal profiling, flip chip bonding and 3D measurement.",
     sections: [
       {
         id: "handling",
         label: "Board handling",
+        labelJa: "基板搬送",
       },
       {
         id: "fai",
         label: "First article inspection (FAI)",
+        labelJa: "初品検査（FAI）",
       },
       {
         id: "ict",
         label: "ICT & FCT",
+        labelJa: "ICT・FCT",
       },
       {
         id: "mda",
         label: "MDA ICT",
+        labelJa: "MDA ICT",
       },
       {
         id: "inline",
         label: "Inline ICT & FCT",
+        labelJa: "インラインICT・FCT",
       },
       {
         id: "profiler",
         label: "Thermal profiling",
+        labelJa: "温度プロファイル測定",
       },
       {
         id: "bonding",
         label: "Flip chip bonding",
+        labelJa: "フリップチップボンディング",
       },
       {
         id: "metrology",
         label: "3D measurement",
+        labelJa: "三次元形状測定",
       },
     ],
   },
@@ -155,73 +199,87 @@ export const brands = [
     id: "panasonic",
     name: "Panasonic",
     logo: null,
-    focus: "Printing, placement, odd-form insertion, flip chip bonding, 3D measurement",
+    focus:
+      "Printing, placement, odd-form insertion, flip chip bonding, 3D measurement",
+    focusJa:
+      "印刷、部品実装、異形部品挿入、フリップチップボンディング、三次元測定",
   },
   {
     id: "tamura",
     name: "Tamura",
     logo: "/logo/tamura03.png",
     focus: "Reflow and wave soldering, fluxers",
+    focusJa: "リフロー・フローはんだ付け、フラクサー",
   },
   {
     id: "kohyoung",
     name: "Koh Young",
     logo: "/images/brands/kohyoung.png",
     focus: "3D solder paste and optical inspection",
+    focusJa: "3Dはんだ印刷検査・外観検査",
   },
   {
     id: "kic",
     name: "KIC",
     logo: "/images/brands/kic.png",
     focus: "Thermal profiling",
+    focusJa: "温度プロファイル測定",
   },
   {
     id: "mpi",
     name: "MPI",
     logo: "/images/brands/mpi.png",
     focus: "Laser, label and ink-jet marking",
+    focusJa: "レーザー、ラベル、インクジェットマーキング",
   },
   {
     id: "anda",
     name: "Anda",
     logo: "/images/brands/anda.png",
     focus: "Conformal coating, plasma and curing",
+    focusJa: "コンフォーマルコーティング、プラズマ、硬化",
   },
   {
     id: "maker-ray",
     name: "Maker-Ray",
     logo: "/images/brands/maker-ray.png",
     focus: "AOI and coating inspection",
+    focusJa: "AOI・コーティング検査",
   },
   {
     id: "sinhovo",
     name: "Sinhovo",
     logo: "/images/brands/sinhovo.png",
     focus: "Solder paste and optical inspection",
+    focusJa: "はんだ印刷検査・外観検査",
   },
   {
     id: "jt",
     name: "JT",
     logo: "/images/brands/jt.png",
     focus: "Reflow, wave and selective soldering",
+    focusJa: "リフロー、フロー、局所はんだ付け",
   },
   {
     id: "jte",
     name: "JTE",
     logo: "/images/brands/jte.png",
     focus: "Through-hole auto insertion",
+    focusJa: "挿入部品の自動実装",
   },
   {
     id: "power-automation",
     name: "Power Automation",
     logo: "/images/brands/power-automation.png",
     focus: "Odd-form component insertion",
+    focusJa: "異形部品の挿入",
   },
   {
     id: "pti",
     name: "PTI",
     logo: "/images/brands/pti.png",
     focus: "ICT, FCT and first-article inspection",
+    focusJa: "ICT、FCT、初品検査",
   },
 ];
 

@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { categories, productsIn } from "@/data/catalog";
+import { tr, useLang } from "@/i18n";
 
 /**
  * The assembly line: product categories laid out as stations in process order.
  * Pass `onSelect` to use it as a filter (buttons), otherwise it renders links.
  */
 export default function AssemblyLine({ active, onSelect, title, hint }) {
+  const lang = useLang();
   return (
     <div className="line">
       {(title || hint) && (
@@ -19,9 +21,11 @@ export default function AssemblyLine({ active, onSelect, title, hint }) {
           const count = productsIn(c.id).length;
           const inner = (
             <>
-              <span className="line__name">{c.name}</span>
+              <span className="line__name">{tr(c, "name", lang)}</span>
               <span className="line__count">
-                {count} {count === 1 ? "model" : "models"}
+                {lang === "ja"
+                  ? `${count} 機種`
+                  : `${count} ${count === 1 ? "model" : "models"}`}
               </span>
             </>
           );

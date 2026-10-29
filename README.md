@@ -54,6 +54,18 @@ A detail file looks like this; `blocks` can contain `h3`, `p`, `list`, `img`, `t
 }
 ```
 
+## Languages
+
+The site is in English (`/`) and Japanese (`/ja/`). The EN / 日本語 switch in the header
+keeps the visitor on the same page.
+
+- Page text lives in a `T = { en: {...}, ja: {...} }` table at the top of each component.
+- Catalogue labels use `nameJa`, `summaryJa`, `labelJa` and `focusJa` fields in
+  `src/data/catalog.js`.
+- A product page is shown in Japanese when its JSON file has a `"ja"` object with the
+  translated `type`, `tagline`, `intro` and `sections` (see `mpi/clm-z-series.json`).
+  Without it, the Japanese page shows the English details with a short note.
+
 ## Design
 
 - Colours: Tamura navy `#0c248c`, deep navy `#06175a`, signal red `#e82c35`, steel `#eef1f5`.

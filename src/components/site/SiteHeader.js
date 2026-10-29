@@ -2,16 +2,78 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { categories, productsIn } from "@/data/catalog";
+import { LANGUAGES, tr, useLang } from "@/i18n";
 import { SearchIcon, ChevronDown, MenuIcon, CloseIcon } from "./icons";
 
-const links = [
-  { href: "/about", label: "About" },
-  { href: "/services", label: "Services" },
-  { href: "/contact", label: "Contact" },
-];
+const T = {
+  en: {
+    products: "Products",
+    links: [
+      { href: "/about", label: "About" },
+      { href: "/services", label: "Services" },
+      { href: "/contact", label: "Contact" },
+    ],
+    search: "Search products",
+    quote: "Request a quote",
+    skip: "Skip to content",
+    home: "Tamura Trade Indonesia home",
+    openMenu: "Open menu",
+    closeMenu: "Close menu",
+    megaText:
+      "Browse machines for marking, SMT, through-hole, conformal coating and more, or search by model name.",
+    viewAll: "View all products",
+    language: "Language",
+  },
+  ja: {
+    products: "製品",
+    links: [
+      { href: "/about", label: "会社概要" },
+      { href: "/services", label: "サービス" },
+      { href: "/contact", label: "お問い合わせ" },
+    ],
+    search: "製品を検索",
+    quote: "お見積り依頼",
+    skip: "本文へ移動",
+    home: "Tamura Trade Indonesia ホーム",
+    openMenu: "メニューを開く",
+    closeMenu: "メニューを閉じる",
+    megaText:
+      "マーキング、SMT、挿入実装、コンフォーマルコーティングなどの装置を分野別に探すか、型番で検索できます。",
+    viewAll: "すべての製品を見る",
+    language: "言語",
+  },
+};
+
+/** EN / 日本語 switch. Keeps the visitor on the same page. */
+function LanguageSwitch({ className = "" }) {
+  const router = useRouter();
+  const lang = useLang();
+  return (
+    <div
+      className={`lang-switch ${className}`}
+      role="group"
+      aria-label={T[lang].language}
+    >
+      {LANGUAGES.map((l) => (
+        <Link
+          key={l.code}
+          href={router.asPath}
+          locale={l.code}
+          lang={l.code}
+          className="lang-switch__item"
+          aria-current={l.code === lang ? "true" : undefined}
+          scroll={false}
+        >
+          {l.label}
+        </Link>
+      ))}
+    </div>
+  );
+}
 
 function HeaderSearch({ className = "", onDone }) {
   const router = useRouter();
+  const t = T[useLang()];
   const [q, setQ] = useState("");
 
   function submit(e) {
@@ -29,12 +91,12 @@ function HeaderSearch({ className = "", onDone }) {
     >
       <SearchIcon />
       <label className="visually-hidden" htmlFor={`search-${className || "m"}`}>
-        Search products
+        {t.search}
       </label>
       <input
         id={`search-${className || "m"}`}
         type="search"
-        placeholder="Search products"
+        placeholder={t.search}
         value={q}
         onChange={(e) => setQ(e.target.value)}
       />
@@ -49,6 +111,9 @@ function HeaderSearch({ className = "", onDone }) {
  */
 export default function SiteHeader({ variant = "solid" }) {
   const router = useRouter();
+  const lang = useLang();
+  const t = T[lang];
+  const links = t.links;
   const [scrolled, setScrolled] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -117,14 +182,10 @@ export default function SiteHeader({ variant = "solid" }) {
       }`}
     >
       <a className="skip-link" href="#main">
-        Skip to content
+        {t.skip}
       </a>
       <div className="container site-header__inner">
-        <Link
-          href="/"
-          className="site-header__logo"
-          aria-label="Tamura Trade Indonesia home"
-        >
+        <Link href="/" className="site-header__logo" aria-label={t.home}>
           <img
             src={overlay ? "/logo/tamura-white.png" : "/logo/tamura03.png"}
             alt="Tamura"
@@ -144,7 +205,7 @@ export default function SiteHeader({ variant = "solid" }) {
                 aria-current={isActive("/products") ? "page" : undefined}
                 onClick={clickMega}
               >
-                Products
+                {t.products}
                 <ChevronDown className="site-nav__chev" />
               </button>
             </li>
@@ -164,8 +225,9 @@ export default function SiteHeader({ variant = "solid" }) {
 
         <div className="site-header__tools">
           <HeaderSearch className="header-search--desktop" />
+          <LanguageSwitch />
           <Link href="/contact" className="btn btn-primary">
-            Request a quote
+            {t.quote}
           </Link>
         </div>
 
@@ -177,7 +239,7 @@ export default function SiteHeader({ variant = "solid" }) {
           onClick={() => setMobileOpen((o) => !o)}
         >
           <span className="visually-hidden">
-            {mobileOpen ? "Close menu" : "Open menu"}
+            {mobileOpen ? t.closeMenu : t.openMenu}
           </span>
           {mobileOpen ? <CloseIcon /> : <MenuIcon />}
         </button>
@@ -198,23 +260,20 @@ export default function SiteHeader({ variant = "solid" }) {
                     href={`/products?category=${c.id}`}
                     onClick={() => setMegaOpen(false)}
                   >
-                    <span className="mega__name">{c.name}</span>
-                    <span className="mega__desc">{c.summary}</span>
+                    <span className="mega__name">{tr(c, "name", lang)}</span>
+                    <span className="mega__desc">{tr(c, "summary", lang)}</span>
                   </Link>
                 </li>
               ))}
             </ol>
             <div className="mega__aside">
-              <p>
-                Browse machines for marking, SMT, through-hole, conformal
-                coating and more, or search by model name.
-              </p>
+              <p>{t.megaText}</p>
               <Link
                 href="/products"
                 className="text-link"
                 onClick={() => setMegaOpen(false)}
               >
-                View all products
+                {t.viewAll}
               </Link>
             </div>
           </div>
@@ -223,15 +282,16 @@ export default function SiteHeader({ variant = "solid" }) {
 
       {mobileOpen && (
         <div id="mobile-menu" className="mobile-panel">
+          <LanguageSwitch className="lang-switch--mobile" />
           <HeaderSearch onDone={() => setMobileOpen(false)} />
           <ul className="mobile-panel__nav">
             <li>
-              <Link href="/products">Products</Link>
+              <Link href="/products">{t.products}</Link>
               <ul className="mobile-panel__sub">
                 {categories.map((c) => (
                   <li key={c.id}>
                     <Link href={`/products?category=${c.id}`}>
-                      {c.name} ({productsIn(c.id).length})
+                      {tr(c, "name", lang)} ({productsIn(c.id).length})
                     </Link>
                   </li>
                 ))}
@@ -248,7 +308,7 @@ export default function SiteHeader({ variant = "solid" }) {
             className="btn btn-primary"
             style={{ width: "100%" }}
           >
-            Request a quote
+            {t.quote}
           </Link>
         </div>
       )}

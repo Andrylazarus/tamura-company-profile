@@ -6,6 +6,52 @@ import AssemblyLine from "@/components/site/AssemblyLine";
 import ProductCard from "@/components/site/ProductCard";
 import { SearchIcon } from "@/components/site/icons";
 import { brands, categories, products, categoryById } from "@/data/catalog";
+import { tr, useLang } from "@/i18n";
+
+const T = {
+  en: {
+    title: "Products",
+    lead: "Machines for marking, SMT, through-hole, conformal coating, test and thermal profiling.",
+    search: "Search products",
+    placeholder: "Model, brand or process",
+    filter: "Filter by category",
+    allCats: "Showing all categories",
+    all: (x) => `All ${x}`,
+    process: "Process",
+    brand: "Brand",
+    allBrands: "All brands",
+    count: (n) => `${n} ${n === 1 ? "product" : "products"}`,
+    matching: (q) => ` matching “${q}”`,
+    from: (b) => ` from ${b}`,
+    inCat: (c) => ` in ${c}`,
+    clear: "Clear filters",
+    emptyTitle: "No products match these filters",
+    emptyText:
+      "Try a model name such as Zenith or a process such as reflow. If you cannot find a machine, our sales team can source it for you.",
+    ask: "Ask our sales team",
+  },
+  ja: {
+    title: "製品",
+    lead: "マーキング、SMT、挿入実装、コンフォーマルコーティング、テスト、温度プロファイル測定のための装置。",
+    search: "製品を検索",
+    placeholder: "型番・メーカー・工程で検索",
+    filter: "分野で絞り込む",
+    allCats: "すべての分野を表示中",
+    all: (x) => `${x}すべて`,
+    process: "工程",
+    brand: "メーカー",
+    allBrands: "すべてのメーカー",
+    count: (n) => `${n}件の製品`,
+    matching: (q) => `（「${q}」で検索）`,
+    from: (b) => `・${b}`,
+    inCat: (c) => `・${c}`,
+    clear: "絞り込みを解除",
+    emptyTitle: "条件に一致する製品はありません",
+    emptyText:
+      "Zenith などの型番や、リフローなどの工程名で検索してください。見つからない装置も、営業担当がお探しします。",
+    ask: "営業担当に問い合わせる",
+  },
+};
 
 function matches(product, term) {
   const cat = categoryById(product.category);
@@ -14,8 +60,10 @@ function matches(product, term) {
     product.name,
     product.brand,
     cat?.name,
+    cat?.nameJa,
     cat?.short,
     section?.label,
+    section?.labelJa,
   ]
     .join(" ")
     .toLowerCase();
@@ -28,6 +76,8 @@ function matches(product, term) {
 
 export default function Products() {
   const router = useRouter();
+  const lang = useLang();
+  const t = T[lang];
   const [category, setCategory] = useState("");
   const [section, setSection] = useState("");
   const [brand, setBrand] = useState("");
@@ -88,14 +138,14 @@ export default function Products() {
     ? activeCategory.sections
         .map((s) => ({
           id: s.id,
-          title: s.label,
+          title: tr(s, "label", lang),
           items: visible.filter((p) => p.section === s.id),
         }))
         .filter((g) => g.items.length)
     : categories
         .map((c) => ({
           id: c.id,
-          title: c.name,
+          title: tr(c, "name", lang),
           items: visible.filter((p) => p.category === c.id),
         }))
         .filter((g) => g.items.length);
@@ -104,11 +154,7 @@ export default function Products() {
 
   return (
     <>
-      <PageHead
-        title="Products"
-        lead="Machines for marking, SMT, through-hole, conformal coating, test and thermal profiling."
-        photo="/images/web/pcb-color.jpg"
-      >
+      <PageHead title={t.title} lead={t.lead} photo="/images/web/pcb-color.jpg">
         <form
           className="catalog-search"
           role="search"
@@ -119,13 +165,13 @@ export default function Products() {
         >
           <SearchIcon />
           <label htmlFor="catalog-q" className="visually-hidden">
-            Search products
+            {t.search}
           </label>
           <input
             id="catalog-q"
             type="search"
             value={query}
-            placeholder="Model, brand or process"
+            placeholder={t.placeholder}
             onChange={(e) => update({ q: e.target.value })}
           />
         </form>
@@ -134,9 +180,9 @@ export default function Products() {
       <div className="catalog-bar">
         <div className="container">
           <AssemblyLine
-            title="Filter by category"
+            title={t.filter}
             hint={
-              activeCategory ? activeCategory.summary : "Showing all categories"
+              activeCategory ? tr(activeCategory, "summary", lang) : t.allCats
             }
             active={category}
             onSelect={(id) =>
@@ -153,7 +199,7 @@ export default function Products() {
       <section className="section section--steel section--tight">
         <div className="container">
           <div className="catalog-tools">
-            <div className="chips" aria-label="Process">
+            <div className="chips" aria-label={t.process}>
               {activeCategory ? (
                 <>
                   <button
@@ -162,7 +208,7 @@ export default function Products() {
                     aria-pressed={!section}
                     onClick={() => update({ section: "" })}
                   >
-                    All {activeCategory.short}
+                    {t.all(tr(activeCategory, "short", lang))}
                   </button>
                   {activeCategory.sections.map((s) => (
                     <button
@@ -174,7 +220,7 @@ export default function Products() {
                         update({ section: section === s.id ? "" : s.id })
                       }
                     >
-                      {s.label}
+                      {tr(s, "label", lang)}
                     </button>
                   ))}
                 </>
@@ -184,14 +230,14 @@ export default function Products() {
               className="field"
               style={{ flexDirection: "row", alignItems: "center", gap: 10 }}
             >
-              <label htmlFor="brand-filter">Brand</label>
+              <label htmlFor="brand-filter">{t.brand}</label>
               <select
                 id="brand-filter"
                 className="select"
                 value={brand}
                 onChange={(e) => update({ brand: e.target.value })}
               >
-                <option value="">All brands</option>
+                <option value="">{t.allBrands}</option>
                 {(brand && !brandOptions.includes(brand)
                   ? [...brandOptions, brand]
                   : brandOptions
@@ -205,10 +251,10 @@ export default function Products() {
           </div>
 
           <p className="results-note" aria-live="polite">
-            {visible.length} {visible.length === 1 ? "product" : "products"}
-            {query ? ` matching “${query}”` : ""}
-            {brand ? ` from ${brand}` : ""}
-            {activeCategory ? ` in ${activeCategory.name}` : ""}
+            {t.count(visible.length)}
+            {query ? t.matching(query) : ""}
+            {brand ? t.from(brand) : ""}
+            {activeCategory ? t.inCat(tr(activeCategory, "name", lang)) : ""}
             {hasFilters && (
               <button
                 type="button"
@@ -225,18 +271,15 @@ export default function Products() {
                   update({ category: "", section: "", brand: "", q: "" })
                 }
               >
-                Clear filters
+                {t.clear}
               </button>
             )}
           </p>
 
           {visible.length === 0 ? (
             <div className="empty">
-              <h2 className="h3">No products match these filters</h2>
-              <p>
-                Try a model name such as Zenith or a process such as reflow. If
-                you cannot find a machine, our sales team can source it for you.
-              </p>
+              <h2 className="h3">{t.emptyTitle}</h2>
+              <p>{t.emptyText}</p>
               <div className="btn-row" style={{ justifyContent: "center" }}>
                 <button
                   type="button"
@@ -245,10 +288,10 @@ export default function Products() {
                     update({ category: "", section: "", brand: "", q: "" })
                   }
                 >
-                  Clear filters
+                  {t.clear}
                 </button>
                 <Link href="/contact" className="btn btn-primary">
-                  Ask our sales team
+                  {t.ask}
                 </Link>
               </div>
             </div>

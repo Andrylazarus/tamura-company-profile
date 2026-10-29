@@ -44,7 +44,10 @@
           "t": "img",
           "src": "/images/products/mpi/clm-z/clm-z-laser-unit.jpg"
         },
-        { "t": "img", "src": "/images/products/mpi/clm-z/clm-z-3d-laser.jpg" }
+        {
+          "t": "img",
+          "src": "/images/products/mpi/clm-z/clm-z-3d-laser.jpg"
+        }
       ]
     },
     {
@@ -125,17 +128,41 @@
         {
           "t": "table",
           "rows": [
-            ["Model", "CLM-Z800", "CLM-Z880"],
-            ["PCB marking mode", "Single-side marking", "Double-side marking"],
+            [
+              "Model",
+              "CLM-Z800",
+              "CLM-Z880"
+            ],
+            [
+              "PCB marking mode",
+              "Single-side marking",
+              "Double-side marking"
+            ],
             [
               "PCB size",
               "W50 × L50 to W330 × L460 mm",
               "W50 × L50 to W330 × L460 mm"
             ],
-            ["Marking area", "W330 × L460 mm", "W330 × L460 mm"],
-            ["Laser source", "Keyence 30 W CO₂ laser, made in Japan", ""],
-            ["Marking types", "Barcode, QR code, text, logo", ""],
-            ["Cycle time", "Transfer < 1 s, marking < 0.3 s", ""],
+            [
+              "Marking area",
+              "W330 × L460 mm",
+              "W330 × L460 mm"
+            ],
+            [
+              "Laser source",
+              "Keyence 30 W CO₂ laser, made in Japan",
+              ""
+            ],
+            [
+              "Marking types",
+              "Barcode, QR code, text, logo",
+              ""
+            ],
+            [
+              "Cycle time",
+              "Transfer < 1 s, marking < 0.3 s",
+              ""
+            ],
             [
               "System connection",
               "Connects to production management systems such as SHOPFLOW, MES, IMS and PMS",
@@ -146,19 +173,248 @@
               "Left to right, or right to left (option)",
               ""
             ],
-            ["Conveyor height", "900 ± 30 mm", ""],
-            ["Signal interface", "Standard SMEMA", ""],
-            ["Power supply", "AC 220 V, 50/60 Hz, 1 phase", ""],
-            ["Air pressure", "4–6 kg/cm²", ""],
+            [
+              "Conveyor height",
+              "900 ± 30 mm",
+              ""
+            ],
+            [
+              "Signal interface",
+              "Standard SMEMA",
+              ""
+            ],
+            [
+              "Power supply",
+              "AC 220 V, 50/60 Hz, 1 phase",
+              ""
+            ],
+            [
+              "Air pressure",
+              "4–6 kg/cm²",
+              ""
+            ],
             [
               "Machine size (L × W × H)",
               "L880 × W1600 × H1500 mm",
               "L880 × W1600 × H1500 mm"
             ],
-            ["Weight", "850 kg", "920 kg"]
+            [
+              "Weight",
+              "850 kg",
+              "920 kg"
+            ]
           ]
         }
       ]
     }
-  ]
+  ],
+  "ja": {
+    "type": "SMTトレーサビリティ用レーザーマーキング装置",
+    "tagline": "キーエンス製CO₂ 3Dレーザーとコード読み取り検証を搭載",
+    "intro": [
+      {
+        "t": "p",
+        "text": "CLM-Zシリーズは、高い安定性とコストパフォーマンスを備えた全自動SMT生産ライン用トレーサビリティ設備です。キーエンス製CO₂ 3DレーザーとキーエンスAIコードリーダーを組み合わせ、正確な刻印と長寿命を実現し、SMT生産管理システムと連携して完全なトレーサビリティに対応します。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "刻印後にコードを読み取り、ベリファイが可能。",
+              "基板の表裏両面に刻印可能。",
+              "本体に集塵機を内蔵。",
+              "主要部品に日本製部品を採用し、高い品質と耐久性を確保。",
+              "レーザーマーカー：キーエンス製CO₂ 3Dレーザーを採用。消耗品不要で銅を傷つけません。基板の反りや変形があってもZ軸の焦点距離を自動調整し、高品質なマーキングを実現します。",
+              "コードリーダー：キーエンス製AIリーダーを採用。単なる読み取り機ではなく、国際規格に基づく品質検査機能を搭載。",
+              "X軸・Y軸サーボ制御システム：日本製THKの精密ボールねじを採用し、高精度な加工を実現。",
+              "その他の主要部品：日本製SMCの部品を採用。",
+              "お客様のSMT生産管理システムと連携し、トレーサビリティを実現します。"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "優れた3Dレーザー刻印システム",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "日本製のキーエンスCO₂ 3Dレーザーとコントローラーを、新しいMarking Builderソフトウェアと組み合わせることで、高い安定性と長い寿命を実現しています。高速刻印で、鮮明かつ正確です。"
+          },
+          {
+            "t": "p",
+            "text": "安全性と信頼性が高く、銅を傷付けることがありません。消耗品も不要です。Z軸焦点距離調整機能を内蔵しているため、SMT生産における基板の変形による QRコードの刻印不鮮明、読み取り困難、品質等級の低下といった問題を効果的に解決します。"
+          },
+          {
+            "t": "img",
+            "src": "/images/products/mpi/clm-z/clm-z-laser-unit.jpg"
+          },
+          {
+            "t": "img",
+            "src": "/images/products/mpi/clm-z/clm-z-3d-laser.jpg"
+          }
+        ]
+      },
+      {
+        "title": "正確で信頼性の高いリーダーシステム",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "キーエンスの自動焦点AIバーコードリーダーSR-Xシリーズを使用しています。読み取り性能を大幅に改善し、ワークの状態、現場の環境、刻印品質の変化に対応し、エラーの原因を一目瞭然にします。"
+          },
+          {
+            "t": "p",
+            "text": "コードの国際等級を出力します。出力結果は、レーザー刻印品質のISO/IEC TR 29158の標準に準拠しています。"
+          },
+          {
+            "t": "img",
+            "src": "/images/products/mpi/clm-z/clm-z-code-reader.jpg"
+          }
+        ]
+      },
+      {
+        "title": "ユーザーフレンドリーなオペレーティングシステム",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "CLM-ZのオペレーティングシステムはMicrosoft Windows 10プラットフォームを使用しており、シンプルで使いやすく、CCDビジョン画像処理システムとフィデューシャルマーク、バッドマーク認識システムを備えています。"
+          },
+          {
+            "t": "p",
+            "text": "SMT生産管理システムとリアルタイムで連携し、作業指示の内容をトレーサビリティシステムで直接制御するため、人為的な操作ミスによる誤刻印や刻印漏れを防ぎます。刻印内容とコードの読み取り状況が一目でわかります。"
+          }
+        ]
+      },
+      {
+        "title": "精密で安定した機械構造",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "日本製のサーボ制御システムとTHK製精密ボールねじを採用し、X軸とY軸の位置決めをより高精度にしています。一体化した精密構造により、レーザー装置の安定性と信頼性を確保します。"
+          },
+          {
+            "t": "h3",
+            "text": "特許取得の基板反転システム"
+          },
+          {
+            "t": "p",
+            "text": "基板自動反転システムを内蔵しており、両面刻印・読み取り、または片面刻印・読み取りの生産モードを選択できます。生産は柔軟で便利です。"
+          },
+          {
+            "t": "img",
+            "src": "/images/products/mpi/clm-z/clm-z-board-flip.jpg"
+          },
+          {
+            "t": "h3",
+            "text": "集塵機と脱臭フィルター"
+          },
+          {
+            "t": "p",
+            "text": "内蔵の集塵機と脱臭フィルターにより、レーザー装置内部への粉塵の影響を効果的に低減します。外部の排気ダクトを接続することで、生産現場に異臭がないことを保証します。"
+          }
+        ]
+      },
+      {
+        "title": "レーザー刻印の実例",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "さまざまな色のソルダーレジストや材料に、バーコード、QRコード、文字、ロゴを刻印した例です。"
+          },
+          {
+            "t": "img",
+            "src": "/images/products/mpi/clm-z/clm-z-marking-samples.jpg"
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              [
+                "型番",
+                "CLM-Z800",
+                "CLM-Z880"
+              ],
+              [
+                "基板の刻印モード",
+                "片面刻印",
+                "両面刻印"
+              ],
+              [
+                "基板の寸法",
+                "W50×L50～W330×L460 mm",
+                "W50×L50～W330×L460 mm"
+              ],
+              [
+                "マーキング範囲",
+                "W330×L460 mm",
+                "W330×L460 mm"
+              ],
+              [
+                "レーザー光源",
+                "日本製キーエンス 30W CO₂レーザー",
+                ""
+              ],
+              [
+                "対応する刻印の種類",
+                "バーコード、QRコード、フォント、ロゴ",
+                ""
+              ],
+              [
+                "サイクルタイム",
+                "移動時間 < 1秒、刻印時間 < 0.3秒",
+                ""
+              ],
+              [
+                "システム接続機能",
+                "SHOPFLOW、MES、IMS、PMSなどの生産管理システムに接続可能",
+                ""
+              ],
+              [
+                "搬送方向",
+                "左から右、または右から左（オプション）",
+                ""
+              ],
+              [
+                "軌道高さ",
+                "900±30 mm",
+                ""
+              ],
+              [
+                "信号インターフェース",
+                "Standard SMEMA",
+                ""
+              ],
+              [
+                "電源",
+                "AC 220V 50/60Hz 1Ph",
+                ""
+              ],
+              [
+                "気圧",
+                "4～6 kg/cm²",
+                ""
+              ],
+              [
+                "機械寸法（長×幅×高）",
+                "L880×W1600×H1500 mm",
+                "L880×W1600×H1500 mm"
+              ],
+              [
+                "機械重量",
+                "850 kg",
+                "920 kg"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
