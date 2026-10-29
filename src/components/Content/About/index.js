@@ -9,7 +9,7 @@ export default function About() {
       <PageHead
         title="About us"
         lead="A trusted industrial supplier and general trading company for manufacturing industries in Indonesia."
-        photo="/images/web/pcb-macro.jpg"
+        photo="/images/web/head-about.jpg"
       />
 
       <section className="section">
@@ -47,13 +47,14 @@ export default function About() {
           <figure style={{ margin: 0 }}>
             <img
               className="photo photo--wide"
-              src="/images/web/tamura-team.jpg"
-              alt="The Tamura team at a trade exhibition stand"
+              src="/images/web/lineup-wide.jpg"
+              alt="Inspection, test and coating machines from PTI, Koh Young, Maker-Ray and Anda"
               loading="lazy"
-              style={{ aspectRatio: "17 / 10" }}
+              style={{ aspectRatio: "12 / 5" }}
             />
             <figcaption className="photo-caption">
-              Tamura colleagues at an industry exhibition.
+              A selection of the inspection, test and coating equipment we
+              supply.
             </figcaption>
           </figure>
 
@@ -82,28 +83,6 @@ export default function About() {
                 Satisfied customers are our greatest asset.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container split">
-          <div>
-            <h2 className="h2">See the equipment at work</h2>
-            <p className="lead" style={{ marginTop: 14 }}>
-              A short showcase of the machines we supply and support.
-            </p>
-          </div>
-          <div className="video-frame">
-            <video
-              controls
-              preload="none"
-              playsInline
-              poster="/images/web/expo.jpg"
-              src="/videos/tamura_showcase.mp4"
-            >
-              Your browser cannot play this video.
-            </video>
           </div>
         </div>
       </section>

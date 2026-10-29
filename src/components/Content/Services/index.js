@@ -5,8 +5,8 @@ const services = [
   {
     id: "technical-support",
     title: "Technical support",
-    image: "/images/web/pcb-tweezers.jpg",
-    alt: "Technician working on a circuit board",
+    image: "/images/web/svc-support.jpg",
+    alt: "Code reader inspecting a panel of PCBs inside a marking machine",
     text: "We are confident in our products, and we still keep a strong technical team for the unexpected. Our engineers help you troubleshoot problems with the machines we supply, and our presence in South-East Asia lets us respond faster than suppliers further away.",
     points: [
       "Troubleshooting for the equipment we supply",
@@ -17,8 +17,8 @@ const services = [
   {
     id: "spare-parts",
     title: "Spare parts",
-    image: "/images/web/tools.jpg",
-    alt: "Wrenches and hand tools",
+    image: "/images/web/svc-parts.jpg",
+    alt: "Laser unit inside a PCB marking machine",
     text: "Spare parts decide how long a line stays down. We keep a wide range of parts available, offer warranty on most machine spare parts, and work with your team to keep machines at peak performance.",
     points: [
       "Wide range of parts readily available",
@@ -29,8 +29,8 @@ const services = [
   {
     id: "used-machines",
     title: "New and used machines",
-    image: "/images/web/expo.jpg",
-    alt: "Exhibition hall with equipment displays",
+    image: "/images/web/machines-trio.jpg",
+    alt: "PTI, Maker-Ray and Koh Young inspection machines",
     text: "Whether you are starting a new venture or updating existing equipment, we will find a machine that fits your budget and requirements, at competitive prices for both new and used equipment.",
     points: [
       "Competitive prices on new and used machines",
@@ -41,8 +41,8 @@ const services = [
   {
     id: "sourcing",
     title: "Sourcing",
-    image: "/images/web/office.jpg",
-    alt: "Team working at computers in an office",
+    image: "/images/web/brand-wall.jpg",
+    alt: "Logos of the equipment manufacturers we work with",
     text: "If you need replacement parts or an alternative supplier, we use our business network to find the best available offer, as part of our one-stop service.",
     points: [
       "Replacement parts outside our own catalogue",
@@ -53,8 +53,8 @@ const services = [
   {
     id: "networking",
     title: "Business networking",
-    image: "/images/web/meeting.jpg",
-    alt: "People in a business meeting",
+    image: "/images/web/svc-network.jpg",
+    alt: "Tamura team at an industry exhibition",
     text: "We introduce customers and partners to each other. Recommendations and introductions open sales opportunities, build trust, and bring the right resources and people together.",
     points: [
       "Introductions to partners and suppliers",
@@ -70,7 +70,7 @@ export default function Services() {
       <PageHead
         title="Services"
         lead="Everything that keeps your equipment productive after it arrives: support, spare parts, machines and sourcing."
-        photo="/images/web/laser-blue.jpg"
+        photo="/images/web/head-services.jpg"
       />
 
       <section className="section">

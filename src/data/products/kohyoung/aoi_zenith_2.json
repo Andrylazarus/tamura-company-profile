@@ -70,19 +70,6 @@
           "text": "Koh Young is driven to help customers achieve a Zero-defect mounting process. Based on Koh Young’s accurate True 3D measurement data and its proprietary deep learning technology, Koh Young Process Optimizer (KPO) Mounter solution enables real-time mounting process optimization. It automatically analyze heads, nozzles, feeders, reels, and components to identify the issue, and then details the mounting parameters necessary to correct the fundamental problems.\nUsing AI-based analysis, KPO Mounter provides users with actionable insights. With KPO Printer solution, KPO Mounter can enhance your production quality and maximizes productivity to minimize cost of ownership, increase product quality, and maximize productivity."
         }
       ]
-    },
-    {
-      "title": "Equipped with high-speed model switching function",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Now we have many 'blue chip' companies like as YAMAHA MUSIC, SANYO, JVC, LG, and many others as our valuable customers. We've got a good reputation from those key customers and we are very proud of supporting the best quality products with excellent service and competitive price."
-        },
-        {
-          "t": "video",
-          "src": "/videos/tamura_showcase.mp4"
-        }
-      ]
     }
   ]
 }
