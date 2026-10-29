@@ -112,7 +112,7 @@ export const categories = [
     name: "Others",
     short: "Others",
     summary:
-      "Board handling, first article inspection, in-circuit and functional test, thermal profiling.",
+      "Board handling, FAI, in-circuit and functional test, thermal profiling, flip chip bonding and 3D measurement.",
     sections: [
       {
         id: "handling",
@@ -138,6 +138,14 @@ export const categories = [
         id: "profiler",
         label: "Thermal profiling",
       },
+      {
+        id: "bonding",
+        label: "Flip chip bonding",
+      },
+      {
+        id: "metrology",
+        label: "3D measurement",
+      },
     ],
   },
 ];
@@ -147,7 +155,7 @@ export const brands = [
     id: "panasonic",
     name: "Panasonic",
     logo: null,
-    focus: "Screen printing and component placement",
+    focus: "Printing, placement, odd-form insertion, flip chip bonding, 3D measurement",
   },
   {
     id: "tamura",
@@ -234,6 +242,33 @@ export const products = [
     category: "smt",
     section: "placement",
     href: "/products/panasonic/details/npm-gh",
+    image: null,
+  },
+  {
+    id: "panasonic-npm-vf",
+    name: "NPM-VF",
+    brand: "Panasonic",
+    category: "tht",
+    section: "insert",
+    href: "/products/panasonic/details/npm-vf",
+    image: null,
+  },
+  {
+    id: "panasonic-md-p300",
+    name: "MD-P300",
+    brand: "Panasonic",
+    category: "others",
+    section: "bonding",
+    href: "/products/panasonic/details/md-p300",
+    image: null,
+  },
+  {
+    id: "panasonic-ua3p",
+    name: "UA3P Series",
+    brand: "Panasonic",
+    category: "others",
+    section: "metrology",
+    href: "/products/panasonic/details/ua3p",
     image: null,
   },
   {

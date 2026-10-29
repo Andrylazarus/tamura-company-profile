@@ -894,9 +894,15 @@ body.menu-open .site-header.is-overlay {
   padding: 18px;
   border-bottom: 1px solid var(--line);
 }
+.product-card__media {
+  position: relative;
+  overflow: hidden;
+}
 .product-card__media img {
-  max-height: 100%;
-  width: auto;
+  position: absolute;
+  inset: 18px;
+  width: calc(100% - 36px);
+  height: calc(100% - 36px);
   object-fit: contain;
   mix-blend-mode: multiply;
 }
