@@ -1,5 +1,6 @@
 import Link from "@/components/site/Link";
 import PageHead from "@/components/site/PageHead";
+import CustomerLogos from "@/components/site/CustomerLogos";
 import { brands } from "@/data/catalog";
 import { company } from "@/data/company";
 import { asset, tr, useLang } from "@/i18n";
@@ -11,8 +12,10 @@ const T = {
     heading: "Quality products, backed by people who stay",
     intro: `${company.name} supplies electronics manufacturers with production equipment and the service to keep it running.`,
     p1: "We are confident in providing the best service to our customers through high-quality products and dedicated support. Over the years we have contributed to cost reduction and quality improvement on many production lines.",
-    p2: "Blue-chip companies are among our customers, and we are proud of the reputation we have earned with them for quality products, excellent service and competitive prices.",
-    customers: "Selected customers",
+    p2: "Leading electronics and automotive manufacturers in Indonesia are among our customers, and we are proud of the reputation we have earned with them for quality products, excellent service and competitive prices.",
+    customers: "Our customers",
+    customersLead:
+      "Electronics and automotive manufacturers in Indonesia that rely on our equipment and support.",
     lineupAlt:
       "Inspection, test and coating machines from PTI, Koh Young, Maker-Ray and Anda",
     caption:
@@ -41,8 +44,10 @@ const T = {
     heading: "確かな製品と、寄り添い続ける人材",
     intro: `${company.name}は、電子機器メーカーに生産設備と、その稼働を支えるサービスを提供しています。`,
     p1: "高品質な製品と誠実なサポートを通じて、お客様に最高のサービスをお届けします。これまで多くの生産ラインで、コスト削減と品質向上に貢献してきました。",
-    p2: "一流企業の皆様にもご愛顧いただいており、高品質な製品、優れたサービス、競争力のある価格で得た信頼を誇りに思っています。",
+    p2: "インドネシアを代表する電子機器・自動車部品メーカーの皆様にご愛顧いただいており、高品質な製品、優れたサービス、競争力のある価格で得た信頼を誇りに思っています。",
     customers: "主なお客様",
+    customersLead:
+      "当社の装置とサポートをご利用いただいている、インドネシアの電子機器・自動車部品メーカーの皆様です。",
     lineupAlt:
       "PTI、Koh Young、Maker-Ray、Anda の検査・テスト・コーティング装置",
     caption: "当社が取り扱う検査装置、テスト装置、コーティング装置の一例です。",
@@ -88,12 +93,21 @@ export default function About() {
             </p>
             <p className="muted">{t.p1}</p>
             <p className="muted">{t.p2}</p>
-            <ul className="customer-list" aria-label={t.customers}>
-              {company.customers.map((c) => (
-                <li key={c}>{c}</li>
-              ))}
-            </ul>
           </div>
+        </div>
+      </section>
+
+      <section className="section section--tight" aria-labelledby="customers">
+        <div className="container">
+          <div className="section-head">
+            <div>
+              <h2 className="h2" id="customers">
+                {t.customers}
+              </h2>
+              <p className="lead">{t.customersLead}</p>
+            </div>
+          </div>
+          <CustomerLogos />
         </div>
       </section>
 

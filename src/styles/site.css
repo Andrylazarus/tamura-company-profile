@@ -1898,3 +1898,64 @@ a.brand-tile--ask:hover {
 :lang(ja) .facts dt {
   font-size: 2.25rem;
 }
+
+/* ---------- customers ---------- */
+
+.customer-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+  background: var(--white);
+}
+.customer-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 28px 18px 22px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+}
+.customer-tile__logo {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customer-tile__logo img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.customer-tile__name {
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: var(--muted);
+  max-width: 22ch;
+}
+@media (max-width: 980px) {
+  .customer-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 560px) {
+  .customer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .customer-tile {
+    padding: 22px 12px 18px;
+  }
+  .customer-tile__logo {
+    height: 64px;
+  }
+  .customer-tile__logo img {
+    max-height: 56px;
+    width: auto;
+  }
+}

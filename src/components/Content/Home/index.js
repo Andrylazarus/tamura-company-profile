@@ -1,6 +1,7 @@
 import Link from "@/components/site/Link";
 import AssemblyLine from "@/components/site/AssemblyLine";
 import ProductCard from "@/components/site/ProductCard";
+import CustomerLogos from "@/components/site/CustomerLogos";
 import { brands, categories, products, featuredIds } from "@/data/catalog";
 import { company } from "@/data/company";
 import { tr, useLang, asset } from "@/i18n";
@@ -28,6 +29,9 @@ const T = {
       ],
     ],
     moreAbout: "More about the company",
+    customersTitle: "Trusted by manufacturers in Indonesia",
+    customersLead:
+      "Electronics and automotive manufacturers that run their lines with our equipment and support.",
     featured: "Featured equipment",
     featuredLead: "A few of the machines customers ask us about most.",
     seeAll: "See all products",
@@ -82,6 +86,9 @@ const T = {
       ["ワンストップ", "装置の供給、据付、スペアパーツ、調達をまとめて対応"],
     ],
     moreAbout: "会社概要を見る",
+    customersTitle: "インドネシアのメーカー各社にご採用いただいています",
+    customersLead:
+      "当社の装置とサポートで生産ラインを稼働させている、電子機器・自動車部品メーカーの皆様です。",
     featured: "おすすめの装置",
     featuredLead: "お問い合わせの多い装置をご紹介します。",
     seeAll: "すべての製品を見る",
@@ -183,7 +190,19 @@ export default function HomeContent() {
         </div>
       </section>
 
-      <section className="section section--steel">
+      <section className="section section--steel section--tight">
+        <div className="container">
+          <div className="section-head">
+            <div>
+              <h2 className="h2">{t.customersTitle}</h2>
+              <p className="lead">{t.customersLead}</p>
+            </div>
+          </div>
+          <CustomerLogos />
+        </div>
+      </section>
+
+      <section className="section">
         <div className="container">
           <div className="section-head">
             <div>
@@ -205,7 +224,7 @@ export default function HomeContent() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section section--steel">
         <div className="container">
           <div className="section-head">
             <div>
@@ -239,7 +258,7 @@ export default function HomeContent() {
         </div>
       </section>
 
-      <section className="section section--steel">
+      <section className="section">
         <div className="container split">
           <div>
             <img

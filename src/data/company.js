@@ -19,7 +19,6 @@ export const company = {
     mapQuery:
       "Aeroworld Citra Garden 8, Pegadungan, Kalideres, Jakarta Barat 11830",
   },
-  customers: ["Yamaha Music", "Sanyo", "JVC", "LG"],
 };
 
 export const mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
