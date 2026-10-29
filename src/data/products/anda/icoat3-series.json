@@ -1,0 +1,175 @@
+{
+  "name": "iCoat-3 Series",
+  "type": "Precision Conformal Coating Machine Series",
+  "image": "/images/products/anda/anda-icoat3.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The iCoat-3 is designed to strike a balance between coat and performance. This is selective conformal coating machine comes with a single head and dual valve structure with 3 axis servo control. Optionally, dual or quad valves configuration is a variety of valve arrangements and adapts to the production needs of diverse panels."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "2 valves can be accommodated in the standard machine",
+            "PC with LCD monitors, keyboard and mouse",
+            "Auto dipping and purging waste collection system",
+            "LED UV lamps for inspection",
+            "PCB clamping system",
+            "ESD grounding point",
+            "CE certified",
+            "Heavy duty conveyor",
+            "Dual lane conveyor system",
+            "2 stage conveyor",
+            "CCD vision camera",
+            "2 nozzles simultaneous coating and tilt",
+            "Material level detection",
+            "Pallet return conveyor (underneath)",
+            "Barcode or 2D code scanning system",
+            "Material tank: 1 gal / 3 gal / 5 gal / 10 gal",
+            "UPS and voltage stabilizer"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Board Handling",
+              ""
+            ],
+            [
+              "Standard Work Area",
+              "X: 450 mm (Standard), 580 mm (Optional) (X: 17.71\" (Standard), 22.83\" (Optional)) Y: 450 mm (Standard), 580 mm (Optional) (Y: 17.71\" (Standard), 22.83\" (Optional)) Z: 100 mm (Z: 3.93\")"
+            ],
+            [
+              "Maximum Components Height",
+              "± 90 mm (± 3.54\") from PCB"
+            ],
+            [
+              "PCB Edge Clearance",
+              "≥ 5mm (≥ 0.19\")"
+            ],
+            [
+              "Single Spray Width",
+              "2 – 30 mm (0.078\" – 1.18\")"
+            ],
+            [
+              "Maximum Conveyor Width",
+              "460 mm (18.11\")"
+            ],
+            [
+              "Minimum Conveyor Width",
+              "50 mm (1.95\")"
+            ],
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard)"
+            ],
+            [
+              "",
+              "R to L (Optional)"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20 mm (35.43\" ± 0.79\")"
+            ],
+            [
+              "Conveyor Speed (XY)",
+              "0.5 – 5 mm"
+            ],
+            [
+              "Conveyor Width Adjustment",
+              "Automatic (motorized)"
+            ],
+            [
+              "Rotation",
+              "Optional"
+            ],
+            [
+              "Operation Configuration",
+              ""
+            ],
+            [
+              "Numbers of Valves",
+              "Dual valves in a row (fixed width), (Option: Quad valves; dual row; tilt 35°; manual adjustable width)"
+            ],
+            [
+              "Maximum Speed",
+              "800 mm/s"
+            ],
+            [
+              "Repeatability",
+              "± 0.02 mm (± 0.0007\")"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L: 900 mm (option: Max. 1010 mm), (L: 35.43“) (option: Max. 39.76“),W: 1300 mm (option : Max. 1360mm),(W: 51.18“) (option: Max. 53.54“),H: 1675 mm (H: 65.94“)"
+            ],
+            [
+              "Weight",
+              "530 kg"
+            ],
+            [
+              "Motor Power",
+              "DC 24 V 69 W × 2"
+            ],
+            [
+              "Air Sources",
+              "0.4 Mpa"
+            ],
+            [
+              "Exhaust Requirement",
+              "15 m³/min"
+            ],
+            [
+              "Input Power",
+              "AC 220 V 50/60 Hz"
+            ],
+            [
+              "Total Power",
+              "2.2 kw"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "Integrated microprocessor controllers"
+            ],
+            [
+              "Software",
+              "Anda user interface software with Windows"
+            ],
+            [
+              "Programming",
+              "Keyboard & mouse mode"
+            ],
+            [
+              "Communications Protocol",
+              "SMEMA"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

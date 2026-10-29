@@ -1,0 +1,23 @@
+{
+  "name": "AIS50X-C-HW",
+  "type": "SMT Inspection",
+  "image": "/images/products/maker-ray/mr-ais40x.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Features"
+    },
+    {
+      "t": "list",
+      "items": [
+        "Double sided camera",
+        "Multiple optional light sources: UV+W/UV+RGBW",
+        "Intelligent polygon algorithm for locking coating areas",
+        "Inspection defects: excessive/insufficient coating, splashing, foreign objects, bubbles, etc",
+        "Bubble numerical visualization size, thickness, and width"
+      ]
+    }
+  ],
+  "sections": []
+}

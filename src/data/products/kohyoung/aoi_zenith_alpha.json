@@ -1,0 +1,75 @@
+{
+  "name": "Zenith Alpha",
+  "type": "Automated Optical Inspection System",
+  "image": "/images/products/kohyoung/aoi/AOI_Zenith-Alpha_Product-Image-285x300.png",
+  "tagline": "The Best Value True 3D AOI with Enhanced Capabilities",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Zenith Alpha is a True 3D AOI solution powered by artificial intelligence and machine learning, combining the best optomechatronics and vision technologies to deliver outstanding performance without sacrificing accuracy."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Enhanced 3D Measurement using Proprietary AI Technology"
+        },
+        {
+          "t": "p",
+          "text": "The Smart & Dynamic True 3D measurement inspection technology on the Zenith Alpha incorporates AI to deliver the accuracy needed for ultra-fine pitch and solder joint interreflection challenges."
+        },
+        {
+          "t": "h3",
+          "text": "High Accuracy and Speed for Demanding Production Line"
+        },
+        {
+          "t": "p",
+          "text": "Without sacrificing accuracy and speed, the Zenith Alpha combines mechatronics technology with cutting-edge measurement capabilities to yield high throughput suitable for demanding production lines."
+        },
+        {
+          "t": "h3",
+          "text": "Advanced Tall Component Inspection"
+        },
+        {
+          "t": "p",
+          "text": "Tall components on a board has traditionally been a challenge for AOIs. Yet the Zenith Alpha easily handles tall components up to 25mm through Koh Young’s combined multi-projection Moiré interferometry system and incomparable AI technologies. The Zenith Alpha overcomes component shadow challenges."
+        },
+        {
+          "t": "h3",
+          "text": "Whole-board Foreign Material Inspection (WFMI)"
+        },
+        {
+          "t": "p",
+          "text": "Inspection is not limited to components and solder joints. The Zenith Alpha combines 2D and 3D technologies to identify Foreign Object Debris (FOD)) across the board. The WFMI technology provides solutions for misplaced chips, solder balls, burr, and other foreign materials that may lead to costly field failures."
+        },
+        {
+          "t": "h3",
+          "text": "AI-Powered Auto Programming (KAP)"
+        },
+        {
+          "t": "p",
+          "text": "Industry-leading 3D profilometry technology converges with Koh Young’s proprietary AI technology to deliver true automatic programming. The innovative geometry-based Koh Young Auto Programming (KAP) software solution reduces the programming process to minimizes time to production and reduces costs."
+        },
+        {
+          "t": "h3",
+          "text": "KSMART Solutions: True 3D Measurement-based Process Control System"
+        },
+        {
+          "t": "p",
+          "text": "Koh Young pioneered True 3D measurement technology 20 years ago to create a zero-defect future. This gave rise to KSMART Solutions and its continuous efforts to leverage data and connectivity.\nKSMART Solutions uses Artificial Intelligence to help automate process control while focusing on data management, analysis, and optimization. It collects data from across the factory line for defect detection, real-time optimization, enhance decisions, and traceability to improve metrics, increase quality, and lower costs by eliminating variance, false calls, and escapes."
+        },
+        {
+          "t": "h3",
+          "text": "Zero-defect through AI-Powered Koh Young Process Optimizer (KPO) Mounter"
+        },
+        {
+          "t": "p",
+          "text": "Koh Young is driven to help customers achieve a Zero-defect mounting process. Based on Koh Young’s accurate True 3D measurement data and its proprietary deep learning technology, Koh Young Process Optimizer (KPO) Mounter solution enables real-time mounting process optimization. It automatically analyze heads, nozzles, feeders, reels, and components to identify the issue, and then details the mounting parameters necessary to correct the fundamental problems.\nUsing AI-based analysis, KPO Mounter provides users with actionable insights. With KPO Printer solution, KPO Mounter can enhance your production quality and maximizes productivity to minimize cost of ownership, increase product quality, and maximize productivity."
+        }
+      ]
+    }
+  ]
+}

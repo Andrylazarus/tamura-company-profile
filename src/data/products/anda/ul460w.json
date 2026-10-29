@@ -1,0 +1,100 @@
+{
+  "name": "UL-460W",
+  "type": "Automatic PCB Flipper Inverter",
+  "image": "/images/products/anda/anda-ul460w.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Anda UL-460W automatic flipper is a compact inverting module for printed circuit boards (PCB) and pallet / carriers within an inline process. During operation, the pneumatic flipper smoothly inverts boards being processed for dual sided applications. Once inverted, the board assembly can continue on to the next work cell or return to the original work-station in a bi-directional mode."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Robust steel frame construction",
+            "Pin-chain edge conveyor",
+            "Pneumatic board handling inverter",
+            "Four-inch top and bottom side component clearance",
+            "LCD front panel display with touchscreen",
+            "Circuit board flip and return or pass-through mode",
+            "Trouble alarm with sound, light tower indicator, and menu display",
+            "Adjustable conveyor board width from 50 mm to 460 mm",
+            "SMEMA communication port",
+            "CE certified"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Driving system",
+              "Micro Precision Speed Control Motor"
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard), R to L (Optional)"
+            ],
+            [
+              "Conveyor Type",
+              "Chain"
+            ],
+            [
+              "Conveyor Speed (XY)",
+              "8 – 10 m/min"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20mm (35.43” ± 0.79”)"
+            ],
+            [
+              "Width Adjustment",
+              "Manual"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L 700 × W 1060 × H 1520 mm (L 27.56” x W 41.73” x H 59.84”)"
+            ],
+            [
+              "Power",
+              "AC 220 V 50/60 Hz"
+            ],
+            [
+              "Rated Power",
+              "0.2 kW"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "PLC with touch screen"
+            ],
+            [
+              "Communication Protocol",
+              "SMEMA & IPC-CFX"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

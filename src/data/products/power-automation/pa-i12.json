@@ -1,0 +1,40 @@
+{
+  "name": "i-12.0",
+  "type": "i-Series",
+  "image": "/images/products/pa/pa-i12.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "12Head / Dual Gantry"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Dimension",
+              "L1,730 × D2,160 × H1,700 mm"
+            ],
+            [
+              "Number of spindles",
+              "2 Gantry × 6 Head"
+            ],
+            [
+              "Max Speed",
+              "0.4 ~ 3 sec / point"
+            ],
+            [
+              "Accuracy",
+              "±0.05 mm"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

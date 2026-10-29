@@ -1,0 +1,18 @@
+{
+  "name": "SH-3D Integrated Selective Wave Soldering",
+  "type": "Wave Soldering",
+  "image": "/images/products/jt/jt-sh3d.webp",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Spray Fluxer + Preheating + Soldering module, integrated design, flexible configuration, and free expansion",
+        "The point soldering module and the group soldering module are freely matched and combined",
+        "The most efficient selective soldering module",
+        "Sectional modular transmission structure"
+      ]
+    }
+  ],
+  "sections": []
+}

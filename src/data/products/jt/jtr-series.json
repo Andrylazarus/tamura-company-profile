@@ -1,0 +1,22 @@
+{
+  "name": "JTR Series Lead-Free Hot Air Reflow Oven",
+  "type": "Hot Air Reflow Oven",
+  "image": "/images/products/jt/jt-jtr.webp",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Reinforced main hanging bracket to avoid rail deformation and board jamming",
+        "Multi-layer thermal insulation design. The surface temperature of the oven body is reduced by 10 to 20 degrees, effectively reducing the temperature of the working environment",
+        "New cooling configuration to make the filtered or reclaimed air back to oven chamber, reducing thermal loss and improving flux collection",
+        "15% heat transferring efficiency improvement to handle the lead-free process with more complicated and larger products",
+        "The dual-rails conveyor improves production efficiency as well as saves power and cost",
+        "Full protection of the sealed oven design to prevent nitrogen loss, achieving the lowest concentration of oxygen down to 150ppm",
+        "Nitrogen consumption is only 20-22M³/H with the oxygen level at 300-800ppm",
+        "Nitrogen construction is optional: High precision & reliable oxygen analyzer + cooling water, reducing solder, avoiding bridging, and achieving good welding quality"
+      ]
+    }
+  ],
+  "sections": []
+}

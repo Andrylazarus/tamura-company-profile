@@ -1,0 +1,36 @@
+{
+  "name": "ULM Series",
+  "type": "Inline Vision Laser Marking System",
+  "image": "/images/products/mpi/details/mpi_ulm_det06.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "img",
+      "src": "/images/products/mpi/details/mpi_ulm_det02.png"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_ulm_det03.png"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_ulm_det04.png"
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_ulm_det01.png"
+        }
+      ]
+    }
+  ]
+}

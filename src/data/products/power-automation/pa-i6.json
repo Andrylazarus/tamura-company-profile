@@ -1,0 +1,40 @@
+{
+  "name": "i-6.0",
+  "type": "i-Series",
+  "image": "/images/products/pa/pa-i6.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "6Head / Single Gantry"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Dimension",
+              "L1,730 × D2,160 × H1,700 mm"
+            ],
+            [
+              "Weight",
+              "2,000 kg"
+            ],
+            [
+              "Max Speed",
+              "0.8 ~ 3 sec / point"
+            ],
+            [
+              "Accuracy",
+              "±0.05 mm"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

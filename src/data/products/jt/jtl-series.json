@@ -1,0 +1,22 @@
+{
+  "name": "JTL Series",
+  "type": "Vertical Curing Oven",
+  "image": "/images/products/jt/jt-jtl.webp",
+  "tagline": "JTL Series Vertical Curing Oven",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "The in-line vertical curing oven has the characteristics of being compact in size, high production efficiency, and low energy consumption, greatly improving the utilization rate of the production plant, and this is a new trend of development for ovens in the future",
+        "Very good thermal efficiency can be fully qualified for the product heating and curing of various specifications, ensuring perfect curing quality",
+        "In-line automated production saves labor costs",
+        "Cycle time is adjustable, suitable for various curing processes",
+        "Reinforced thermal insulation structure, the surface temperature is about 10°C higher than room temperature, reducing the influence on the working environment",
+        "Six-zone heating, flexible for setting",
+        "Vertical lifting structure, saves space greatly, improving the utilization rate of the factory",
+        "Optional nitrogen system"
+      ]
+    }
+  ],
+  "sections": []
+}

@@ -1,0 +1,51 @@
+{
+  "name": "43X-HW",
+  "type": "AOI",
+  "image": "/images/products/maker-ray/mr-ais43x.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Features"
+    },
+    {
+      "t": "list",
+      "items": [
+        "Height Section Positioning ,high level of information visualization",
+        "Multi-directional sensor,multi-view corresponding point phase consistency",
+        "Dynamic adaptive datum ensures measurement accuracy",
+        "AI intelligent programming simplifies complexity and is more efficient"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Description",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Intelligently remove noise with depth map. Solve distortion problem in 3Dimaging.",
+            "Measurement height can be configured, meeting a variety of inspectionrequirements",
+            "Dynamic self-adoption reference plane algorithm to calibrate substrate height",
+            "Multi-frequency four-step phase algorithm to strengthen robustness, avoidinginfluence ofillumination changing imaging"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "AIS-43X HW\nSpecification Details"
+        },
+        {
+          "t": "link",
+          "href": "https://maker-rayaoi.com/product/ais43x-hw/#tab-a527b7ac5ce6f76cec8",
+          "text": "Find Out More"
+        }
+      ]
+    }
+  ]
+}

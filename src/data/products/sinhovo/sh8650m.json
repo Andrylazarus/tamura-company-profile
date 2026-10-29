@@ -1,0 +1,37 @@
+{
+  "name": "SH8650M",
+  "type": "3D SPI Standard Type",
+  "image": "/images/products/sinhovo/sinhovo-sh8650m.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Features"
+    },
+    {
+      "t": "list",
+      "items": [
+        "Programmable stripe light 3D technology;",
+        "Intelligent control 6 light source shooting system;",
+        "2D/3D full coverage inspection technology;",
+        "Automatic one-dimensional and two-dimensional barcode management system;",
+        "The fastest programming speed in the industry;",
+        "The core components are all imported brands;",
+        "Professional report statistics and analysis;",
+        "Closed-loop control and multi-point photography;",
+        "Ceiling gantry casting structure: small footprint, high space utilization, stability and long service life;"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Technical Parameters",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/sinhovo/details/sinhovo_sh8650_spec.jpg"
+        }
+      ]
+    }
+  ]
+}

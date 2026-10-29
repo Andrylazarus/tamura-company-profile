@@ -1,0 +1,36 @@
+{
+  "name": "XLM Series",
+  "type": "PCB InLine Vision Laser Marking System",
+  "image": "/images/products/mpi/details/mpi_xlm_det05.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "img",
+      "src": "/images/products/mpi/details/mpi_xlm_det03.png"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Combine the advantages of YVO4 and Fiber into one, Hybrid laser marker Both high quality and high power output. New developed laser machine with both YVO4 aser and fiber laser characteristics.\nHigh power output 13W\nIt has both the high-quality marking of YVO4 laser and the high-speed marking of fiber laser. It can be beautifully and quickly engraved on metal and non-metal.\nAutofocus 3-Axis control\nThe laser is equipped with a laser control system for X, Y, Z, and three axes simultaneously to control the focus freely. Realize the marking of three-dimensional shapes and large-scale high-precision marking."
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_xlm_det02.png"
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_xlm_det01.png"
+        }
+      ]
+    }
+  ]
+}

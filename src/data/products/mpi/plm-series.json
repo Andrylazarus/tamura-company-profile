@@ -1,0 +1,41 @@
+{
+  "name": "PLM Series",
+  "type": "PCB Inline Dual Lanes Laser Marking",
+  "image": "/images/products/mpi/details/mpi_plm_details01.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Fine Spot",
+        "Laser Marking More Clearly",
+        "Non-Stop Production",
+        "Automatically Adjustable Width"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Imported from Japan Panasonic 3D laser, CCD positioning, CCD read code, contain, in addition to the smoke flavour system Dual-Lanes marking can enter the 320 mm wide PCB for production at the same time, there is no waiting time and efficient production. Conveyor 2,3,4, according to set up automatically adjust, directly connect the FUJI, Panasonic SMT machine, flexible. Intelligent software design, Marker data real-time date and production management system interconnection, put an end to wrong word, if weight code, to achieve industrial 4.0 intelligent production"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_plm_details02.png"
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_plm_details03.png"
+        }
+      ]
+    }
+  ]
+}

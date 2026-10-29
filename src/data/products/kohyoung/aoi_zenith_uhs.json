@@ -1,0 +1,67 @@
+{
+  "name": "Zenith UHS",
+  "type": "Automated Optical Inspection System",
+  "image": "/images/products/kohyoung/aoi/AOI_Zenith-UHS_Product-Image-285x300.png",
+  "tagline": "The Industry’s Fastest True 3D AOI Solution",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Zenith UHS, industry’s most popular 3D AOI solution, measures true profilometric component shapes, foreign materials, patterns, and solder joints without compromising speed and overcoming inspection challenges with True 3D capabilities."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Ultra High-Speed Inspection"
+        },
+        {
+          "t": "p",
+          "text": "Faster than ever, the Zenith UHS measures components at high volume production rates for a wide range of defects without compromising inspection accuracy and repeatability."
+        },
+        {
+          "t": "h3",
+          "text": "Incomparable True 3D Inspection Performance"
+        },
+        {
+          "t": "p",
+          "text": "The Zenith AOI Series is the only solution in the industry to base its inspection criteria according to IPC-610 standards for electronic assembly acceptability requirements. It provides clear and precise AOI measurements to accurately identify multiple defects such as missing solder, offset, polarity, upside down, OCV/OCR, solder fillet, billboarding, lifted lead, lifted body, tombstone, bridging, and more. Because it uses a quantitative True 3D measurement-based approach, the system delivers exceptional accuracy and repeatability."
+        },
+        {
+          "t": "h3",
+          "text": "Advanced Tall Component Inspection"
+        },
+        {
+          "t": "p",
+          "text": "Due to the shadows cast upon shorter components near a tall part, measurement capabilities on board with tall components has traditionally been a challenge for AOIs. As an optional feature (9-Way Projection), the Zenith UHS handles components up to 25mm tall. The Zenith UHS overcomes component shadow challenges by incorporating multi-projection Moiré interferometry system."
+        },
+        {
+          "t": "h3",
+          "text": "AI-Powered Auto Programming (KAP)"
+        },
+        {
+          "t": "p",
+          "text": "Industry-leading 3D profilometry technology converges with Koh Young’s proprietary AI technology to deliver true automatic programming. The innovative geometry-based Koh Young Auto Programming (KAP) software solution reduces the programming process to minimizes time to production and reduces costs."
+        },
+        {
+          "t": "h3",
+          "text": "KSMART Solutions: True 3D Measurement-based Process Control System"
+        },
+        {
+          "t": "p",
+          "text": "Koh Young pioneered True 3D measurement technology 20 years ago to create a zero-defect future. This gave rise to KSMART Solutions and its continuous efforts to leverage data and connectivity.\nKSMART Solutions uses Artificial Intelligence to help automate process control while focusing on data management, analysis, and optimization. It collects data from across the factory line for defect detection, real-time optimization, enhance decisions, and traceability to improve metrics, increase quality, and lower costs by eliminating variance, false calls, and escapes."
+        },
+        {
+          "t": "h3",
+          "text": "Zero-defect through AI-Powered Koh Young Process Optimizer (KPO) Mounter"
+        },
+        {
+          "t": "p",
+          "text": "Koh Young is driven to help customers achieve a Zero-defect mounting process. Based on Koh Young’s accurate True 3D measurement data and its proprietary deep learning technology, Koh Young Process Optimizer (KPO) Mounter solution enables real-time mounting process optimization. It automatically analyze heads, nozzles, feeders, reels, and components to identify the issue, and then details the mounting parameters necessary to correct the fundamental problems.\nUsing AI-based analysis, KPO Mounter provides users with actionable insights. With KPO Printer solution, KPO Mounter can enhance your production quality and maximizes productivity to minimize cost of ownership, increase product quality, and maximize productivity."
+        }
+      ]
+    }
+  ]
+}

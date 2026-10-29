@@ -1,0 +1,121 @@
+{
+  "name": "VP-Series",
+  "type": "Inline Vacuum Plasma Treatment System",
+  "image": "/images/products/anda/anda-vpinline.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The VP-10L in-line vacuum plasma treatment machine is designed for continuous inline process operation. This series is designed for high vacuum plasma treatment operations, it ensures consistent quality and reduces vacuum plasma treatment time without the need to manually load/offload electrode batch trays. Vacuum plasma treatment is omnidirectional, during the process all surface areas of complex parts and materials are treated and activated simultaneously. Plasma cleaning is an important material surface modification that is actively used across many industries.\nIn the electronics industry, we highly recommend plasma treatment prior to selective conformal coating or dispensing processes in order to improve wetting of coatings and the adhesion strengths of coatings and other dispensed materials. When materials are plasma treated, coatings and adhesives are significantly less susceptible to fail. Plasma treatment to electronics ensures maximum protection from coatings and glues and a long product life for the intended device."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "completely automated high production omnidirectional plasma treatment processing without need to manually load/unload batch electrode trays",
+            "system can be used as standalone or placed inline with upstream or downstream operation processes",
+            "system operation temperature as low as 40°C",
+            "complete immersion of the treated material by anisotropic plasma",
+            "zero chemicals are used and no harmful substances are produced",
+            "remove fine dust, oil, grease and organic compounds",
+            "Increase surface energy to promote wetting and adhesion"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Operation",
+              ""
+            ],
+            [
+              "Chamber Size",
+              "150℃"
+            ],
+            [
+              "Plasma Generator",
+              "L 395 x W 390 x H 75 mm (L = 15.55” W = 15.35” H = 2.95”)"
+            ],
+            [
+              "Gas",
+              "500 W"
+            ],
+            [
+              "Vacuum Time",
+              "Oxygen + Nitrogen + Argon"
+            ],
+            [
+              "Vacuum Evacuation Time",
+              "≤ 15 s"
+            ],
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard); R to L (Optional)"
+            ],
+            [
+              "Conveyor Type",
+              "ESD belt"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20 mm (35.4” ± 0.78”)"
+            ],
+            [
+              "Convery Width Adjustment",
+              "Automatic (Motorized)"
+            ],
+            [
+              "Driver",
+              "Stepping motor"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L 1600 x W 1010 x H 2000 mm (L 62.99” x W 39.76” x H 78.74”)"
+            ],
+            [
+              "Weight",
+              "718 kg (326.36 lb)"
+            ],
+            [
+              "Air source",
+              "0.4 - 0.6 Mpa"
+            ],
+            [
+              "Input power",
+              "3 phase 380 V 4kW"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "PLC with touch screen"
+            ],
+            [
+              "Communication Protocol",
+              "SMEMA & IPC-CFX"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

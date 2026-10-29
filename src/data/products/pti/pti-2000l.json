@@ -1,0 +1,24 @@
+{
+  "name": "PTI-2000L",
+  "type": "Two-stage Pressure Table Control",
+  "image": "/images/products/pti/PTI-2000L.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Specifications"
+    },
+    {
+      "t": "list",
+      "items": [
+        "PCB Size: 530×460",
+        "Track precision: 0.5mm",
+        "Track height: 900±20mm",
+        "Transfer speed: 50~200mm/sec",
+        "Down control: pneumatic",
+        "Weight: 300kg"
+      ]
+    }
+  ],
+  "sections": []
+}

@@ -1,0 +1,138 @@
+{
+  "name": "iCure Infrared Curing Oven Series",
+  "type": "Curing Oven Series",
+  "image": "/images/products/anda/anda-icure.png",
+  "tagline": "iCure Series Infrared (IR) Curing Oven",
+  "intro": [
+    {
+      "t": "p",
+      "text": "iCure series is a compact, inline Infrared (IR) curing module suitable for high volume, rapid curing of heat curable coatings, adhesives and inks."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Standard Features\nOptional Features"
+        },
+        {
+          "t": "list",
+          "items": [
+            "PLC and touch screen control",
+            "Edge carrying, variable speed pin chain conveyor",
+            "Multiple, independently controlled infrared (IR) heat zones operation",
+            "Rail expansion compensation",
+            "SMEMA communication protocol",
+            "100 mm top and bottom side component clearances",
+            "Thermal couple process control",
+            "Independent heating zones",
+            "CE certified",
+            "Return conveyor",
+            "Return conveyor heating",
+            "Under conveyor heating"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Component Height",
+              "± 100 mm (± 3.93\")"
+            ],
+            [
+              "Board / Pallet Width",
+              "50 - 460 mm (1.96\" - 18.11\")"
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard), R to L (Optional)"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20 mm (35.53\" ± 0.79\")"
+            ],
+            [
+              "Conveyor Speed (XY)",
+              "0.5 - 5 m/min."
+            ],
+            [
+              "Conveyor Width Adjustment",
+              "Manual"
+            ],
+            [
+              "Temperature Configuration",
+              ""
+            ],
+            [
+              "Number of Heat Zone",
+              "2 / 3 / 4"
+            ],
+            [
+              "Temperature Control Range",
+              "Room temperature - 100 °C (adjustable)"
+            ],
+            [
+              "Heating Zone Power",
+              "600W x 7 heat tubes at each zone"
+            ],
+            [
+              "Temperature Stabilization Time",
+              "10 minutes"
+            ],
+            [
+              "Temperature Control Accuracy",
+              "± 5°C"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L 2000 / 3000 / 4000 x D 1070 x H 1300 mm\n(L 78.74\" / 118.11\" / 157.48\" x D 42.12\" x H 51.18\")"
+            ],
+            [
+              "Weight",
+              "400 kg / 700 kg / 1000 kg\n(iCure-2 / iCure-3 / iCure-4)"
+            ],
+            [
+              "Input Power",
+              "3 Phase 380 VAC (Standard)"
+            ],
+            [
+              "Exhaust Requirement",
+              "5 m³/min"
+            ],
+            [
+              "Total Power",
+              "9 KW / 13 KW / 18 KW"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "PLC and touch screen"
+            ],
+            [
+              "Communication Protocol",
+              "SMEMA"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "ADJ-460",
+  "type": "Inline PCB Buffer Conveyor",
+  "image": "/images/products/anda/anda-adj460.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The ADJ-460 is an inline PCB buffer conveyor for high capacity electronics manufacturing. This buffering or linking conveyor is equipped with a robust pin chain style conveyor, the pin chain conveyor holds up to solvents and chemicals used in conformal coating, and easily transports heavy pallets or complex PCB’s. The ADJ-460 is ideal for a wide range of PCB handling applications and can optimize Work-In-Progress (WIP) material flow during assembly, coating, dispensing and other processes."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Manual conveyor width adjustment",
+            "Extruded aluminum conveyor rail",
+            "Chain transfer",
+            "Viable speed control",
+            "Board handling import/output sensor",
+            "SMEMA communication port",
+            "CE certified"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Conveyor Type",
+              "Pin Chain"
+            ],
+            [
+              "Component Height Clearance",
+              "± 1 oo mm (± 3.93\")"
+            ],
+            [
+              "Board/ Pallet Width",
+              "50-460 mm (1.96\" -18.11\")"
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard), R to L (Optional)"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20 mm (35.43\" ± 0.79\")"
+            ],
+            [
+              "Conveyor Speed (XY)",
+              "0.5-5 m/min"
+            ],
+            [
+              "Conveyor Width Adjustment",
+              "Manual"
+            ],
+            [
+              "Motor",
+              "Micro Precision Speed Control Motor"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L800 xW 875 x H 910 mm/ H 915 mm (L 31.49\" X W 34.44\" x H 35.82\"/ H 36.02\")"
+            ],
+            [
+              "Power",
+              "AC 220 V 50/60 Hz"
+            ],
+            [
+              "Rated Power",
+              "0.1 kW"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "Micro Control Unit (CU) & Button"
+            ],
+            [
+              "Communication Protocol",
+              "SMEMA & IPC-CFX"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

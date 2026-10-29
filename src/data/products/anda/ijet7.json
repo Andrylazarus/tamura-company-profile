@@ -1,0 +1,258 @@
+{
+  "name": "iJet-7 Series",
+  "type": "High Speed Dispensing Machine Series",
+  "image": "/images/products/anda/anda-ijet7.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "iJet7H & iJet7L fluid dispensing systems offer both precision and flexibility with a combination of electronic dispensing head and control software."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Standard Features\nOptional Features"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Computer control with Windows OS",
+            "CCD visual positioning system",
+            "Servo motor with ball screw",
+            "Inline CCD visual programming or gerber upload",
+            "UPS and voltage stabilizer",
+            "ESD grounding point",
+            "CE certified",
+            "Computer control with Windows OS",
+            "CCD visual positioning system",
+            "Servo motor with ball screw",
+            "Inline CCD visual programming or gerber upload",
+            "UPS and voltage stabilizer",
+            "ESD grounding point",
+            "CE certified",
+            "Heated valves for viscosity control",
+            "35 degree tilt and 360 degree rotation",
+            "PCB heater enhances material flow for underfill applications",
+            "Precision weight measurement ensures accurate volumetric dispensing",
+            "Multiple valves available: Pneumatic jet valve, Slide valve and Screw valve",
+            "Laser height detection to calibrate Z axis automatically for component deformation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "",
+              "iJet-7H",
+              "iJet-7L"
+            ],
+            [
+              "Board Handling",
+              "",
+              ""
+            ],
+            [
+              "Standard Work Area",
+              "Single valve: X 380 × Y 450 x Z 30 mm\n(X 14.96\" × Y 17.71\" x Z 1.18\")",
+              "Single valve X 650 × Y 650 x Z 30 mm (X 15.75\" × Y 19.68\" x Z 1.18\")"
+            ],
+            [
+              "",
+              "Dual valve: X 260 × Y 450 x Z 30 mm\n(X 10.23\" × Y 17.71\" x Z 1.18\")",
+              ""
+            ],
+            [
+              "",
+              "Single valve: X 650 × Y 650 x Z 30 mm\n(X 15.75\" × Y 19.68\" x Z 1.18\")",
+              ""
+            ],
+            [
+              "Maximum Components Height",
+              "± 30 mm (1.18\") from PCB",
+              ""
+            ],
+            [
+              "Acceleration",
+              "0.8 g",
+              "0.8 g"
+            ],
+            [
+              "PCB Edge Clearance",
+              "≥ 3 mm (≥ 0.12\")",
+              "≥ 3 mm (≥ 0.12\")"
+            ],
+            [
+              "PCB Clearance Topside",
+              "30 mm (1.18\")",
+              "30 mm (1.18\")"
+            ],
+            [
+              "Maximum Conveyor Width",
+              "450 mm (17.71\") for single valve\n650 mm (25.59\") for dual valve",
+              "650 mm (25.59\")"
+            ],
+            [
+              "Minimum Conveyor Width",
+              "50 mm (1.97\")",
+              "50 mm (1.97\")"
+            ],
+            [
+              "Fluid Volume",
+              "30 cc",
+              "30 cc"
+            ],
+            [
+              "Fluid Level Sensor",
+              "Automatic monitor",
+              "Automatic monitor"
+            ],
+            [
+              "Intelligent Automatic Nozzle Cleaner",
+              "Non-contact vacuum nozzle cleaning",
+              "Non-contact vacuum nozzle cleaning"
+            ],
+            [
+              "Transmission System",
+              "",
+              ""
+            ],
+            [
+              "Conveyor Quantity",
+              "1 pair",
+              "1 pair"
+            ],
+            [
+              "Conveyor Type",
+              "Thermostable ESD belt",
+              "Thermostable ESD belt"
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard), R to L (Optional)",
+              "L to R (Standard), R to L (Optional)"
+            ],
+            [
+              "Conveyor Height",
+              "950 ± 20 mm (37.40\" ± 0.79\")",
+              "950 ± 20 mm (37.40\" ± 0.79\")"
+            ],
+            [
+              "Conveyor Speed",
+              "2 - 13 m/min",
+              "2 - 13 m/min"
+            ],
+            [
+              "Conveyor Width Adjustment",
+              "Automatic (motorized)",
+              "Automatic (motorized)"
+            ],
+            [
+              "Width Adjustment Speed",
+              "250 mm/min",
+              "250 mm/min"
+            ],
+            [
+              "Maximum Loading",
+              "4 kg/m (even distribution)",
+              "4 kg/m (even distribution)"
+            ],
+            [
+              "XYZ Axis Configuration",
+              "",
+              ""
+            ],
+            [
+              "Number of Valves",
+              "Single valve (Optional: Dual valves)",
+              "Single valve only"
+            ],
+            [
+              "Motor",
+              "X-Y Linear module and Z Servo motor",
+              "Servo motor with ball screw"
+            ],
+            [
+              "Maximum Speed",
+              "1000 mm/s",
+              "800 mm/s"
+            ],
+            [
+              "Repeatability",
+              "± 0.01 mm (± 0.0004\")",
+              "± 0.015 mm (± 0.00059\")"
+            ],
+            [
+              "Facility",
+              "",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L 790 × W 1600 × H 1600 mm\n(L 31.10\" × W 62.99\" × H 62.99\")",
+              "L 1220 × W 1600 × H 1600 mm\n(L 48.03\" × W 62.99\" × H 62.99\")"
+            ],
+            [
+              "Weight",
+              "700 kg (1540 lb)",
+              "1350 kg (2970 lb)"
+            ],
+            [
+              "Air Source",
+              "≥ 0.65 Mpa",
+              "≥ 0.65 Mpa"
+            ],
+            [
+              "Extraction",
+              "≥ 6.5 kgf/m³",
+              "≥ 6.5 kgf/m³"
+            ],
+            [
+              "Input Power",
+              "AC 220 V 50/60 Hz 1 Phase",
+              "AC 220 V 50/60 Hz 1 Phase"
+            ],
+            [
+              "Total Power",
+              "2.5 Kw",
+              "2.5 Kw"
+            ],
+            [
+              "Interface",
+              "",
+              ""
+            ],
+            [
+              "Controller",
+              "IPC and motion control card",
+              "IPC and motion control card"
+            ],
+            [
+              "Software",
+              "Anda user interface with Windows OS",
+              "Anda user interface with Windows OS"
+            ],
+            [
+              "Programming",
+              "On-line vision programming",
+              "On-line vision programming"
+            ],
+            [
+              "Communications Protocol",
+              "SMEMA",
+              "SMEMA"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "SE Series Lead-Free Dual Wave Soldering System",
+  "type": "Wave Soldering System",
+  "image": "/images/products/jt/jt-se.webp",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Closed loop with inverter control system to keep the stability and accuracy of the conveyor speed",
+        "The assistant pressure device nearby the entrance to prevent the PCB from slipping",
+        "Spray nozzle driven by stepping motor to ensure uniform coating",
+        "Module design of spray fluxer system and the design of nozzle always perpendicular to rail, ensuring flux penetrates PCB easily",
+        "Forced air cooling system to attain the cool-down slope as per lead-free requirements",
+        "Conveyor angle is adjustable manually",
+        "Standard with hot air heating for preheating zones",
+        "Module design suitable for SMT & THT component soldering",
+        "Exhaust adopts centrifugal fan with double filters to avoid any flux drop to PCB",
+        "The level of flux container is controlled by non-contact sensors to ensure no corrosion and longer life",
+        "Flux spray nozzle with self-cleaning system",
+        "Standard with air knives to prevent flux from expanding to preheat zone",
+        "Wave height control adopted with inverter, can be set individually",
+        "1/4HP high power mechanical pump to meet wave height as high as 15mm",
+        "Light & sound alarm, emergency stop, and over-load protection"
+      ]
+    }
+  ],
+  "sections": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "AIS40X-HW",
+  "type": "SMT Inspection",
+  "image": "/images/products/maker-ray/mr-ais40x.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Features"
+    },
+    {
+      "t": "list",
+      "items": [
+        "High-precision high-speed camera lens",
+        "AI algorithm one-click search for components, intelligent parameter matching, and fast programming",
+        "Wrong material control: OCR recognition algorithm detects silk screen characters",
+        "Inspect wrong and absent for black component on black board",
+        "Apply pre and post reflow oven to inspect defects for SMD and soldering"
+      ]
+    }
+  ],
+  "sections": []
+}

@@ -1,0 +1,44 @@
+{
+  "name": "i-6.0A",
+  "type": "i-Series",
+  "image": "/images/products/pa/pa-i6a.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "6Head / Single Gantry"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Dimension",
+              "L1,600 × D2,000 × H1,677"
+            ],
+            [
+              "Number of spindles",
+              "1 Gantry x 6Head"
+            ],
+            [
+              "Max Speed",
+              "1 ~ 2 sec / point"
+            ],
+            [
+              "Accuracy",
+              "±0.06㎜"
+            ],
+            [
+              "Option",
+              "Clinching"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "PTI-500X SMT",
+  "type": "First Article Inspection Tester",
+  "image": "/images/products/pti/PTI-500X_First-Article-Inspection.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "PTI-500 SMT"
+    },
+    {
+      "t": "list",
+      "items": [
+        "CMOS camera Fast image scanning, automatic determination of resistance values, characters, polarity",
+        "500X software simple operation, own tutorial, wide compatibility, user-defined format",
+        "LCR bridge Compatible with different brands of LCR bridge,test capacitance, resistance, inductance, etc"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/pti/details/pti500x-det01.png"
+        }
+      ]
+    }
+  ]
+}

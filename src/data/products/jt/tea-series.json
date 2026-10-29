@@ -1,0 +1,19 @@
+{
+  "name": "TEA Series Lead-Free Hot Air Reflow Oven",
+  "type": "Hot Air Reflow Oven",
+  "image": "/images/products/jt/jt-tea.webp",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Rail Conveyor System: The rail track undergoes a hardening process to enhance reliability",
+        "Dual-Rail Conveyor System: The dual rail system can improve productivity efficiently and save energy and production costs, with a strengthened main hanging bracket to avoid rail deformation",
+        "95% of the material of the reflow oven can be recycled",
+        "The patented optimized structure design can minimize the influence of the chamber on environmental temperature",
+        "The automatic flux collection system is easy for maintenance"
+      ]
+    }
+  ],
+  "sections": []
+}

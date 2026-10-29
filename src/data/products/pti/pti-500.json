@@ -1,0 +1,29 @@
+{
+  "name": "PTI-500 SMT",
+  "type": "First Article Inspection Tester",
+  "image": "/images/products/pti/PTI-500-FAI.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Advanced software",
+        "User friendly",
+        "Intuitive view of test result",
+        "Intelligent optimized inspection path",
+        "Support several lcr bridge options"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/pti/details/pti500-det01.png"
+        }
+      ]
+    }
+  ]
+}

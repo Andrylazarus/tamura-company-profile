@@ -1,0 +1,76 @@
+{
+  "name": "PTI-816SII",
+  "type": "Electrical Performance Test Equipment",
+  "image": "/images/products/pti/PTI-816SII.png",
+  "tagline": "PTI-816SII in-circuit tester",
+  "intro": [
+    {
+      "t": "p",
+      "text": "New structure, safer and more efficient"
+    },
+    {
+      "t": "list",
+      "items": [
+        "Double hydraulic lever",
+        "Safety Light Curtain",
+        "Test dynamic indicator",
+        "Built-in plug panel"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Optional Components",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/pti/details/pti_details01.jpg"
+        },
+        {
+          "t": "p",
+          "text": "TESTJET technology"
+        },
+        {
+          "t": "p",
+          "text": "Richer sources and more sensitive sensitivity can be tested smaller and smaller IC Chip BGA connector is open."
+        },
+        {
+          "t": "img",
+          "src": "/images/products/pti/details/pti_details02.jpg"
+        },
+        {
+          "t": "p",
+          "text": "Supervise and remote control"
+        },
+        {
+          "t": "p",
+          "text": "Save the test data to the client’s database, making the product quality with traceability, quality assurance, we can remotely monitor manufacturers, machine inspection test parameters."
+        },
+        {
+          "t": "img",
+          "src": "/images/products/pti/details/pti_details03.jpg"
+        },
+        {
+          "t": "p",
+          "text": "Four-wire test method"
+        },
+        {
+          "t": "p",
+          "text": "Multiple four-wire testing especially for low-resistance / low-capacitors/ inductance test has higher precision."
+        },
+        {
+          "t": "img",
+          "src": "/images/products/pti/details/pti_details04.jpg"
+        },
+        {
+          "t": "p",
+          "text": "High voltage detection"
+        },
+        {
+          "t": "p",
+          "text": "Prevent the test circuit from breaking during static test, and discharge technology ensures that large voltage and large current are released."
+        }
+      ]
+    }
+  ]
+}

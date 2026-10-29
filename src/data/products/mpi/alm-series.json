@@ -1,0 +1,37 @@
+{
+  "name": "ALM Series",
+  "type": "Automatic Label Mounter",
+  "image": "/images/products/mpi/details/mpi_alm_det01.png",
+  "tagline": "PCB Inline Dual Lanes Laser Marking",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Applicable to the SMT Industry all need to be label, Gum of PCB and PC",
+        "Reduce operating personnel labeling error rate",
+        "Labelling and read at the same time, can be connected to the MES/TMS and shopflow, real-time tracingg for production",
+        "Automatically Adjustable Width"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_alm_det03.png"
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_alm_det02.png"
+        }
+      ]
+    }
+  ]
+}

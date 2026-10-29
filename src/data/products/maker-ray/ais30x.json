@@ -1,0 +1,49 @@
+{
+  "name": "AIS 30X-HW",
+  "type": "AOI",
+  "image": "/images/products/maker-ray/mr-ais30x.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Features"
+    },
+    {
+      "t": "list",
+      "items": [
+        "Optional three-section track design.",
+        "High speed, high precision and low wear.",
+        "Al algorithm. Quick location and easy programming.",
+        "Strong inspection capability.",
+        "Flexible combination with production line and applicable for multiplescenarios.",
+        "Traceable data and support SPC alarm.",
+        "Automatic cleaning function for lens."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Description",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Easy programming with AI algorithm\nSearch solder joints automatically and adjusut parameters intelligently to make programming simpler and faster.\nThree-segment track\nAuto search to locate and configure parameter nearly a hundred component types, auto dentify the polarity of resistors, optocouplers, sockets, etc.Programming time 10-20min, debugging time 10-15min\nIntelligent color ring inspection algorithm\nReduce time of PCBA in and out to speed up inspection\nNew version of PLC system\nStrong anti-interference ability and high reliability, movement speed improved greatly."
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "AIS-30X HW\nSpecification Details"
+        },
+        {
+          "t": "link",
+          "href": "https://maker-rayaoi.com/product/ais30x-hw/#tab-ea477014f4705330ca8",
+          "text": "Find Out More"
+        }
+      ]
+    }
+  ]
+}

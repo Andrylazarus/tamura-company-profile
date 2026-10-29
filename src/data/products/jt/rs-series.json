@@ -1,0 +1,20 @@
+{
+  "name": "RS Series Lead Free Hot Air Reflow Oven",
+  "type": "Reflow Oven",
+  "image": "/images/products/jt/jt-rs.webp",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Independent air velocity controlling by section can achieve flexible processing adjustment, dealing with various & complicated lead-free processing easily",
+        "New cooling configuration to make the filtered or reclaimed air return to the oven chamber, reducing thermal loss and improving flux reclamation",
+        "Longer maintenance period for the oven chamber",
+        "New air management system with significant energy savings, lower electric power consumption, and lower carbon emissions",
+        "The chambers with multi-layers and thicker thermal insulation to attain a lower temperature of the oven surface",
+        "95% of the materials of the reflow oven can be recycled"
+      ]
+    }
+  ],
+  "sections": []
+}

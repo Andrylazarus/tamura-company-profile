@@ -1,0 +1,67 @@
+{
+  "name": "aSPIre 3",
+  "type": "Solder Paste Inspection System",
+  "image": "/images/products/kohyoung/spi/SPI_aSPIre3_Product-Image-768x809.png",
+  "tagline": "The Industry’s Highest Performing 3D Solder Paste Inspection System",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The aSPIre 3 delivers the highest standard in the metrology-level True 3D SPI market, ensuring incomparable performance for the most demanding applications. The inspection system leverages Koh Young’s AI platforms for print process optimization with the award-winning Koh Young Process Optimizer (KPO)."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "The Highest Standard in Metrology-level 3D Inspection"
+        },
+        {
+          "t": "p",
+          "text": "The aSPIre 3 incorporates proprietary and multi-direction projection technology delivering outstanding accuracy and repeatability required to measure the emerging 03015M components used in high-volume production. Furthermore, the aSPIre 3 sets a higher standard in metrology-level 3D inspection by overcoming inspection challenges like shadow and specular reflection, as well as board warp and non-linear challenges."
+        },
+        {
+          "t": "h3",
+          "text": "Beyond Solder Paste Inspection"
+        },
+        {
+          "t": "p",
+          "text": "Inspection is not limited to just solder deposits. Koh Young’s SPI system provides whole-board foreign material inspection (WFMI), conductive glue, sinter paste inspection with full color image display results."
+        },
+        {
+          "t": "h3",
+          "text": "Active Warp Compensation"
+        },
+        {
+          "t": "p",
+          "text": "The unique Koh Young warp compensation technology, Z-tracking 3D Compensation, actively calculates and detects any substrate warpage. Using its exclusive 3D imaging and algorithms, Koh Young considers multiple elements like slope, stretch, twist, bow, and shrinkage to guarantee an accurate measurement and to meet the ultimate inspection system criteria.\nFurthermore, the real-time, automatic Pad-referencing 2D compensation option uses IR lighting to compensate for non-linear inspection challenges by analyzing the PCB pad locations against the ideal PCB stencil design defined in the CAD file."
+        },
+        {
+          "t": "h3",
+          "text": "Self-Diagnosis for Optimal Performance"
+        },
+        {
+          "t": "p",
+          "text": "Unscheduled downtime can cripple production. Self-Diagnosis allows operators to take precautionary measures through predictive maintenance in order to reduce process interruptions, enhance uptime, and ensure optimal machine performance. The Self-Diagnosis feature comes with distinct modules which offers periodical machine checkups on critical items such as 3D/2D light intensity, PZT feed, height accuracy, and XY offset."
+        },
+        {
+          "t": "h3",
+          "text": "KSMART Solutions: True 3D Measurement-based Process Control System"
+        },
+        {
+          "t": "p",
+          "text": "Koh Young pioneered True 3D measurement technology 20 years ago to create a zero-defect future. This gave rise to KSMART Solutions and its continuous efforts to leverage data and connectivity.\nKSMART Solutions uses Artificial Intelligence to help automate process control while focusing on data management, analysis, and optimization. It collects data from across the factory line for defect detection, real-time optimization, enhance decisions, and traceability to improve metrics, increase quality, and lower costs by eliminating variance, false calls, and escapes."
+        },
+        {
+          "t": "h3",
+          "text": "Zero-defect through AI-Powered Koh Young Process Optimizer (KPO) Mounter"
+        },
+        {
+          "t": "p",
+          "text": "Koh Young is driven to help customers achieve a Zero-defect mounting process. Based on Koh Young’s accurate True 3D measurement data and its proprietary deep learning technology, Koh Young Process Optimizer (KPO) Mounter solution enables real-time mounting process optimization. It automatically analyze heads, nozzles, feeders, reels, and components to identify the issue, and then details the mounting parameters necessary to correct the fundamental problems.\nUsing AI-based analysis, KPO Mounter provides users with actionable insights. With KPO Printer solution, KPO Mounter can enhance your production quality and maximizes productivity to minimize cost of ownership, increase product quality, and maximize productivity."
+        }
+      ]
+    }
+  ]
+}

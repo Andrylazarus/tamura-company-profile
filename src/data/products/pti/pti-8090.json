@@ -1,0 +1,24 @@
+{
+  "name": "PTI-8090",
+  "type": "Two-stage Pressure Table Control",
+  "image": "/images/products/pti/PTI-8090.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Specifications"
+    },
+    {
+      "t": "list",
+      "items": [
+        "PCB Size: 430×480",
+        "Track precision: 0.5mm",
+        "Track height: 900±20mm",
+        "Transfer speed: 50~200mm/sec",
+        "Down control: electric",
+        "Weight: 450kg"
+      ]
+    }
+  ],
+  "sections": []
+}

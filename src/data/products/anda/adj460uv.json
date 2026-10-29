@@ -1,0 +1,105 @@
+{
+  "name": "ADJ-460UV",
+  "type": "PCB UV Fluorescing Manual Inspection Conveyor",
+  "image": "/images/products/anda/anda-adj460uv.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Anda ADJ-460UV is an inspection station that allows manual/visual inspection of conformal coatings when applied to printed circuit board (PCB) assemblies using fluorescing ultraviolet UV lighting. This UV inspection station is equipped with a robust pin chain style conveyor that holds up to messy solvents and chemicals used in conformal coating, and easily transports heavy pallets/carriers for complex printed circuit board assembly applications."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Manual conveyor width adjustment",
+            "Extruded aluminum conveyor rail",
+            "Chain transfer",
+            "Viable speed control",
+            "Board handling import/output sensor",
+            "SMEMA communication port",
+            "CE certified"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Conveyor Type",
+              "Pin Chain"
+            ],
+            [
+              "Component Height Clearance",
+              "± 1 oo mm (± 3.93\")"
+            ],
+            [
+              "Board/ Pallet Width",
+              "50-460 mm (1.96\" -18.11\")"
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard), R to L (Optional)"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20 mm (35.43\" ± 0.79\")"
+            ],
+            [
+              "Conveyor Speed (XY)",
+              "0.5-5 m/min"
+            ],
+            [
+              "Conveyor Width Adjustment",
+              "Manual"
+            ],
+            [
+              "Motor",
+              "Micro Precision Speed Control Motor"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L800 xW 875 x H 910 mm/ H 915 mm (L 31.49\" X W 34.44\" x H 35.82\"/ H 36.02\")"
+            ],
+            [
+              "Power",
+              "AC 220 V 50/60 Hz"
+            ],
+            [
+              "Rated Power",
+              "0.1 kW"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "Micro Control Unit (CU) & Button"
+            ],
+            [
+              "Communication Protocol",
+              "SMEMA & IPC-CFX"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

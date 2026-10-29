@@ -1,0 +1,21 @@
+{
+  "name": "KT Series",
+  "type": "High-End Lead-Free Hot Air Reflow Oven",
+  "image": "/images/products/jt/jt-kt.webp",
+  "tagline": "KT Series High-End Lead-Free Hot Air Reflow Oven",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "High capacity, normal working conveyor speed reaches 160 cm/min. Low energy consumption and low cost, special for high-speed production and high-density PCBA technology",
+        "Powerful temperature control, setting and actual temperature difference within 1.0℃, unload and load temperature fluctuates within 1.5°C; rapid temperature raising ability, temperature difference between neighboring zones 100°C",
+        "The newest insulation technique and new chamber design ensure that surface temperature is room temperature +5°C",
+        "N volume controllable in whole process, O density closed-loop controlled independently at 50-200ppm in every zone",
+        "The newest cooling technology, optional double side multi-cooling zone, the effective cooling length is 1400mm, ensuring fast cooling of the product to the lowest output temperature",
+        "New two-level flux separation system with multi-point collection which makes separation thorough, reducing maintenance time and frequency significantly",
+        "Dual line with different speeds, one set cost, double capacity, energy saving 65%"
+      ]
+    }
+  ],
+  "sections": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "TRV Series",
+  "type": "Vacuum Assisted Reflow Oven",
+  "image": "/images/products/jt/jt-trv.webp",
+  "tagline": "TRV Series Vacuum Assisted Reflow Oven",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Independent temperature control zone, suitable for different temperature profiles",
+        "Solve the problem of bubble & void, lower than 1% void area can be achieved",
+        "High efficient vacuum pump unit equipped for fast down time",
+        "3-section conveyor: Heating zone, vacuum unit, and cooling zone, adjustable individually",
+        "High production throughput, cycle time 40-60 seconds, average",
+        "Equipped with high efficient flux collection system",
+        "High efficiency, no voids, low maintenance cost: Equipped with vacuum unit to solve the problem of voids, bubbles, etc. Voids area can reach lower than 1% by the vacuum pressure 10-5 mbar",
+        "High accurate vacuum level and temperature profile: Temperature of each zone can be adjusted individually. Pressure under 10 mbar still can meet TI ≤ 90s, TP ≤ 240°C. Infrared heating equipped in vacuum unit to meet high throughput settings"
+      ]
+    }
+  ],
+  "sections": []
+}

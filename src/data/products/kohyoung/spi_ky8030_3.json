@@ -1,0 +1,59 @@
+{
+  "name": "KY8030-3",
+  "type": "Solder Paste Inspection System",
+  "image": "/images/products/kohyoung/spi/SPI_KY8030-3_Product-Image-768x809.png",
+  "tagline": "The Industry’s Fastest True 3D Solder Paste Inspection System",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The KY8030-3 is back, faster than ever using Koh Young’s 3D dual-inspection technology to eliminate critical shadow problems while enhancing productivity and speeding up the production process."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Unmatched Inspection Speed with Guaranteed Best Accuracy"
+        },
+        {
+          "t": "p",
+          "text": "The KY8030-3 blends Koh Young’s pioneering technologies with an inspection speed of 91.2 cm2/sec. The combination of this system’s throughput and accuracy makes the KY8030-3 suitable across a vast range of applications. The latest options makes this system twice as fast as its predecessor with guaranteed measurement accuracy."
+        },
+        {
+          "t": "h3",
+          "text": "Active Warp Compensation"
+        },
+        {
+          "t": "p",
+          "text": "The unique Koh Young warp compensation technology, Z-tracking 3D Compensation, actively calculates and detects any substrate warpage. Using its exclusive 3D imaging and algorithms, Koh Young considers multiple elements like slope, stretch, twist, bow, and shrinkage to guarantee an accurate measurement and to meet the ultimate inspection system criteria.\nFurthermore, the real-time, automatic Pad-referencing 2D compensation option uses IR lighting to compensate for non-linear inspection challenges by analyzing the PCB pad locations against the ideal PCB stencil design defined in the CAD file."
+        },
+        {
+          "t": "h3",
+          "text": "Automated Solder Paste Dispensing: Auto-Rework"
+        },
+        {
+          "t": "p",
+          "text": "Y8030-3 dispenses solder paste automatically as an optional add-on solution. The high-precision and user-friendly dispensing system helps eliminate costly mistakes due in large part to insufficient solder in open joints, lean fillets, and weak joints. The automatic dispensing option reduces operational costs, improves line efficiency, and strengthens profitability by eliminating board scrap and rework. Once Koh Young’s SPI is configured with the Auto-Rework option, it becomes more than an inspection system. It becomes a true process optimizer."
+        },
+        {
+          "t": "h3",
+          "text": "KSMART Solutions: True 3D Measurement-based Process Control System"
+        },
+        {
+          "t": "p",
+          "text": "Koh Young pioneered True 3D measurement technology 20 years ago to create a zero-defect future. This gave rise to KSMART Solutions and its continuous efforts to leverage data and connectivity.\nKSMART Solutions uses Artificial Intelligence to help automate process control while focusing on data management, analysis, and optimization. It collects data from across the factory line for defect detection, real-time optimization, enhance decisions, and traceability to improve metrics, increase quality, and lower costs by eliminating variance, false calls, and escapes."
+        },
+        {
+          "t": "h3",
+          "text": "Zero-defect through AI-Powered Koh Young Process Optimizer (KPO) Mounter"
+        },
+        {
+          "t": "p",
+          "text": "Koh Young is driven to help customers achieve a Zero-defect mounting process. Based on Koh Young’s accurate True 3D measurement data and its proprietary deep learning technology, Koh Young Process Optimizer (KPO) Mounter solution enables real-time mounting process optimization. It automatically analyze heads, nozzles, feeders, reels, and components to identify the issue, and then details the mounting parameters necessary to correct the fundamental problems.\nUsing AI-based analysis, KPO Mounter provides users with actionable insights. With KPO Printer solution, KPO Mounter can enhance your production quality and maximizes productivity to minimize cost of ownership, increase product quality, and maximize productivity."
+        }
+      ]
+    }
+  ]
+}

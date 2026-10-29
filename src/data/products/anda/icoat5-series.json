@@ -1,0 +1,176 @@
+{
+  "name": "iCoat-5 Series",
+  "type": "Precision Conformal Coating Machine Series",
+  "image": "/images/products/anda/anda-icoat5.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "iCoat-5 is Suitable for panelized or palletized PCBs , high mix requirements, process flexibility and large area coating, Dual, Triple or Quad valves conguration, a variety of valve arrangements, adapts to the production needs of diverse panels,Automatic coating detection mount over conveyor exit or X-axis for coating result check"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Standard Features\nOptional Features"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Automatic constant temperature system to ensure the liquidity consistent",
+            "Laser Height Detection to calibrate Z axis automatically for component deformation",
+            "2 valves can be accommodated in the standard machine",
+            "PC with LCD monitors, keyboard and mouse (height adjustable)",
+            "Auto dipping and purging waste collection system",
+            "LED UV lamps for inspection",
+            "PCB clamping system",
+            "UPS and voltage stabilizer",
+            "ESD grounding point",
+            "CE certified",
+            "Nozzles can be tilted 35º with 360º rotation",
+            "Heavy duty conveyor",
+            "2 stage conveyor",
+            "CCD vision camera",
+            "Material level detection",
+            "Pallet return conveyor (underneath)",
+            "Barcode or 2D code scanning system",
+            "Material tank: 1 gal / 3 gal / 5 gal / 10 gal"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Board Handling",
+              ""
+            ],
+            [
+              "Standard Work Area",
+              "X 450 × Y 450 × Z 100 mm\n(X 17.71\" × Y 17.71\" × Z 3.93\")"
+            ],
+            [
+              "Maximum Components Height",
+              "± 90 mm (± 3.54\") from PCB"
+            ],
+            [
+              "PCB Edge Clearance",
+              "≥ 5mm (≥ 0.19\")"
+            ],
+            [
+              "Single Spray Width",
+              "2 – 30 mm (0.078\" – 1.18\")"
+            ],
+            [
+              "Maximum Conveyor Width",
+              "460 mm (18.11\")"
+            ],
+            [
+              "Minimum Conveyor Width",
+              "50 mm (1.95\")"
+            ],
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard), R to L (Optional)"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20 mm (35.43\" ± 0.79\")"
+            ],
+            [
+              "Conveyor Speed (XY)",
+              "0.5 - 5 m/min"
+            ],
+            [
+              "Conveyor Width Adjustment",
+              "Automatic (motorized)"
+            ],
+            [
+              "Rotation",
+              "Optional"
+            ],
+            [
+              "Operation Configuration",
+              ""
+            ],
+            [
+              "No. of Valves",
+              "Triple valves with U axis: Front two valves can tilt 35° and the third back valve non-tilt\nQuad valves with U axis: Front two valves can tilt 35° and back two valves fixed upright position"
+            ],
+            [
+              "Maximum Speed",
+              "800 mm/s"
+            ],
+            [
+              "Repeatability",
+              "± 0.02 mm (± 0.0007\")"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L 900 mm x W 1300 mm x H 1675 mm\n(L 35.43\" x W 51.18\" x H 65.94\")"
+            ],
+            [
+              "Weight",
+              "570 kg"
+            ],
+            [
+              "Motor Power",
+              "DC 24 V 69 W × 2"
+            ],
+            [
+              "Air Sources",
+              "0.4 Mpa"
+            ],
+            [
+              "Exhaust Requirement",
+              "15 m³/min"
+            ],
+            [
+              "Input Power",
+              "AC 220 V 50/60 Hz"
+            ],
+            [
+              "Total Power",
+              "2.4 KW"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "Integrated microprocessor controllers"
+            ],
+            [
+              "Software",
+              "Anda user interface software with Windows"
+            ],
+            [
+              "Programming",
+              "Keyboard & mouse mode"
+            ],
+            [
+              "Communications Protocol",
+              "SMEMA"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

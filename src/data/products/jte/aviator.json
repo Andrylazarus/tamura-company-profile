@@ -1,0 +1,107 @@
+{
+  "name": "Aviator Series",
+  "type": "",
+  "image": "/images/products/jte/jte-aviator.jpg",
+  "tagline": "",
+  "intro": [],
+  "sections": [
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Series",
+              "AVIATOR"
+            ],
+            [
+              "Model",
+              "Model No.",
+              "JTV-A400",
+              "JTV-A800"
+            ],
+            [
+              "Maximum size of substrate (including carrier)",
+              "Max.PCB Size (including fixture）",
+              "Dual C/V:L320xW300mm Single C/V:L320xW480mm",
+              "Dual C/V:L350xW300mm Single C/V:L350xW480mm"
+            ],
+            [
+              "Pluggable component size",
+              "Component Size",
+              "Max.L40x W40 x H50mm",
+              "Max.L40x W40 x H50mm"
+            ],
+            [
+              "The board conveying height can be passed up and down",
+              "PCB Clearance",
+              "Upper 70/Lower 22mm",
+              "Upper 70/Lower 22mm"
+            ],
+            [
+              "Plug-in speed (theoretical)/Component",
+              "Tact Time",
+              "0.8sec",
+              "0.75sec"
+            ],
+            [
+              "Insertion accuracy",
+              "Insertion Accuracy",
+              "±0.05mm",
+              "O±0.03mm"
+            ],
+            [
+              "Placement head mechanism",
+              "Gantry Tpye",
+              "Dual Gantry",
+              "Dual Gantry"
+            ],
+            [
+              "Number of plug-in heads",
+              "No.of Insertion Head",
+              "4",
+              "8"
+            ],
+            [
+              "Gripper/nozzle type",
+              "Gripper/Nozzle Type",
+              "Independent Servo Motor",
+              "Independent Servo Motor"
+            ],
+            [
+              "Automatic claw changing workstation",
+              "Auto Gripper Change Station",
+              "",
+              ""
+            ],
+            [
+              "Number of feeding stations",
+              "No. of Feeder Stations",
+              "Up to 4 Front 4 Back4",
+              "Up to 8 Front 8 Back8"
+            ],
+            [
+              "Number of feeders that can be installed: Multi-tube feeder, Tape feeder vibrating plate feeder, Dual-tray feederMulti-tray feeder",
+              "",
+              "Front 4 Back 4\nFront 4 Back 4\nFront 4 Back 4\nFront 1 Back 1\nFront 1 Back 1",
+              "Front 8 Back 8\nFront 8 Back 8\nFront 8 Back 8\nFront 2 Back 2\nFront 1 Back 2"
+            ],
+            [
+              "MES system support",
+              "MES Support",
+              "O (Specific Negotiation)",
+              "O (Specific Negotiation)"
+            ],
+            [
+              "Barcode/QR code recognition function",
+              "Barcode/OR Code Reader",
+              "",
+              ""
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

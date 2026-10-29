@@ -1,0 +1,39 @@
+{
+  "name": "SE500",
+  "type": "3D SPI\\AOI Flexible",
+  "image": "/images/products/sinhovo/sinhovo-se500.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Features"
+    },
+    {
+      "t": "p",
+      "text": "SE series - compact body, flexible configuration"
+    },
+    {
+      "t": "list",
+      "items": [
+        "2D/3D full coverage inspection technology",
+        "Customizable inspection functions and requirements, covering AOI\\SPI and other application methods",
+        "Ceiling gantry casting structure: small footprint, high space utilization, stability, and long service life",
+        "Automatic one-dimensional and two-dimensional barcode management system",
+        "All core components are imported brands",
+        "Professional report statistics and analysis",
+        "Closed-loop control and multi-point matching"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Technical Parameters",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/sinhovo/details/spec-se500.jpg"
+        }
+      ]
+    }
+  ]
+}

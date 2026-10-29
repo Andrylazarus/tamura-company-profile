@@ -1,0 +1,56 @@
+{
+  "name": "ZLM Series",
+  "type": "Inline Vision Laser Marking System",
+  "image": "/images/products/mpi/details/mpi_zlm_det07.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Engraving Large PCB Size 510*530mm",
+        "Original Imported KEYENCE 30W 3D Laser",
+        "Fine Laser Spot, Can Be Engraved Less than 1*1 mm 2D Code"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_zlm_det06.png"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_zlm_det05.png"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_zlm_det04.png"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_zlm_det03.png"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_zlm_det02a.png"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_zlm_det02b.png"
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_zlm_det01.png"
+        }
+      ]
+    }
+  ]
+}

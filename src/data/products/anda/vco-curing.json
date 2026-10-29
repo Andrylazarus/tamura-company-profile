@@ -1,0 +1,164 @@
+{
+  "name": "Vertical Curing Oven (VCO)",
+  "type": "Inline Compact Automated Vertical Curing Oven (VCO)",
+  "image": "/images/products/anda/anda-verticalOven.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "VCO-70"
+    },
+    {
+      "t": "p",
+      "text": "The Anda vertical curing oven (VCO) uses recirculating hot air to accelerate printed circuit board assembly (PCBA) cure times for underfill, epoxy resin encapsulation, and adhesives. Our vertical curing oven works inline with production processes for eliminating manual loading/unloading of batch curing ovens. Unlike horizontal conveyor style ovens, the VCO Series accommodates larger quantities of boards utilizing a compact footprint. This makes vertical curing an ideal solution for processes where factory floor space is limited or in clean room environments.\nThe uninterrupted curing process of the VCO Series reduces manufacturing costs and improves both production and quality of assemblies. Unlike a batch oven, the doors on the VCO Series remain closed during production ensuring constant heat tracking throughout the curing process, this ensure coatings are precisely cured at controlled temperatures in order to maximize coating strength and provide better PCBA protection."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Uniform temperature & thermal runaway protection",
+            "8 independent recirculating hot air (RHA) heating control zones",
+            "PID closed loop control",
+            "Ergonomic control interface",
+            "Modular design allows easy online maintenance & quick heat module replacement",
+            "Automatic conveyor width adjustment",
+            "Automatic door opening",
+            "Entrance/Exit doors reduce heat loss & power consumption",
+            "SMEMA communication protocol",
+            "CE certified"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Curing System",
+              ""
+            ],
+            [
+              "Maximum Temperature",
+              "150℃"
+            ],
+            [
+              "Temperature Accuracy",
+              "±5℃"
+            ],
+            [
+              "Heating method",
+              "Recirculating Hot Air (RHA)"
+            ],
+            [
+              "Number of Heat Zones",
+              "8 RHA zones"
+            ],
+            [
+              "Minimum Cycle Time",
+              "＞12s"
+            ],
+            [
+              "Minimum Cure Time",
+              "＞192s"
+            ],
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Product Spacing Pitch",
+              "25.4 mm (1″)"
+            ],
+            [
+              "Maximum Product Storage",
+              "70 pieces"
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard), R to L (Optional)"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20mm (35.43” ± 0.79”)"
+            ],
+            [
+              "Product Dimensions",
+              "L 100 x W 100 mm – L 500 x W 500 mm (L 3.94” x W 3.94” – L 19.68” x W 19.68”)"
+            ],
+            [
+              "PCB Rim Space",
+              "10 mm (0.39”)"
+            ],
+            [
+              "Top Conveyor Clearance",
+              "80 mm (3.14”)"
+            ],
+            [
+              "Bottom Conveyor Clearance",
+              "50 mm (1.96”)"
+            ],
+            [
+              "Conveyor Width Adjust",
+              "Motorized"
+            ],
+            [
+              "Input / Output Door",
+              "Motorized"
+            ],
+            [
+              "Driving Method",
+              "Metal chain conveyor with gear motor"
+            ],
+            [
+              "Conveyor Width Adjustment",
+              "Automatic (motorized)"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L 2450 x W 1800 x H 2500 mm (L 96.45″ x W 70.86″ x H 98.42″)"
+            ],
+            [
+              "Weight",
+              "2500 kg (1136 lb)"
+            ],
+            [
+              "Exhaust Port",
+              "150 mm (5.90″)"
+            ],
+            [
+              "Power",
+              "3 Phase 380 VAC (Standard), 208/480 VAC with transformer (Optional)"
+            ],
+            [
+              "Rated Power",
+              "35 kW"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "PLC with touch screen"
+            ],
+            [
+              "Communication Protocol",
+              "SMEMA & IPC-CFX"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

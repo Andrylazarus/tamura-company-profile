@@ -1,0 +1,35 @@
+{
+  "name": "KICstart²",
+  "type": "Affordable Thermal Profiler",
+  "image": "/images/products/kic/kic-start2.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "KIC Profiler K²"
+    },
+    {
+      "t": "list",
+      "items": [
+        "Affordable",
+        "Reliable, Robust Hardware",
+        "Quick, Convenient, Accurate Profiling",
+        "24 Hour Customer Support",
+        "Easy to Use Profiling Software",
+        "KIC Start2 thermal profiler datasheet",
+        "KICstart² A4datasheet"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Exceptional Value\nThe KICstart²™ thermal profiler utilizes core technologies developed by KIC, the world’s premier thermal profiling company, and is supported by KIC’s worldwide organization. Packaging these innovative technologies into a low-cost system, the KICstart² is an ideal cost effective thermal profiler.\nEase of Use\nThe KICstart² profiler has everything you need to quickly acquire an accurate profile, without complicated features that can slow you down. For applications where all you want is your product’s thermal profile, immediately with no fuss, the KICstart² is for you. The patented design concept automatically identifies the location of each oven heating zone, so no or few measurements are required. This design automatically corrects for different TC locations on the part, aligning them for improved profile graph viewing. Production down time is reduced when using the Manual Prediction software which enables the process engineer an instant “trial and error” capability when searching for more suitable oven recipes. The profiling data is automatically transferred to a PC when plugging in the USB cable. With its easy to use and intuitive software, new personnel can be trained in record time.\nInstant Process Analysis\nOnce your profile has completed, the KICstart² automatically analyzes your process using the Process Window Index™ (PWI™). The PWI is a single number that measures how well your profile fits within your product’s thermal process window (See the Process Window Index data sheet for details). The PWI provides an instant and objective conclusion whether your product profile is in spec, eliminating guesswork and opinion from process analysis. This helps you ensure that all your products on all your lines are manufactured with measurable, consistent quality.\nReliable and Robust Thermal Profiler\nThe superior accuracy and reliability of the KICstart² is nothing less than you would expect from KIC’s award winning product line. The KICstart² is a six thermocouple datalogger unit that utilizes solid state technology designed to withstand the daily or weekly thermal cycles for years to come, for both lead- free and leaded assemblies."
+        }
+      ]
+    }
+  ]
+}

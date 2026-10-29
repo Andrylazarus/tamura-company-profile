@@ -1,0 +1,36 @@
+{
+  "name": "SH8650II",
+  "type": "3D SPI Standard Type",
+  "image": "/images/products/sinhovo/sinhovo-sh8650m.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Features"
+    },
+    {
+      "t": "p",
+      "text": "Optimal dual-track design"
+    },
+    {
+      "t": "list",
+      "items": [
+        "Maximum 690mm width, flexible dual-track solution",
+        "2, 3, 4 tracks can be adjusted",
+        "High-speed, high-precision configuration, suitable for efficient placement",
+        "Casting body, maximum space utilization"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Technical Parameters",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/sinhovo/details/spec-sh8650ii.jpg"
+        }
+      ]
+    }
+  ]
+}

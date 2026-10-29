@@ -1,0 +1,36 @@
+{
+  "name": "AIM Series",
+  "type": "Automatic Ink-Jet Marking System",
+  "image": "/images/products/mpi/details/mpi_aim_det01.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Onse-stop implementation Ink-Jet, reading and uploading of traceability equipment"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_aim_det02.png"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_aim_det03.png"
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/mpi/details/mpi_aim_det04.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "name": "SJ-460",
+  "type": "PCB Elevator Automatic Transfer Conveyor",
+  "image": "/images/products/anda/anda-sj460.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Anda SJ-460 is an elevator PCB & pallet / carrier handling conveyor for electronics manufacturing. This automatic up / down lifter with pallet return conveying, is a compact module which integrates with the Anda One Man Operation (OMO) coating line. For the OMO configuration, elevators are placed at the beginning and end of the coating line solution. During operation, elevator machines lower and then elevate circuit boards and pallets throughout the coating and curing process in order to complete a full loop. This enables a single operator to load and unload boards from the same location."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Robust steel frame construction",
+            "PLC & touch screen control",
+            "Trouble alarm with sound, light tower indicator, and menu display",
+            "Operator transparent view window for process observation",
+            "Adjustable conveyor board width from 50 mm to 460 mm",
+            "SMEMA communication port",
+            "CE certified"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Max Lift Traveling Distance",
+              "550 ± 20 mm (21.65” ± 0.79”)"
+            ],
+            [
+              "Upper Working Platform Height",
+              "900 ± 20 mm (35.43” ± 0.79”)"
+            ],
+            [
+              "Lower Working Platform Height",
+              "350 ± 20 mm (13.78” ± 0.79”)"
+            ],
+            [
+              "Lifting Speed",
+              "L to R (Standard), R to L (Optional)"
+            ],
+            [
+              "Driving system",
+              "Cylinder"
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard), R to L (Optional)"
+            ],
+            [
+              "Conveyor Type",
+              "Chain"
+            ],
+            [
+              "Conveyor Speed (XY)",
+              "2 – 5 m/min"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20mm (35.43” ± 0.79”)"
+            ],
+            [
+              "Width Adjustment",
+              "Manual"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L 700 × W 940 × H 1350 mm (L 27.56” x W 37.01” x H 53.15”)"
+            ],
+            [
+              "Power",
+              "AC 220 V 50/60 Hz"
+            ],
+            [
+              "Rated Power",
+              "0.2 kW"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "PLC with touch screen"
+            ],
+            [
+              "Communication Protocol",
+              "SMEMA & IPC-CFX"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

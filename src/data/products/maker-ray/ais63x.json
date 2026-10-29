@@ -1,0 +1,45 @@
+{
+  "name": "AIS 63X-HW",
+  "type": "Solder paste inspection (SPI)",
+  "image": "/images/products/maker-ray/mr-ais63x.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Features"
+    },
+    {
+      "t": "list",
+      "items": [
+        "High-precision 3D imaging",
+        "Simple and effiffifficient programming",
+        "Data visual management"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Description",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Principle\nRealize three-dimensional measurement on solder paste used in accurate printing through phase modulation profilometry. Ensure high speed measurement. Meanwhile, dramatically improve measuring accuracy.\nReduce height error\nThe dynamic self-adaptive datum plane algorithm is used to level the datum plane to solve the height difference problem caused by the bending of the jig or the board, and improve the accuracy of the pad positioning.\nAI algorithm, intelligent programming\nWithout gerber file, one-click search can be realized to intelligently identify the solder paste area, without manual color extraction, simple and efficient, easy to use\nIntelligent solder paste detection algorithm:\nOne algorithm detects multiple items (tin height, area, volume, offset, tin connection, etc., data visualization) programming and debugging is more convenient"
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "AIS-63X HW\nSpecification Details"
+        },
+        {
+          "t": "link",
+          "href": "https://maker-rayaoi.com/product/ais-63x-hw/#tab-f855f36b939dfa703af",
+          "text": "Find Out More"
+        }
+      ]
+    }
+  ]
+}

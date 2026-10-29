@@ -1,0 +1,19 @@
+{
+  "name": "US Series Lead-free Wave Soldering System",
+  "type": "Wave Soldering System",
+  "image": "/images/products/jt/jt-us.webp",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "The movement of the nozzle realizes dual-axis linkage in the X.Y direction, and is driven by a stepping motor, with accurate positioning. The programming control method is flexible, which can meet the complex process requirements, such as partial secondary spraying, partial continuous spraying, etc.;",
+        "Free combination of hot air and infrared preheating modules (3-stage preheating): When preheating PCB products with different process requirements, any combination of preheating methods can be used to improve the preheating ability;",
+        "New tin furnace and crest nozzle design: Adjustable tin wave drop design, effectively reducing tin dross generation;",
+        "The maximum transport capacity of the guide rail is 60KG: The innovative transportation chain assembly structure and support method provide more stable transportation speed and higher transportation carrying capacity;",
+        "The cooling system adopts the upper and lower blowing structure design, and the cooling efficiency is flexibly controlled."
+      ]
+    }
+  ],
+  "sections": []
+}

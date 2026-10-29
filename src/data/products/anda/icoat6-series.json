@@ -1,0 +1,157 @@
+{
+  "name": "iCoat-6 Series",
+  "type": "Precision Conformal Coating Machine Series",
+  "image": "/images/products/anda/anda-icoat6.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "This highly precise, selective conformal coating machine offers closed loop fluid heating which provides a constant fluid viscosity, even in machine suspension.\nThe recirculating fluid delivery system offers stable fluid pressure and temperature, even under varying production and incoming air pressure conditions."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Standard Features\nOptional Features"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Auto dipping and purging waste collection system",
+            "Safety door lock system",
+            "LED UV lamps for inspection",
+            "ESD grounding point",
+            "CCD vision camera",
+            "PCB clamping system",
+            "Material level detection",
+            "Material heating circulation system",
+            "Material filtration system",
+            "Low pressure fluid automatic adjustment system",
+            "Film width laser checking system",
+            "Diaphragm pump feeding system",
+            "CE certified",
+            "Barcode or 2D code scanning system",
+            "UPS and voltage stabilizer",
+            "Pallet return conveyor",
+            "Programmable valve cleaner",
+            "Track enhancement",
+            "Material tank: 1 gal / 3 gal / 5 gal / 10 gal"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Board Handling",
+              ""
+            ],
+            [
+              "Standard Work Area",
+              "X 360 x Y 450 x Z 100 mm\n(X 14.71\" x Y 17.71\" x Z 3.93\")"
+            ],
+            [
+              "Maximum Components Height",
+              "± 90 mm (± 3.54\") from PCB"
+            ],
+            [
+              "PCB Edge Clearance",
+              "≥ 5mm (≥ 0.19\")"
+            ],
+            [
+              "Single Spray Width",
+              "2 – 30 mm (0.078\" – 1.18\")"
+            ],
+            [
+              "Maximum Conveyor Width",
+              "460 mm (18.11\")"
+            ],
+            [
+              "Minimum Conveyor Width",
+              "50 mm (1.95\")"
+            ],
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard), R to L (Optional)"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20 mm (35.43\" ± 0.79\")"
+            ],
+            [
+              "Conveyor Speed (XY)",
+              "2 - 13 m/min"
+            ],
+            [
+              "Conveyor Width Adjustment",
+              "Automatic (motorized)"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L 900 mm x W 1300 mm x H 1675 mm\n(L 35.43\" x W 51.18\" x H 65.94\")"
+            ],
+            [
+              "Weight",
+              "560 kg"
+            ],
+            [
+              "Motor Power",
+              "DC 24 V 69 W × 2"
+            ],
+            [
+              "Air Sources",
+              "0.4 Mpa"
+            ],
+            [
+              "Exhaust Requirement",
+              "15 m³/min"
+            ],
+            [
+              "Input Power",
+              "AC 220 V 50/60 Hz"
+            ],
+            [
+              "Total Power",
+              "2.4 KW"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "IPC and motion control card"
+            ],
+            [
+              "Software",
+              "Anda user interface software with Windows"
+            ],
+            [
+              "Programming",
+              "Keyboard & mouse mode"
+            ],
+            [
+              "Communications Protocol",
+              "SMEMA"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

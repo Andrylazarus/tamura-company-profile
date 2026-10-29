@@ -1,0 +1,18 @@
+{
+  "name": "Full-Tunnel Entire Nitrogen Wave Soldering System",
+  "type": "Wave Soldering System",
+  "image": "/images/products/jt/jt-nitrowave.webp",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Nitrogen Closed-loop Control: Real-time monitoring of nitrogen concentration, PID closed-loop adjust nitrogen flow to achieve a stable PPM value and save nitrogen consumption",
+        "Increase Solder Stability: Nitrogen protection improves the wetting of wave infiltration and enhances solder penetration rate to ensure quality stability",
+        "Reduce Solder Defect: The tunnel-based entire nitrogen wave soldering can reduce solder defects and improve production efficiency with less oxygen content",
+        "Save Cost: The closed preheating environment can reduce power consumption and the production of solder dross"
+      ]
+    }
+  ],
+  "sections": []
+}

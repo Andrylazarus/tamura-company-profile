@@ -1,0 +1,131 @@
+{
+  "name": "UV-2",
+  "type": "Curing Oven Series",
+  "image": "/images/products/anda/anda-uv2.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "This UV serics is a compact, inline UV curing system. The UV curing oven is suitable for high intensity, rapid curing of UV curable coatings, adhesives, and inks."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Standard Features\nOptional Features"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Edge carrying, variable speed pin chain conveyor",
+            "Rail expansion compensation",
+            "PLC controller and touch screen",
+            "100 mm top and bottom side component clearance",
+            "SMEMA communication protocol",
+            "CE certified",
+            "Dual UV lamp for UV curing",
+            "Top and bottom side simultaneous curing",
+            "Return conveyor"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Component Height",
+              "± 100 mm (± 3.93\")"
+            ],
+            [
+              "Board / Pallet Width",
+              "50 - 460 mm (1.96\" - 18.11\")"
+            ],
+            [
+              "Process Flow",
+              "L to R"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20 mm (35.53\" ± 0.79\")"
+            ],
+            [
+              "Conveyor Speed (XY)",
+              "0.5 - 5 m/min."
+            ],
+            [
+              "Conveyor Width Adjustment",
+              "Manual"
+            ],
+            [
+              "Maximum Loading",
+              "4 kg/m at even distribution"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L 1500 x D 1137 x H 1460 mm (L 59.05\" x D 44.76\" x H 57.48\")"
+            ],
+            [
+              "Weight",
+              "400 kg"
+            ],
+            [
+              "Input Power",
+              "3 Phase 380 VAC"
+            ],
+            [
+              "Power",
+              "7.0 KW (Single UV lamp)"
+            ],
+            [
+              "UV Cure Beam Width",
+              "620 mm (24.40\")"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "PLC and touch screen"
+            ],
+            [
+              "Communication Protocol",
+              "SMEMA"
+            ],
+            [
+              "Ultraviolet Irradiation",
+              ""
+            ],
+            [
+              "UVA",
+              "> 500 mW/cm²"
+            ],
+            [
+              "UVB",
+              "> 500 mW/cm²"
+            ],
+            [
+              "UVC",
+              "> 100 mW/cm²"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

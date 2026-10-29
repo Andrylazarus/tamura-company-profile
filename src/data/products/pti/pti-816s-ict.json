@@ -1,0 +1,78 @@
+{
+  "name": "PTI-816S ICT",
+  "type": "Electrical Performance Test Equipment",
+  "image": "/images/products/pti/816S-NEW-2.png",
+  "tagline": "PTI-816S In-Circuit Tester",
+  "intro": [
+    {
+      "t": "p",
+      "text": "High Speed and Accuracy Measurement and Testing. Friendly UI with fast and easy program development."
+    },
+    {
+      "t": "list",
+      "items": [
+        "Four-wire test method",
+        "High voltage detection",
+        "USB communication",
+        "MES",
+        "Patent board",
+        "Split-type structure"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Optional Components",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/pti/details/pti816s-det01.jpg"
+        },
+        {
+          "t": "p",
+          "text": "Report function"
+        },
+        {
+          "t": "p",
+          "text": "Support factory management system to improve product quality and traceability"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/pti/details/pti816s-det02.jpg"
+        },
+        {
+          "t": "p",
+          "text": "Flexible Multi-boards"
+        },
+        {
+          "t": "p",
+          "text": "Flexible multi-board generation method"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/pti/details/pti816s-det03.jpg"
+        },
+        {
+          "t": "p",
+          "text": "Board display"
+        },
+        {
+          "t": "p",
+          "text": "Easy to see the component bad, pin point position, easy maintenance"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/pti/details/pti816s-det04.jpg"
+        },
+        {
+          "t": "p",
+          "text": "Automatically generate/export"
+        },
+        {
+          "t": "p",
+          "text": "The software automatically generates the product measurable rate report, which can be directly exported to EXCEL"
+        }
+      ]
+    }
+  ]
+}

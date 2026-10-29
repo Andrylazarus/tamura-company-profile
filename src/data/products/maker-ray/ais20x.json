@@ -1,0 +1,46 @@
+{
+  "name": "AIS 20X-HW",
+  "type": "AOI",
+  "image": "/images/products/maker-ray/mr-ais20x.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Features"
+    },
+    {
+      "t": "list",
+      "items": [
+        "Apply AI deep learning algorithm to achieve strong Inspection Capability",
+        "Auto search component /Intelligent adjust parameter",
+        "Intelligent color ring inspection algorithm",
+        "Inspect socket absent/ polarity /wrong"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Description",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Apply AI deep learning algorithm to achieve strong Inspection Capability\nDeep learning network create multiple levels of abstraction layers to represent data features, and filter them through a classification layer of features to obtain identification results. The application of deep learning algorithms in the field of industrial inspection can solve the two traditional algorithm pain points of long programming time and high false alarm rate.\nAuto search component /Intelligent adjust parameter\nAuto search to locate and configure parameter nearly a hundred component types, auto dentify the polarity of resistors, optocouplers, sockets, etc.Programming time 10-20min, debugging time 10-15min\nIntelligent color ring inspection algorithm\nBased on the deep learning algorithm, input color ring resistance template and picture into the deep network to extract high-dimensional feature sequences, result come by comparing these high-dimensional feature sequences.\nInspect socket absent/ polarity /wrong\nApply deep learning algorithm to achieve the inspection for absent/ polarity /wrong"
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "AIS-20X HW\nSpecification Details"
+        },
+        {
+          "t": "link",
+          "href": "https://maker-rayaoi.com/product/ais20x-hw/#tab-7043cbe9ccb1f951a2f",
+          "text": "Find Out More"
+        }
+      ]
+    }
+  ]
+}

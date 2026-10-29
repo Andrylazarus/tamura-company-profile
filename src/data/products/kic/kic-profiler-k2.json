@@ -1,0 +1,53 @@
+{
+  "name": "KIC Profiler K²",
+  "type": "Reflow Oven Thermal Profile",
+  "image": "/images/products/kic/kic-k2.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "Ease of Use",
+        "24 Hour World Class Customer Support",
+        "Oven Setup Software",
+        "KIC Profiler K² datasheet",
+        "Viewing on Mobile Devices",
+        "KIC Profiler K² A4 size datasheet"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Mid-Range Profile Setter\nCompact and Robust Hardware\nFail-Safe Operation\nReflow Oven Setup Software\nInstant and Objective Profile Analysis\nAccessing the K² Profile Data on the PC or Mobile Device"
+        },
+        {
+          "t": "list",
+          "items": [
+            "The K² profile setter replaces the last of KIC’s older technology profilers",
+            "Competitively priced for the mid-range market",
+            "The K² will fit through the tight heated chambers often found in lead-free production",
+            "7 TC unit dimensions: 206 x 60 x 17 (mm) Shield: 302 x 75 x 23 (mm)",
+            "9 TC unit dimensions: 206 x 75 x 17 (mm) Shield: 312 x 90 x 23 (mm)",
+            "Durable hardware designed to withstand rough production environments",
+            "Automatic start when temperatures are below a specified ‘start’ trigger, protecting the K² and assuring consistent starting points and repeatable profiles",
+            "Hardware designed for accurate measurements",
+            "Engineer sets quality and productivity related parameters: PWI level Minimum/maximum allowable conveyor speed Maximum peak temperature, etc.",
+            "For use by reflow oven operators, technicians, and engineers who need a reflow oven thermal profile",
+            "KIC’s optimization software does a complete search for all possible combinations of oven zone temperatures and conveyor speeds. It selects the very best oven setup for each new product within seconds",
+            "User selectable setup criteria focuses on positioning the profile towards: the center of the process window maximum conveyor speed minimum oven electricity usage",
+            "KIC’s famous Process Window Index (PWI) explains how the profile fits the established process window, with a single number: PWI above 100 = profile out of spec PWI at 100 = profile right on the spec limit PWI below 100 = profile in spec PWI at 0 = the exact center of the process window",
+            "Immediate profile analysis",
+            "Objective and personnel-independent profile analysis",
+            "Outlying profile data made visible",
+            "The profile data can be displayed in two ways: On the oven PC or profiling PC On an Authorized Android mobile device",
+            "Convenient sharing function for selected profile data"
+          ]
+        }
+      ]
+    }
+  ]
+}

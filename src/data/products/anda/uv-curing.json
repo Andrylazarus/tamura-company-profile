@@ -1,0 +1,98 @@
+{
+  "name": "UV Curing Oven Series",
+  "type": "Inline Compact UV Curing Ovens",
+  "image": "/images/products/anda/anda-curingOven.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Anda UV curing oven series is the most powerful compact inline high intensity Ultraviolet (UV) curing oven system in the industry. It is capable of exceeding the maximum UV intensity requirements for curing virtually any UV curable product on the market today. In a class of its own, the system cost is also more affordable than rivaling products offered by competitors.\nThe inline UV curing oven series is available in LED for UVA LED curable coatings or Mercury Long-Arc for high intensity, rapid curing of UV curable coatings, adhesives, and inks. Closed-loop supply air ensures every substrate receives the same amount of cooling UV wavelength tailored to the ink, coating, or adhesive formulation.\nThe inline UV curing system was designed with enhanced safety protection to ensure operator protection from harmful UV radiation. The systems SMEMA communication and touch screen control interface integrates into new or existing factory automation lines or can also be used stand-alone. Pairs seamlessly with selective conformal coating spraying systems and does not interfere with wireless networks."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "PLC touch screen control",
+            "Edge carrying, variable speed pin chain conveyor",
+            "Rail expansion compensation",
+            "SMEMA communication protocol",
+            "100 mm top and bottom side component clearance",
+            "Adjustable lamp intensity for long lamp life",
+            "Advanced variable frequency power technology ensures stable UV output and reduces energy consumption",
+            "UV LED for UVA LED curable coatings"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Driving system",
+              "Micro Precision Speed Control Motor"
+            ],
+            [
+              "Process Flow",
+              "L to R (Standard), R to L (Optional)"
+            ],
+            [
+              "Conveyor Type",
+              "Chain"
+            ],
+            [
+              "Conveyor Speed (XY)",
+              "8 – 10 m/min"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20mm (35.43” ± 0.79”)"
+            ],
+            [
+              "Width Adjustment",
+              "Manual"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L 700 × W 1060 × H 1520 mm (L 27.56” x W 41.73” x H 59.84”)"
+            ],
+            [
+              "Power",
+              "AC 220 V 50/60 Hz"
+            ],
+            [
+              "Rated Power",
+              "0.2 kW"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "PLC with touch screen"
+            ],
+            [
+              "Communication Protocol",
+              "SMEMA & IPC-CFX"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

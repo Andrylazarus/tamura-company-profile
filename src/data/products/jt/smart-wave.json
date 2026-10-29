@@ -1,0 +1,17 @@
+{
+  "name": "Smart Series of Wave Soldering Machine",
+  "type": "Wave Soldering Machine",
+  "image": "/images/products/jt/jt-smartwave.webp",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "New solution of preheating: The hot air preheating u- shaped heater has a long service life, and reduces maintenance downtime. Internal reinforcement insulation plus an optional external protection device can effectively reduce the heat loss, energy-saving up to 20% compared with traditional equipment. Lower body temperature with better work enviroment.",
+        "External Spray Fluxer, safety, cost, space, and maintenance problems resolved： External and independent spray control system, ensure the safety and clean, easy to operate and maintenance; Transportation of new type titanium alloy heavy-duty claw, sectional guide rail design, stainless steel strip supported in guide rail, long life; The solder pot adopts special materials, Anti corrosion coating on surface; Adopt imported precision nozzle, atomization uniformity, high efficient.",
+        "The large promotion of solder pot： Nozzle quick released, reduce maintenance time, 2 hours to a few minutes; Grid type of mesh, reduce the mesh block by solder dross monthly maintenance extended to six months; Optional auto solder supplying device, reduce the influence of wave height caused by a drop of solder level;"
+      ]
+    }
+  ],
+  "sections": []
+}

@@ -1,0 +1,39 @@
+{
+  "name": "SH1580L",
+  "type": "LED Large Size Dedicated SPI",
+  "image": "/images/products/sinhovo/sinhovo-sh1580l.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "Features"
+    },
+    {
+      "t": "p",
+      "text": "1.5m LED product dedicated mode"
+    },
+    {
+      "t": "list",
+      "items": [
+        "Complete the test in one go to ensure speed and accuracy",
+        "No need for segmented inspection to reduce connection space",
+        "Optimize the test speed based on the characteristics of LED",
+        "12 million pixels, high speed and high precision configuration",
+        "THK high-precision screw and guide rail",
+        "Heavy-duty jig transportation design",
+        "Integral casting structure to ensure accuracy and service life"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Technical Parameters",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/sinhovo/details/spec-sh1580l.jpg"
+        }
+      ]
+    }
+  ]
+}

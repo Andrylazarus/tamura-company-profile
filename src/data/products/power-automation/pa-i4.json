@@ -1,0 +1,56 @@
+{
+  "name": "i-4.0",
+  "type": "i-Series",
+  "image": "/images/products/pa/pa-i4.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "h3",
+      "text": "i4.0"
+    },
+    {
+      "t": "h3",
+      "text": "4Head / Single Gantry"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Dimension",
+              "L1,150 x D1,614 x H1,690 mm"
+            ],
+            [
+              "Weight",
+              "1,500 kg"
+            ],
+            [
+              "Number of spindles",
+              "1 Gantry × 4 Head"
+            ],
+            [
+              "Max Speed",
+              "1 ~ 2 sec / point"
+            ],
+            [
+              "Accuracy",
+              "±0.06 mm"
+            ],
+            [
+              "Part Height (Max)",
+              "330 × 300 mm"
+            ],
+            [
+              "Part Weight (Max)",
+              "80 × 80 mm"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "VP-Series",
+  "type": "Offline Vacuum Plasma Treatment Machine",
+  "image": "/images/products/anda/anda-vpoffline.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "VP Series are offline standalone (batch style) plasma treatment units designed for immersive vacuum plasma treatment and activation of a materials surface energy. During this process, materials being treated are completely engulfed within a plasma environment allowing all surface areas of complex parts and materials to be treated and activated simultaneously.\nIn the electronics industry, we highly recommend plasma treatment prior to selective conformal coating or dispensing processes in order to improve wetting of coatings and the adhesion strengths of coatings and other dispensed materials. When materials are plasma treated, coatings and adhesives are significantly less susceptible to fail. Plasma treatment to electronics ensures maximum protection from coatings and glues and a long product life for the intended device."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Adjustable Shelves: allow processing of a wide variety of part geometrics",
+            "Batch Style: each unit is complete self-contained, requiring minimal floor space",
+            "Ultra-low Temperature: system operation temperature as low as 40°C",
+            "Omni-directional: complete immersion of the treated material by anisotropic plasma",
+            "Environmentally Friendly: zero chemicals are used and no harmful substances are produced",
+            "Cleaning: remove fine dust, oil, grease and organic compounds",
+            "Activation: Increase surface energy to promote wetting and adhesion"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/anda/details/vpoffline-details-vp60.png"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/anda/details/vpoffline-details-vp80.png"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/anda/details/vpoffline-details-vp100.png"
+        },
+        {
+          "t": "img",
+          "src": "/images/products/anda/details/vpoffline-details-vp150.png"
+        }
+      ]
+    }
+  ]
+}

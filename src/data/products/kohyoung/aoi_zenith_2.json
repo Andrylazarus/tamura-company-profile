@@ -1,0 +1,88 @@
+{
+  "name": "Zenith 2",
+  "type": "Automated Optical Inspection System",
+  "image": "/images/products/kohyoung/aoi/AOI_Zenith-2_Product-Image_-285x300.png",
+  "tagline": "Revolutionary True 3D AOI delivering Incomparable Capabilities",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Zenith 2 is blazing a trail for AOI systems with novel SMT process management tools by combining advanced vision algorithms with innovative high-resolution optics, allowing a wider inspection coverage including advanced tall component inspection."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "h3",
+          "text": "Incomparable True 3D Inspection Performance"
+        },
+        {
+          "t": "p",
+          "text": "The Zenith AOI Series is the only solution in the industry to base its inspection criteria according to the IPC-610 standards for electronic assembly acceptability requirements. Koh Young’s quantitative True 3D measurement-based approach allows a wider inspection coverage including advanced tall component inspection.\nThe Zenith 2 delivers clear and precise AOI measurement to accurately identify multiple defects such as missing solder, offset, polarity, upside down, OCV/OCR, solder fillet, billboarding, lifted lead, lifted body, tombstone, bridging, and more."
+        },
+        {
+          "t": "h3",
+          "text": "Powerful Side-View Camera"
+        },
+        {
+          "t": "p",
+          "text": "Zenith 2’s powerful side-view camera option quickly identifies, measures, and analyzes potential defects on hidden or obscured components."
+        },
+        {
+          "t": "h3",
+          "text": "Advanced Tall Component Inspection"
+        },
+        {
+          "t": "p",
+          "text": "Due to the shadows cast upon shorter components near a tall part, measurement capabilities on board with tall components has traditionally been a challenge for AOIs. The Zenith 2 overcomes component shadow challenges based on incorporating multi-projection Moiré interferometry system and handles components up to 25mm tall."
+        },
+        {
+          "t": "h3",
+          "text": "Self-Diagnosis for Optimal Performance Maintenance"
+        },
+        {
+          "t": "p",
+          "text": "The leading-edge Zenith 2 AOI incorporates a patented mechatronic technology, which positions it as the ultimate AOI solution. Self-Diagnosis allows operators to take precautionary measures through predictive maintenance in order to reduce process interruptions, enhance equipment uptime, and ensure optimal machine performance.\nThe Self-Diagnosis feature comes with distinct modules which offers periodical machine check-ups on critical items such as 3D/2D light intensity, PZT feed, height accuracy, and XY offset."
+        },
+        {
+          "t": "h3",
+          "text": "AI-Powered Auto Programming (KAP)"
+        },
+        {
+          "t": "p",
+          "text": "Industry-leading 3D profilometry technology converges with Koh Young’s proprietary AI technology to deliver true automatic programming. The innovative geometry-based Koh Young Auto Programming (KAP) software solution reduces the programming process to minimizes time to production and reduces costs."
+        },
+        {
+          "t": "h3",
+          "text": "KSMART Solutions: True 3D Measurement-based Process Control System"
+        },
+        {
+          "t": "p",
+          "text": "Koh Young pioneered True 3D measurement technology 20 years ago to create a zero-defect future. This gave rise to KSMART Solutions and its continuous efforts to leverage data and connectivity.\nKSMART Solutions uses Artificial Intelligence to help automate process control while focusing on data management, analysis, and optimization. It collects data from across the factory line for defect detection, real-time optimization, enhance decisions, and traceability to improve metrics, increase quality, and lower costs by eliminating variance, false calls, and escapes."
+        },
+        {
+          "t": "h3",
+          "text": "Zero-defect through AI-Powered Koh Young Process Optimizer (KPO) Mounter"
+        },
+        {
+          "t": "p",
+          "text": "Koh Young is driven to help customers achieve a Zero-defect mounting process. Based on Koh Young’s accurate True 3D measurement data and its proprietary deep learning technology, Koh Young Process Optimizer (KPO) Mounter solution enables real-time mounting process optimization. It automatically analyze heads, nozzles, feeders, reels, and components to identify the issue, and then details the mounting parameters necessary to correct the fundamental problems.\nUsing AI-based analysis, KPO Mounter provides users with actionable insights. With KPO Printer solution, KPO Mounter can enhance your production quality and maximizes productivity to minimize cost of ownership, increase product quality, and maximize productivity."
+        }
+      ]
+    },
+    {
+      "title": "Equipped with high-speed model switching function",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Now we have many 'blue chip' companies like as YAMAHA MUSIC, SANYO, JVC, LG, and many others as our valuable customers. We've got a good reputation from those key customers and we are very proud of supporting the best quality products with excellent service and competitive price."
+        },
+        {
+          "t": "video",
+          "src": "/videos/tamura_showcase.mp4"
+        }
+      ]
+    }
+  ]
+}

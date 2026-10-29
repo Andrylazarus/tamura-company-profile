@@ -1,0 +1,170 @@
+{
+  "name": "AP-3 Series",
+  "type": "Plasma Surface Treatment",
+  "image": "/images/products/anda/anda-ap3.png",
+  "tagline": "AP-3 Series Plasma Surface Treatment Machine",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The AP-3 Series are advanced atmospheric pressure plasma surface treatment machines that are equipped with servo motors and high speed ball screw linear actuators for accuracy."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Inline Plasma Treatment: completely automated high production atmospheric plasma treatment processing",
+            "Atmospheric Pressure Plasma: generate plasma solely using compressed air without the need for carrier gases",
+            "Multi-functional: system can be used as standalone or placed inline with upstream or downstream operation processes",
+            "Environmentally Friendly: zero chemicals are used and no harmful substances are produced",
+            "Cleaning: remove fine dust, oil, grease, organic, inorganic and microbial contaminants",
+            "Activation: Increase surface energy to promote wetting and adhesion"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Specification",
+              "Details",
+              "Options"
+            ],
+            [
+              "Effective Work Area",
+              "L 450 x W 450 mm",
+              "L 17.72\" x W 17.72\""
+            ],
+            [
+              "Clearance Height",
+              "3 - 15 mm",
+              "0.12\" - 0.59\""
+            ],
+            [
+              "RF Power",
+              "500 W/1000 W",
+              "300 - 620 W"
+            ],
+            [
+              "RF Frequency",
+              "20 - 25 kHz",
+              "-"
+            ],
+            [
+              "Nitrogen Generator",
+              "Optional",
+              "-"
+            ],
+            [
+              "Process Flow",
+              "L to R",
+              "R to L"
+            ],
+            [
+              "Conveyor Type",
+              "Chain",
+              "-"
+            ],
+            [
+              "Conveyor Height",
+              "900 ± 20 mm",
+              "35.43” ± 0.79”"
+            ],
+            [
+              "Conveyor Speed",
+              "2 - 13 m/min",
+              "-"
+            ],
+            [
+              "Conveyor Width Adjustment",
+              "Manual",
+              "-"
+            ],
+            [
+              "Motor",
+              "Servo + Ball Screw Linear Actuator",
+              "-"
+            ],
+            [
+              "Spray Nozzle",
+              "AP-3P (Single above)",
+              "AP-3DP (Dual - above and below)"
+            ],
+            [
+              "Max. Movement Speed",
+              "800 mm/s",
+              "-"
+            ],
+            [
+              "Working Speed",
+              "50 - 100 mm/s",
+              "-"
+            ],
+            [
+              "Effective Operating Height",
+              "3 - 15 mm",
+              "0.12\" - 0.59\""
+            ],
+            [
+              "Repeated Accuracy",
+              "± 0.2 mm",
+              "± 0.007\""
+            ],
+            [
+              "Standard Footprint",
+              "L 900 x W 1300 x H 1627 mm",
+              "L 35.43” x W 51.18” x H 64.06”"
+            ],
+            [
+              "Weight",
+              "AP-3P: 530 kg",
+              "1168 lb"
+            ],
+            [
+              "Air Source",
+              "0.4 Mpa",
+              "-"
+            ],
+            [
+              "Extraction",
+              "5 m³/min",
+              "-"
+            ],
+            [
+              "Input Power",
+              "AC 220 V 50/60 Hz 1P",
+              "-"
+            ],
+            [
+              "Controller",
+              "PLC with touch screen control",
+              "-"
+            ],
+            [
+              "Software",
+              "Anda UI & Windows OS",
+              "-"
+            ],
+            [
+              "Programming",
+              "File transfer, On-line vision programming with keyboard/mouse",
+              "-"
+            ],
+            [
+              "Communication Protocols",
+              "SMEMA & IPC-CFX",
+              "-"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "PTI-818SII",
+  "type": "In-Circuit Tester",
+  "image": "/images/products/pti/PTI-818SII.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "One Piece Structure",
+        "Max 3920 Point",
+        "Universal test platform"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "img",
+          "src": "/images/products/pti/details/pti818sii_det01.png"
+        }
+      ]
+    }
+  ]
+}

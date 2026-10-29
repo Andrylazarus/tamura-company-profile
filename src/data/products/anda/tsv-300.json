@@ -1,0 +1,158 @@
+{
+  "name": "TSV-300",
+  "type": "Offline Dispensing Machine Series",
+  "image": "/images/products/anda/anda-tsv300.png",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "TSV Series desktop dispensing system is applicable for underall, LENS dispensing, FPC package, SMT red glue dispensing, solder past dispensing, LED package, fingerprint identication module, etc. at SMT & PCB assembly, semiconductor package, electromechanical assembly and flat-panel-display assembly."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Features & Benefits",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Standard Features\nOptional Features"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Computer Control, Windows OS",
+            "CCD visual positioning system",
+            "Servo Motor",
+            "UPS and voltage stabilizer",
+            "ESD grounding point",
+            "CE certified",
+            "Automatic constant temperature system to ensure consistent liquidity",
+            "Laser Height Detection to calibrate Z axis automatically for component deformation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Dispensing Parameters",
+              ""
+            ],
+            [
+              "Standard Work Area",
+              "X 300 × Y 300 mm\n(X 11.81“ × Y 11.81“)"
+            ],
+            [
+              "Maximum Components Height",
+              "95 mm (3.74”)"
+            ],
+            [
+              "Operation Height Level",
+              "950 ± 20 mm (37.40\" ± 0.79\")"
+            ],
+            [
+              "Number of Valve",
+              "1 set"
+            ],
+            [
+              "Nozzle Cleaner",
+              "Vacuum nozzle cleaning"
+            ],
+            [
+              "Transmission System",
+              ""
+            ],
+            [
+              "Number of Axes",
+              "X, Y, Z axis"
+            ],
+            [
+              "Driver",
+              "Servo motor"
+            ],
+            [
+              "Maximum Moving Speed",
+              "1000 mm/s"
+            ],
+            [
+              "Acceleration",
+              "0.8 g"
+            ],
+            [
+              "Position Accuracy",
+              "XY: ± 0.02 mm (±0.00078”)\nZ: ± 0.01 mm (±0.00039”)"
+            ],
+            [
+              "Repeatable Accuracy",
+              "XY: ≤ 0.015mm (≤ 0.00059”)\nZ: ± 0.005mm (±0.00019”)"
+            ],
+            [
+              "Vision System",
+              ""
+            ],
+            [
+              "Resolution",
+              "1296 x 966 px"
+            ],
+            [
+              "Pixel Size",
+              "3.75 x 3.75 μm"
+            ],
+            [
+              "Light Source",
+              "Combination of ring light and co-axial light"
+            ],
+            [
+              "Facility",
+              ""
+            ],
+            [
+              "Standard Footprint",
+              "L 810 x W 660 x H 760 mm\n(L 31.88” x W 25.98” x H 29.92”)"
+            ],
+            [
+              "Weight",
+              "80 kg (176 lb)"
+            ],
+            [
+              "Ventilation",
+              "12m3/min"
+            ],
+            [
+              "Air Requirement",
+              "95 psi (0.6MPa)"
+            ],
+            [
+              "Input Power",
+              "AC 220 V 50/60 Hz 10 A"
+            ],
+            [
+              "Interface",
+              ""
+            ],
+            [
+              "Controller",
+              "IPC and motion control card"
+            ],
+            [
+              "Software",
+              "Anda user interface with Windows OS"
+            ],
+            [
+              "Programming",
+              "On-line vision programming"
+            ],
+            [
+              "Communications Protocol",
+              "SMEMA"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Mini- Selective Wave Soldering System",
+  "type": "Wave Soldering System",
+  "image": "/images/products/jt/jt-miniselective.webp",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "list",
+      "items": [
+        "The soldering for double-side PCB can be applied automatically",
+        "Offline programming function / Gerber file can be applicable",
+        "Without any initial PCB data, the figure can be loaded quickly with simple & fast graphic programming; Selective flux spraying can control the flux processing accurately as well as keeping the clear surface of PCB with extremely low flux consumption",
+        "The temperature controls for top and bottom preheating are independent. Infrared heating can improve heating efficiency and keep temperature uniformity",
+        "Transmission speed of wave nozzle is adjustable. Online real-time wave height monitoring and auto calibration function",
+        "Adopted CCD camera to monitor solder processing, the soldering quality can be traced in whole processing"
+      ]
+    }
+  ],
+  "sections": []
+}
