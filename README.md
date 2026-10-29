@@ -30,7 +30,7 @@ Deploys to Vercel with no extra settings.
 ### Add a product
 
 1. Put a thumbnail in `public/images/catalog/` and the product photos in `public/images/products/<brand>/`.
-2. Add an entry to `products` in `src/data/catalog.js` (pick its `category` and `section`).
+2. Add an entry to `products` in `src/data/catalog.js` (pick its `category` and `section` from the `categories` list).
 3. For a detail page, add `src/data/products/<brand>/<slug>.json` and set the entry's
    `href` to `/products/<brand>/details/<slug>`. Leave `href: null` and the card links
    to the contact form instead.
@@ -59,7 +59,8 @@ A detail file looks like this; `blocks` can contain `h3`, `p`, `list`, `img`, `t
 - Colours: Tamura navy `#0c248c`, deep navy `#06175a`, signal red `#e82c35`, steel `#eef1f5`.
 - Type: Big Shoulders for headings, Instrument Sans for text, both self-hosted from
   `public/fonts` (SIL Open Font License, licence files included).
-- The red dots on the "assembly line" mark the product stages in the order a board
-  moves through a factory: marking, SMT, through-hole, test, coating, profiling.
+- Product categories follow the usual PCB assembly grouping: Marking, Surface Mount
+  Technology (SMT), Through-Hole Technology (THT), Conformal Coating and Others.
+  They are defined in `categories` in `src/data/catalog.js`.
 
 Brand names and logos belong to their manufacturers.

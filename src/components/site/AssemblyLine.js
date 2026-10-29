@@ -15,11 +15,10 @@ export default function AssemblyLine({ active, onSelect, title, hint }) {
         </div>
       )}
       <ol className="line__track">
-        {categories.map((c, i) => {
+        {categories.map((c) => {
           const count = productsIn(c.id).length;
           const inner = (
             <>
-              <span className="line__step">Stage {i + 1}</span>
               <span className="line__name">{c.name}</span>
               <span className="line__count">
                 {count} {count === 1 ? "model" : "models"}

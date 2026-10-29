@@ -8,7 +8,7 @@ export const categories = [
     name: "Marking",
     short: "Marking",
     summary:
-      "Laser, label and ink-jet marking for board and part traceability.",
+      "Laser marking, label placement and ink-jet marking for board traceability.",
     sections: [
       {
         id: "laser",
@@ -16,7 +16,7 @@ export const categories = [
       },
       {
         id: "label",
-        label: "Label marking",
+        label: "Label placement",
       },
       {
         id: "inkjet",
@@ -26,14 +26,14 @@ export const categories = [
   },
   {
     id: "smt",
-    name: "Surface mount (SMT)",
+    name: "Surface Mount Technology (SMT)",
     short: "SMT",
     summary:
-      "Solder paste inspection, reflow ovens and 3D optical inspection for SMT lines.",
+      "Solder paste inspection, reflow soldering and automated optical inspection.",
     sections: [
       {
         id: "spi",
-        label: "Solder paste inspection",
+        label: "Solder paste inspection (SPI)",
       },
       {
         id: "reflow",
@@ -41,49 +41,78 @@ export const categories = [
       },
       {
         id: "aoi",
-        label: "Optical inspection (AOI)",
+        label: "Automated optical inspection (AOI)",
       },
     ],
   },
   {
     id: "tht",
-    name: "Through-hole (THT)",
+    name: "Through-Hole Technology (THT)",
     short: "THT",
     summary:
-      "Component insertion, fluxing, wave and selective soldering for through-hole boards.",
+      "Component insertion, fluxing, selective and wave soldering, post-wave inspection.",
     sections: [
       {
         id: "insert",
-        label: "Auto insertion",
+        label: "Component insertion",
       },
       {
         id: "fluxer",
-        label: "Fluxers",
-      },
-      {
-        id: "wave",
-        label: "Wave soldering",
+        label: "Fluxing",
       },
       {
         id: "selective",
         label: "Selective soldering",
       },
       {
-        id: "aoi",
-        label: "Optical inspection (AOI)",
+        id: "wave",
+        label: "Wave soldering",
+      },
+      {
+        id: "postwave",
+        label: "Post-wave inspection",
       },
     ],
   },
   {
-    id: "test",
-    name: "Test",
-    short: "Test",
+    id: "coating",
+    name: "Conformal Coating",
+    short: "Coating",
     summary:
-      "In-circuit, functional and first-article test systems, offline and inline.",
+      "Plasma treatment, conformal coating, coating inspection and curing.",
     sections: [
       {
+        id: "plasma",
+        label: "Plasma treatment",
+      },
+      {
+        id: "coating",
+        label: "Coating",
+      },
+      {
+        id: "inspection",
+        label: "Coating inspection",
+      },
+      {
+        id: "curing",
+        label: "Curing",
+      },
+    ],
+  },
+  {
+    id: "others",
+    name: "Others",
+    short: "Others",
+    summary:
+      "Board handling, first article inspection, in-circuit and functional test, thermal profiling.",
+    sections: [
+      {
+        id: "handling",
+        label: "Board handling",
+      },
+      {
         id: "fai",
-        label: "First article inspection",
+        label: "First article inspection (FAI)",
       },
       {
         id: "ict",
@@ -97,47 +126,9 @@ export const categories = [
         id: "inline",
         label: "Inline ICT & FCT",
       },
-    ],
-  },
-  {
-    id: "coating",
-    name: "Conformal coating",
-    short: "Coating",
-    summary:
-      "Plasma cleaning, selective coating, curing, coating inspection and board handling.",
-    sections: [
-      {
-        id: "plasma",
-        label: "Plasma treatment",
-      },
-      {
-        id: "coating",
-        label: "Coating",
-      },
-      {
-        id: "curing",
-        label: "Curing",
-      },
-      {
-        id: "inspection",
-        label: "Coating inspection",
-      },
-      {
-        id: "handling",
-        label: "Board handling",
-      },
-    ],
-  },
-  {
-    id: "profiling",
-    name: "Thermal profiling",
-    short: "Profiling",
-    summary:
-      "Oven profilers that measure and verify reflow and wave thermal profiles.",
-    sections: [
       {
         id: "profiler",
-        label: "Thermal profilers",
+        label: "Thermal profiling",
       },
     ],
   },
@@ -695,7 +686,7 @@ export const products = [
     name: "AIS20X",
     brand: "Maker-Ray",
     category: "tht",
-    section: "aoi",
+    section: "postwave",
     href: "/products/maker-ray/details/ais20x",
     image: "/images/catalog/maker-ray-ais20x.webp",
   },
@@ -704,7 +695,7 @@ export const products = [
     name: "AIS30X",
     brand: "Maker-Ray",
     category: "tht",
-    section: "aoi",
+    section: "postwave",
     href: "/products/maker-ray/details/ais30x",
     image: "/images/catalog/maker-ray-ais30x.webp",
   },
@@ -712,7 +703,7 @@ export const products = [
     id: "pti-pti-500smt",
     name: "PTI-500SMT",
     brand: "PTI",
-    category: "test",
+    category: "others",
     section: "fai",
     href: "/products/pti/details/pti-500",
     image: "/images/catalog/pti-pti-500smt.webp",
@@ -721,7 +712,7 @@ export const products = [
     id: "pti-pti-500x-smt",
     name: "PTI-500X SMT",
     brand: "PTI",
-    category: "test",
+    category: "others",
     section: "fai",
     href: "/products/pti/details/pti-500x",
     image: "/images/catalog/pti-pti-500x-smt.webp",
@@ -730,7 +721,7 @@ export const products = [
     id: "pti-pti-816sii-ict",
     name: "PTI-816SII ICT",
     brand: "PTI",
-    category: "test",
+    category: "others",
     section: "ict",
     href: "/products/pti/details/pti-816sii",
     image: "/images/catalog/pti-pti-816sii-ict.webp",
@@ -739,7 +730,7 @@ export const products = [
     id: "pti-pti-818sii-ict",
     name: "PTI-818SII ICT",
     brand: "PTI",
-    category: "test",
+    category: "others",
     section: "mda",
     href: "/products/pti/details/pti-818sii",
     image: "/images/catalog/pti-pti-818sii-ict.webp",
@@ -748,7 +739,7 @@ export const products = [
     id: "pti-pti-2000",
     name: "PTI-2000",
     brand: "PTI",
-    category: "test",
+    category: "others",
     section: "inline",
     href: "/products/pti/details/pti-2000",
     image: "/images/catalog/pti-pti-2000.webp",
@@ -757,7 +748,7 @@ export const products = [
     id: "pti-pti-2000l",
     name: "PTI-2000L",
     brand: "PTI",
-    category: "test",
+    category: "others",
     section: "inline",
     href: "/products/pti/details/pti-2000l",
     image: "/images/catalog/pti-pti-2000l.webp",
@@ -766,7 +757,7 @@ export const products = [
     id: "pti-pti-2000b",
     name: "PTI-2000B",
     brand: "PTI",
-    category: "test",
+    category: "others",
     section: "inline",
     href: "/products/pti/details/pti-2000b",
     image: "/images/catalog/pti-pti-2000b.webp",
@@ -775,7 +766,7 @@ export const products = [
     id: "pti-pti-8090",
     name: "PTI-8090",
     brand: "PTI",
-    category: "test",
+    category: "others",
     section: "inline",
     href: "/products/pti/details/pti-8090",
     image: "/images/catalog/pti-pti-8090.webp",
@@ -883,7 +874,7 @@ export const products = [
     id: "anda-adj-460",
     name: "ADJ-460",
     brand: "Anda",
-    category: "coating",
+    category: "others",
     section: "handling",
     href: "/products/anda/details/adj460",
     image: "/images/catalog/anda-adj-460.webp",
@@ -892,7 +883,7 @@ export const products = [
     id: "anda-adj-460uv",
     name: "ADJ-460UV",
     brand: "Anda",
-    category: "coating",
+    category: "others",
     section: "handling",
     href: "/products/anda/details/adj460uv",
     image: "/images/catalog/anda-adj-460uv.webp",
@@ -901,7 +892,7 @@ export const products = [
     id: "anda-sj-460",
     name: "SJ-460",
     brand: "Anda",
-    category: "coating",
+    category: "others",
     section: "handling",
     href: "/products/anda/details/sj460",
     image: "/images/catalog/anda-sj-460.webp",
@@ -910,7 +901,7 @@ export const products = [
     id: "anda-ul-460w",
     name: "UL-460W",
     brand: "Anda",
-    category: "coating",
+    category: "others",
     section: "handling",
     href: "/products/anda/details/ul460w",
     image: "/images/catalog/anda-ul-460w.webp",
@@ -919,7 +910,7 @@ export const products = [
     id: "kic-kic-profiler-k",
     name: "KIC Profiler K²",
     brand: "KIC",
-    category: "profiling",
+    category: "others",
     section: "profiler",
     href: "/products/kic/details/kic-profiler-k2",
     image: "/images/catalog/kic-kic-profiler-k.webp",
@@ -928,7 +919,7 @@ export const products = [
     id: "kic-kicstart",
     name: "KICstart²",
     brand: "KIC",
-    category: "profiling",
+    category: "others",
     section: "profiler",
     href: "/products/kic/details/kic-start2",
     image: "/images/catalog/kic-kicstart.webp",

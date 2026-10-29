@@ -435,9 +435,8 @@ a {
 }
 .mega__item a {
   display: grid;
-  grid-template-columns: 28px 1fr;
-  gap: 2px 10px;
-  padding: 12px 12px 12px 8px;
+  gap: 2px;
+  padding: 12px;
   text-decoration: none;
   border-radius: var(--radius);
 }
@@ -635,7 +634,7 @@ body.menu-open .site-header.is-overlay {
 .line__track {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin: 0;
   padding: 0;
   list-style: none;

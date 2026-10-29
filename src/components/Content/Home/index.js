@@ -1,7 +1,7 @@
 import Link from "next/link";
 import AssemblyLine from "@/components/site/AssemblyLine";
 import ProductCard from "@/components/site/ProductCard";
-import { brands, products, featuredIds } from "@/data/catalog";
+import { brands, categories, products, featuredIds } from "@/data/catalog";
 import { company } from "@/data/company";
 
 const services = [
@@ -35,7 +35,7 @@ export default function HomeContent() {
         <div className="container hero__content">
           <p className="hero__company">{company.name}</p>
           <h1 className="display">
-            Equipment and support for every stage of PCB assembly
+            Equipment and support for PCB assembly lines
           </h1>
           <p className="hero__lead">
             We supply inspection, soldering, coating and test machines from{" "}
@@ -56,8 +56,8 @@ export default function HomeContent() {
       <div className="line-plate">
         <div className="container">
           <AssemblyLine
-            title="Find equipment by stage of your line"
-            hint="Select a stage to see the machines for it"
+            title="Browse products by process"
+            hint="Choose a category to see its machines"
           />
         </div>
       </div>
@@ -89,7 +89,9 @@ export default function HomeContent() {
               </div>
               <div>
                 <dt>{products.length}</dt>
-                <dd>Machine models across six process stages</dd>
+                <dd>
+                  Machine models across {categories.length} product categories
+                </dd>
               </div>
               <div>
                 <dt>Jakarta</dt>

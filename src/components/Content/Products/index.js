@@ -106,7 +106,7 @@ export default function Products() {
     <>
       <PageHead
         title="Products"
-        lead="Machines for each stage of electronics assembly, from marking and SMT through to test and conformal coating."
+        lead="Machines for marking, SMT, through-hole, conformal coating, test and thermal profiling."
         photo="/images/web/pcb-color.jpg"
       >
         <form
@@ -134,9 +134,9 @@ export default function Products() {
       <div className="catalog-bar">
         <div className="container">
           <AssemblyLine
-            title="Filter by stage"
+            title="Filter by category"
             hint={
-              activeCategory ? activeCategory.summary : "Showing every stage"
+              activeCategory ? activeCategory.summary : "Showing all categories"
             }
             active={category}
             onSelect={(id) =>

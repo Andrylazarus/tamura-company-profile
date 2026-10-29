@@ -178,13 +178,12 @@ export default function SiteHeader({ variant = "solid" }) {
         >
           <div className="container mega__inner">
             <ol className="mega__list">
-              {categories.map((c, i) => (
+              {categories.map((c) => (
                 <li key={c.id} className="mega__item">
                   <Link
                     href={`/products?category=${c.id}`}
                     onClick={() => setMegaOpen(false)}
                   >
-                    <span className="mega__num">{i + 1}</span>
                     <span className="mega__name">{c.name}</span>
                     <span className="mega__desc">{c.summary}</span>
                   </Link>
@@ -193,8 +192,8 @@ export default function SiteHeader({ variant = "solid" }) {
             </ol>
             <div className="mega__aside">
               <p>
-                Products are grouped in the order a board moves down the line,
-                from marking to final test.
+                Browse machines for marking, SMT, through-hole, conformal coating
+                and more, or search by model name.
               </p>
               <Link
                 href="/products"
