@@ -1,0 +1,134 @@
+{
+  "name": "SPS Smart Profiler",
+  "type": "Smart Thermal Profiler",
+  "image": null,
+  "tagline": "Thermal profiling that shows where your process is and where it should be",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The KIC SPS Smart Profiler turns thermal data collection from a chore into a useful task. It combines current data processing and wireless technology with KIC's profiling and optimization software, and shares linked profile data with authorized people."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "7, 9, 12 and 24 channel versions with standard Type K thermocouples (24 channels need extra hardware or software)",
+            "Liquid Crystal Polymer (LCP) enclosure for better protection and faster cool-down between profiles",
+            "Thermal shields that open and close easily and securely, built to pass strict drop tests",
+            "Data transfer by USB, or in real time over Wi-Fi on some models",
+            "Long use between charges; recharge by USB or wall socket",
+            "Automatic slope, peak temperature, time above liquidus and Process Window Index (PWI)",
+            "Navigator Power optimization software included",
+            "2-year warranty and 24-hour customer support"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Channels", "7, 9, 12 or 24"],
+            ["Thermocouple type", "Type K"],
+            ["Enclosure", "Liquid Crystal Polymer (LCP)"],
+            [
+              "Connectivity",
+              "USB; Wi-Fi on some models; Smart Dock (Wi-Fi – ANT) in some kits"
+            ],
+            [
+              "Software",
+              "KIC Profiling Software 2G, Navigator Power, Auto-Focus Power"
+            ],
+            ["Warranty", "2 years"],
+            [
+              "PC requirements",
+              "Dual-core 1 GHz, 2 GB RAM, 2 GB storage, 1024 × 768 display, 2 USB ports"
+            ]
+          ]
+        },
+        {
+          "t": "link",
+          "href": "https://kicthermal.com/wp-content/uploads/2022/06/KIC-SPS-en-R2206B-web.pdf",
+          "text": "SPS datasheet (PDF)"
+        },
+        {
+          "t": "link",
+          "href": "https://kicthermal.com/products/profiling-solutions/sps-smart-profiler/",
+          "text": "SPS Smart Profiler"
+        }
+      ]
+    }
+  ],
+  "ja": {
+    "type": "スマート温度プロファイラー",
+    "tagline": "プロセスの現状と目標を示す温度プロファイリング",
+    "intro": [
+      {
+        "t": "p",
+        "text": "KIC SPSスマートプロファイラーは、手間のかかる温度データ収集を価値ある作業に変えます。最新のデータ処理と無線技術をKICのプロファイリング・最適化ソフトウェアと組み合わせ、プロファイルデータを関係者と共有できます。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "標準K型熱電対を使用する7・9・12・24チャンネル仕様（24チャンネルは追加のハードウェアまたはソフトウェアが必要）",
+              "液晶ポリマー（LCP）筐体で保護性能が高く、測定間の冷却が速い",
+              "簡単・確実に開閉でき、厳しい落下試験に合格するよう設計されたサーマルシールド",
+              "USB、または一部モデルではWi-Fiによるリアルタイムのデータ転送",
+              "充電間の長時間使用、USBまたはコンセントで充電",
+              "傾き、ピーク温度、液相線以上の時間、プロセスウィンドウインデックス（PWI）を自動測定",
+              "最適化ソフトウェア Navigator Power を標準搭載",
+              "2年保証と24時間カスタマーサポート"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              ["チャンネル数", "7、9、12、24"],
+              ["熱電対", "K型"],
+              ["筐体", "液晶ポリマー（LCP）"],
+              [
+                "接続",
+                "USB、一部モデルでWi-Fi、一部キットにSmart Dock（Wi-Fi – ANT）付属"
+              ],
+              [
+                "ソフトウェア",
+                "KIC Profiling Software 2G、Navigator Power、Auto-Focus Power"
+              ],
+              ["保証", "2年"],
+              [
+                "PC要件",
+                "デュアルコア 1 GHz、2 GB RAM、2 GB の空き容量、1024 × 768 表示、USBポート2つ"
+              ]
+            ]
+          },
+          {
+            "t": "link",
+            "href": "https://kicthermal.com/wp-content/uploads/2022/06/KIC-SPS-en-R2206B-web.pdf",
+            "text": "SPS データシート（PDF）"
+          },
+          {
+            "t": "link",
+            "href": "https://kicthermal.com/products/profiling-solutions/sps-smart-profiler/",
+            "text": "SPS Smart Profiler"
+          }
+        ]
+      }
+    ]
+  }
+}

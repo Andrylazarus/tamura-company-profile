@@ -6,7 +6,7 @@
   "intro": [
     {
       "t": "p",
-      "text": "The Panasonic NPM-GP/L is the newest screen printer in the NPM-G series. It recovers the solder left on the mask after printing and moves it to the mask for the next model, and its APC-5M function monitors the solder paste in real time to time maintenance and track conditions."
+      "text": "The NPM-GP/L is the newest screen printer in Panasonic's NPM-G series. After printing it recovers the solder left on the mask and moves it to the mask for the next model, and its APC-5M function monitors solder paste in real time to time maintenance and track conditions."
     }
   ],
   "sections": [
@@ -18,9 +18,8 @@
           "items": [
             "12-second printing cycle time",
             "Repeat positioning accuracy of ±3.8 μm",
-            "Automatic model changeover, solder transfer and solder supply cut downtime",
-            "Cleaning after each cycle, with maintenance timed from live data",
-            "Receives ongoing autonomous updates as production demand changes"
+            "Automatic model changeover, solder transfer and solder supply reduce downtime",
+            "Unit cleaning after each cycle, with maintenance timed from live data"
           ]
         }
       ]
@@ -31,28 +30,104 @@
         {
           "t": "table",
           "rows": [
-            ["Model", "NPM-GP/L (NM-EJP2B)", ""],
-            ["PCB size", "L 50 × W 50 to L 510 × W 510 mm", ""],
-            ["PCB exchange time", "12.0 s (PCB L 250 × W 150 mm, incl. transport, positioning, recognition, printing and cleaning)", ""],
-            ["Repeatability", "±3.8 μm (2 Cpk, ±3σ)", ""],
-            ["Printing accuracy", "±15.0 μm (2 Cpk, ±6σ)", ""],
-            ["Screen frame size", "736 × 736, 750 × 750, 650 × 550, 600 × 550, 550 × 650, 584 × 584, 736 × 584, 584 × 736 mm", ""],
-            ["Electric source", "Single-phase AC 200 / 220 / 230 / 240 V ±10 V, max. 3.3 kVA", ""],
-            ["Pneumatic source", "0.5 MPa, 30 L/min (motor vacuum) or 400 L/min (ejector vacuum)", ""],
-            ["Dimensions", "W 1,580 × D 1,800 × H 1,500 mm", ""],
-            ["Mass", "1,750 kg (fully optioned)", ""]
+            ["Model", "NPM-GP/L (NM-EJP2B)"],
+            ["PCB size", "L 50 × W 50 to L 510 × W 510 mm"],
+            [
+              "PCB exchange time",
+              "12.0 s (PCB L 250 × W 150 mm, incl. transport, positioning, recognition, printing and cleaning)"
+            ],
+            ["Repeatability", "±3.8 μm (2 Cpk, ±3σ)"],
+            ["Printing accuracy", "±15.0 μm (2 Cpk, ±6σ)"],
+            [
+              "Screen frame size",
+              "736 × 736, 750 × 750, 650 × 550, 600 × 550, 550 × 650, 584 × 584, 736 × 584, 584 × 736 mm"
+            ],
+            [
+              "Electric source",
+              "Single-phase AC 200 / 220 / 230 / 240 V ±10 V, max. 3.3 kVA"
+            ],
+            [
+              "Pneumatic source",
+              "0.5 MPa, 30 L/min (motor vacuum) or 400 L/min (ejector vacuum)"
+            ],
+            ["Dimensions", "W 1,580 × D 1,800 × H 1,500 mm"],
+            ["Mass", "1,750 kg (fully optioned)"]
           ]
         },
         {
           "t": "p",
-          "text": "Standard specifications from Panasonic, measured under Panasonic-specified conditions. Exchange time varies with neighbouring machines, PCB size and PCB holders."
+          "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
         },
         {
           "t": "link",
           "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/screen-printers/npm-gpl-next-generation-printer",
-          "text": "NPM-GP/L product page"
+          "text": "NPM-GP/L"
         }
       ]
     }
-  ]
+  ],
+  "ja": {
+    "type": "次世代スクリーン印刷機",
+    "tagline": "12秒の印刷サイクルと、自動段取り替え・はんだ供給",
+    "intro": [
+      {
+        "t": "p",
+        "text": "NPM-GP/Lは、パナソニックNPM-Gシリーズの最新スクリーン印刷機です。印刷後にマスク上に残ったはんだを回収して次の機種のマスクへ移し替え、APC-5M機能ではんだペーストをリアルタイムに監視して、メンテナンス時期や環境条件を管理します。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "12秒の印刷サイクルタイム",
+              "繰り返し位置決め精度 ±3.8 μm",
+              "自動段取り替え、はんだ移し替え・自動供給で停止時間を削減",
+              "毎サイクルのクリーニングと、データに基づくメンテナンス時期の最適化"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              ["型番", "NPM-GP/L（NM-EJP2B）"],
+              ["基板寸法", "L 50 × W 50 ～ L 510 × W 510 mm"],
+              [
+                "基板交換時間",
+                "12.0 秒（基板 L 250 × W 150 mm、搬送・位置決め・認識・印刷・クリーニングを含む）"
+              ],
+              ["繰り返し精度", "±3.8 μm（2 Cpk、±3σ）"],
+              ["印刷精度", "±15.0 μm（2 Cpk、±6σ）"],
+              [
+                "スクリーン枠寸法",
+                "736 × 736、750 × 750、650 × 550、600 × 550、550 × 650、584 × 584、736 × 584、584 × 736 mm"
+              ],
+              ["電源", "単相 AC 200 / 220 / 230 / 240 V ±10 V、最大 3.3 kVA"],
+              [
+                "空圧源",
+                "0.5 MPa、30 L/min（モーター真空）または 400 L/min（エジェクター真空）"
+              ],
+              ["外形寸法", "W 1,580 × D 1,800 × H 1,500 mm"],
+              ["質量", "1,750 kg（フルオプション時）"]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
+          },
+          {
+            "t": "link",
+            "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/screen-printers/npm-gpl-next-generation-printer",
+            "text": "NPM-GP/L"
+          }
+        ]
+      }
+    ]
+  }
 }

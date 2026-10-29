@@ -1,0 +1,134 @@
+{
+  "name": "NPM-TT2",
+  "type": "Twin Tray Placement Platform",
+  "image": null,
+  "tagline": "Up to 40 trays and 92 inputs for high-mix production",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Panasonic NPM-TT2 is a twin-tray modular SMT platform for any production mix. Dual-lane operation can build more of one product or two different products at once, with a lightweight 3-nozzle head V2 (100 N), optional pin-in-place lighting and stackable stick feeders."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Lightweight 8-nozzle or 3-nozzle head V2",
+            "Parts from 01005 (0402) up to 120 × 90 × 28 mm; BGAs up to 80 × 80 mm",
+            "Up to 40 trays plus 26 fixed tape inputs per side, 92 inputs in total",
+            "Checks tray components before pickup",
+            "Feeders and nozzles compatible with CM and NPM series"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "NPM-TT2 (NM-EJM1E)"],
+            ["PCB size, single lane", "L 50 × W 50 to L 510 × W 590 mm"],
+            ["PCB size, dual lane", "L 50 × W 50 to L 510 × W 300 mm"],
+            [
+              "PCB exchange time",
+              "Single lane: 4.0 s; dual lane: 0 s (not 0 s when cycle time ≤ 4.0 s)"
+            ],
+            [
+              "Component size",
+              "01005 (0402) chip to L 120 × W 90 × T 28 mm; BGA up to 80 × 80 mm"
+            ],
+            ["Trays", "Up to 40"],
+            [
+              "Tape inputs",
+              "26 fixed per side (92 inputs in total with trays)"
+            ],
+            [
+              "Electric source",
+              "3-phase AC 200 / 220 / 380 / 400 / 420 / 480 V, 2.5 kVA"
+            ],
+            ["Pneumatic source", "Min. 0.5 MPa, 200 L/min"],
+            ["Dimensions", "W 1,300 × D 2,798 × H 1,444 mm (main body)"],
+            ["Mass", "2,690 kg (main body)"]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
+        },
+        {
+          "t": "link",
+          "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-tt2-twin-tray-assembly-platform",
+          "text": "NPM-TT2"
+        }
+      ]
+    }
+  ],
+  "ja": {
+    "type": "ツイントレイ 部品実装プラットフォーム",
+    "tagline": "最大40トレイ・92品種の高混流生産向け",
+    "intro": [
+      {
+        "t": "p",
+        "text": "パナソニックNPM-TT2は、あらゆる生産形態に対応するツイントレイ式のモジュール型SMTプラットフォームです。デュアルレーンで同一製品の増産も2品種の同時生産も可能で、軽量3ノズルヘッドV2（100 N）、ピンインプレース用照明（オプション）、積み重ね式スティックフィーダーを備えています。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "軽量8ノズルまたは3ノズルヘッドV2",
+              "01005（0402）～ 120 × 90 × 28 mm の部品、80 × 80 mm までの BGA",
+              "最大40トレイと片側26品種の固定テープ、合計92品種",
+              "吸着前にトレイ部品を確認",
+              "フィーダーとノズルは CM・NPM シリーズと共通"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              ["型番", "NPM-TT2（NM-EJM1E）"],
+              ["基板寸法（シングルレーン）", "L 50 × W 50 ～ L 510 × W 590 mm"],
+              ["基板寸法（デュアルレーン）", "L 50 × W 50 ～ L 510 × W 300 mm"],
+              [
+                "基板交換時間",
+                "シングルレーン：4.0 秒、デュアルレーン：0 秒（サイクルタイム 4.0 秒以下を除く）"
+              ],
+              [
+                "部品寸法",
+                "01005（0402）チップ ～ L 120 × W 90 × T 28 mm、BGA 最大 80 × 80 mm"
+              ],
+              ["トレイ数", "最大 40"],
+              ["テープ品種数", "片側 26 品種固定（トレイを含め合計 92 品種）"],
+              ["電源", "三相 AC 200 / 220 / 380 / 400 / 420 / 480 V、2.5 kVA"],
+              ["空圧源", "最小 0.5 MPa、200 L/min"],
+              ["外形寸法", "W 1,300 × D 2,798 × H 1,444 mm（本体）"],
+              ["質量", "2,690 kg（本体）"]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
+          },
+          {
+            "t": "link",
+            "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-tt2-twin-tray-assembly-platform",
+            "text": "NPM-TT2"
+          }
+        ]
+      }
+    ]
+  }
+}

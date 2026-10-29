@@ -1,0 +1,133 @@
+{
+  "name": "SPV-DC",
+  "type": "Dual-Lane Screen Printer",
+  "image": null,
+  "tagline": "Compact dual-lane printing with paperless cleaning",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Panasonic SPV-DC is a compact screen printer for high-efficiency dual-lane production. Paperless cleaning lowers running costs, and mask and solder inspection protect print quality in a line with Panasonic mounters."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Paperless cleaning reduces paper and solvent use",
+            "Perforated pot-type automatic solder supply for uninterrupted operation",
+            "Switch-type PCB pickup blower creates airflow from mask to PCB",
+            "Mask inspection helps prevent aperture clogging and solder bleed",
+            "Solder inspection catches displacement, bridging, streaking and bleeding"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "SPV-DC (NM-EJP9A)"],
+            [
+              "PCB size",
+              "L 50 × W 50 to L 350 × W 300 mm (L 350 × W 250 mm with paperless cleaning)"
+            ],
+            [
+              "Cycle time",
+              "13.0 s (6.5 s per PCB), PCB L 250 × W 165 mm, incl. transfer, positioning, recognition and cleaning"
+            ],
+            ["Repeatability", "±5.0 μm (2 Cpk, 6σ)"],
+            [
+              "Screen frame size",
+              "736 × 736, 650 × 550, 550 × 650, 750 × 750, 584 × 584 mm"
+            ],
+            [
+              "Electric source",
+              "Single-phase AC 200 / 220 / 230 / 240 V ±10 V, max. 4.0 kVA"
+            ],
+            ["Pneumatic source", "0.5 MPa, 560 L/min (with mask suction)"],
+            ["Dimensions", "W 1,650 × D 2,446 × H 1,500 mm (max. D 2,528 mm)"],
+            ["Mass", "2,650 kg (full options)"]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
+        },
+        {
+          "t": "link",
+          "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/screen-printers/spv-dc-screen-printer",
+          "text": "SPV-DC"
+        }
+      ]
+    }
+  ],
+  "ja": {
+    "type": "デュアルレーン スクリーン印刷機",
+    "tagline": "ペーパーレスクリーニング搭載のコンパクトなデュアルレーン印刷機",
+    "intro": [
+      {
+        "t": "p",
+        "text": "パナソニックSPV-DCは、高効率なデュアルレーン生産向けのコンパクトなスクリーン印刷機です。ペーパーレスクリーニングでランニングコストを抑え、マスク検査とはんだ検査でパナソニック実装機ラインの印刷品質を守ります。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "ペーパーレスクリーニングで紙と溶剤の使用量を削減",
+              "穴あきポット式の自動はんだ供給で連続運転",
+              "切替式の基板吸着ブロワーでマスクから基板への気流を生成",
+              "マスク検査で開口部の目詰まりやはんだにじみを防止",
+              "はんだ検査で位置ずれ、ブリッジ、かすれ、にじみを検出"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              ["型番", "SPV-DC（NM-EJP9A）"],
+              [
+                "基板寸法",
+                "L 50 × W 50 ～ L 350 × W 300 mm（ペーパーレスクリーニング時 L 350 × W 250 mm）"
+              ],
+              [
+                "サイクルタイム",
+                "13.0 秒（1枚あたり 6.5 秒）、基板 L 250 × W 165 mm、搬送・位置決め・認識・クリーニングを含む"
+              ],
+              ["繰り返し精度", "±5.0 μm（2 Cpk、6σ）"],
+              [
+                "スクリーン枠寸法",
+                "736 × 736、650 × 550、550 × 650、750 × 750、584 × 584 mm"
+              ],
+              ["電源", "単相 AC 200 / 220 / 230 / 240 V ±10 V、最大 4.0 kVA"],
+              ["空圧源", "0.5 MPa、560 L/min（マスク吸着使用時）"],
+              ["外形寸法", "W 1,650 × D 2,446 × H 1,500 mm（最大 D 2,528 mm）"],
+              ["質量", "2,650 kg（フルオプション時）"]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
+          },
+          {
+            "t": "link",
+            "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/screen-printers/spv-dc-screen-printer",
+            "text": "SPV-DC"
+          }
+        ]
+      }
+    ]
+  }
+}

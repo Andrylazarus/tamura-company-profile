@@ -1,0 +1,212 @@
+{
+  "name": "Profiler X⁵",
+  "type": "Intelligent Thermal Profiler",
+  "image": null,
+  "tagline": "Compact, rugged profiler with automatic oven setup",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The KIC Profiler X⁵ is a compact, rugged intelligent thermal profiler built for tough daily handling. Its circuitry tolerates the voltage spikes found in some ovens and wave solder machines, it runs on batteries or USB power, and its software picks the best oven setup for each new board."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "7, 9 and 12 channel versions with standard Type K thermocouple connectors",
+            "Datalogger model downloads by USB; RF dual-unit model sends data to the PC in real time",
+            "Measures slope, peak temperature and time above liquidus, and calculates the Process Window Index (PWI)",
+            "Navigator Power finds the best oven setup: centre of the process window, maximum conveyor speed or minimum electricity use",
+            "Prediction of profile changes from setpoint changes, and SPC charts for trends",
+            "3 AAA batteries (rechargeable optional); powered by USB when connected",
+            "2-year standard warranty"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Channels", "7, 9 or 12"],
+            ["Thermocouple type", "Type K"],
+            ["Thermocouple range", "-150 °C to 1050 °C"],
+            ["Accuracy", "±0.5 °C (factory calibration)"],
+            ["Resolution", "0.1 °C"],
+            ["Sample rate", "0.002 to 10 readings per second"],
+            ["Data points", "224,640"],
+            ["Internal operating temperature", "0 °C to 85 °C"],
+            ["Power", "3 AAA batteries; USB power when connected"],
+            ["Connectivity", "USB 2.0; RF wireless on the dual-unit model"],
+            [
+              "Dimensions (L × W × H)",
+              "7 ch: 202 × 60 × 17 mm\n9 ch: 202 × 75 × 17 mm\n12 ch: 208 × 98 × 17 mm"
+            ],
+            ["Warranty", "2 years"]
+          ]
+        },
+        {
+          "t": "h3",
+          "text": "Thermal shield endurance (minutes)"
+        },
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Shield",
+              "150 °C",
+              "200 °C",
+              "250 °C",
+              "300 °C",
+              "350 °C",
+              "400 °C"
+            ],
+            [
+              "Cool Touch stainless, 7 ch",
+              "17.5",
+              "12.0",
+              "9.0",
+              "7.7",
+              "6.5",
+              "–"
+            ],
+            [
+              "Cool Touch stainless, 9 ch",
+              "18.1",
+              "13.1",
+              "10.1",
+              "8.4",
+              "6.7",
+              "–"
+            ],
+            [
+              "Cool Touch stainless, 12 ch",
+              "17.7",
+              "12.0",
+              "8.9",
+              "7.4",
+              "6.1",
+              "–"
+            ],
+            ["HT Shield 400", "24.9", "17.6", "14.0", "11.5", "10.1", "9.2"]
+          ]
+        },
+        {
+          "t": "link",
+          "href": "https://kicthermal.com/products/profiling-solutions/kic-profiler-x5-2/",
+          "text": "Profiler X⁵"
+        }
+      ]
+    }
+  ],
+  "ja": {
+    "type": "インテリジェント温度プロファイラー",
+    "tagline": "オーブン条件を自動で選ぶ、コンパクトで頑丈なプロファイラー",
+    "intro": [
+      {
+        "t": "p",
+        "text": "KIC Profiler X⁵は、日々のハードな使用に耐えるコンパクトで頑丈なインテリジェント温度プロファイラーです。一部のリフロー炉やフローはんだ装置で発生する電圧スパイクに耐える回路を備え、電池またはUSB給電で動作し、ソフトウェアが新しい基板ごとに最適なオーブン設定を選びます。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "標準K型熱電対コネクタを備えた7・9・12チャンネル仕様",
+              "データロガーモデルはUSBでダウンロード、RFデュアルユニットモデルはPCへリアルタイム送信",
+              "傾き、ピーク温度、液相線以上の時間を測定し、プロセスウィンドウインデックス（PWI）を算出",
+              "Navigator Powerが、プロセスウィンドウの中心、最大コンベア速度、最小消費電力の基準で最適なオーブン設定を算出",
+              "設定変更によるプロファイル変化の予測と、傾向を示すSPCチャート",
+              "単4電池3本（充電式はオプション）、接続時はUSB給電",
+              "標準2年保証"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              ["チャンネル数", "7、9、12"],
+              ["熱電対", "K型"],
+              ["熱電対測定範囲", "-150 °C ～ 1050 °C"],
+              ["精度", "±0.5 °C（工場校正）"],
+              ["分解能", "0.1 °C"],
+              ["サンプリング", "毎秒 0.002 ～ 10 回"],
+              ["データ点数", "224,640"],
+              ["内部動作温度", "0 °C ～ 85 °C"],
+              ["電源", "単4電池3本、接続時はUSB給電"],
+              ["接続", "USB 2.0、デュアルユニットモデルはRF無線"],
+              [
+                "外形寸法（L × W × H）",
+                "7ch：202 × 60 × 17 mm\n9ch：202 × 75 × 17 mm\n12ch：208 × 98 × 17 mm"
+              ],
+              ["保証", "2年"]
+            ]
+          },
+          {
+            "t": "h3",
+            "text": "サーマルシールドの耐熱時間（分）"
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "シールド",
+                "150 °C",
+                "200 °C",
+                "250 °C",
+                "300 °C",
+                "350 °C",
+                "400 °C"
+              ],
+              [
+                "Cool Touch ステンレス 7ch",
+                "17.5",
+                "12.0",
+                "9.0",
+                "7.7",
+                "6.5",
+                "–"
+              ],
+              [
+                "Cool Touch ステンレス 9ch",
+                "18.1",
+                "13.1",
+                "10.1",
+                "8.4",
+                "6.7",
+                "–"
+              ],
+              [
+                "Cool Touch ステンレス 12ch",
+                "17.7",
+                "12.0",
+                "8.9",
+                "7.4",
+                "6.1",
+                "–"
+              ],
+              ["HT Shield 400", "24.9", "17.6", "14.0", "11.5", "10.1", "9.2"]
+            ]
+          },
+          {
+            "t": "link",
+            "href": "https://kicthermal.com/products/profiling-solutions/kic-profiler-x5-2/",
+            "text": "Profiler X⁵"
+          }
+        ]
+      }
+    ]
+  }
+}

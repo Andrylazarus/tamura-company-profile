@@ -1,12 +1,12 @@
 {
   "name": "NPM-GH",
-  "type": "Autonomous Component Placement Machine",
+  "type": "Autonomous Placement Machine",
   "image": null,
-  "tagline": "High-speed, labour-saving placement for SMT lines",
+  "tagline": "First of the G-series: high output with minimal operator work",
   "intro": [
     {
       "t": "p",
-      "text": "The Panasonic NPM-GH is a component placement machine from the NPM-G series, built to reduce operator work on the line. It handles parts from 0201 chips up to large components, on single or dual lanes."
+      "text": "The Panasonic NPM-GH is the first machine in the G-series. Three newly designed lightweight heads and shorter spindle strokes raise output and cut vibration, and predictive and targeted maintenance help keep the line running with minimal operator intervention."
     }
   ],
   "sections": [
@@ -16,11 +16,11 @@
         {
           "t": "list",
           "items": [
-            "Up to 55,500 cph (0.065 s/chip) with the 16-nozzle head",
-            "Placement accuracy down to ±10 μm/chip with the 3-nozzle head",
-            "Single-lane or dual-lane PCB transfer",
-            "Tape, stick and tray component supply, up to 80 feeder inputs (4 mm / 8 mm tape)",
-            "Components from 0201 chips up to L 150 × W 25 × T 30 mm"
+            "Up to 55,500 cph (0.065 s/chip)",
+            "Placement accuracy down to ±10 μm/chip (with ASF)",
+            "New lightweight 16-, 8- and 3-nozzle heads",
+            "Predictive and targeted maintenance options",
+            "Compatible with existing feeders and assets; 12.1-inch display"
           ]
         }
       ]
@@ -31,28 +31,126 @@
         {
           "t": "table",
           "rows": [
-            ["Model", "NPM-GH", ""],
-            ["PCB size, single lane", "L 50 × W 50 to L 510 × W 590 mm", ""],
-            ["PCB size, dual lane", "L 50 × W 50 to L 510 × W 300 mm", ""],
-            ["Heads", "2", ""],
-            ["Placement speed", "16-nozzle head: 55,500 cph (0.065 s/chip)\n8-nozzle head: 51,000 cph (0.071 s/chip)\n3-nozzle head: 20,000 cph (0.180 s/chip)", ""],
-            ["Placement accuracy (Cpk ≥ 1)", "±25 μm/chip, ±15 μm/chip, ±10 μm/chip (±10 μm with ASF only)", ""],
-            ["Component size", "0201 chip to L 120 × W 90 × T 30 mm or L 150 × W 25 × T 30 mm", ""],
-            ["PCB transfer", "Single or dual lane", ""],
-            ["Component supply", "Tape, stick, tray", ""],
-            ["Max. component inputs", "80 (4 mm / 8 mm tape)", ""]
+            ["Model", "NPM-GH (NM-EJM8E)"],
+            ["PCB size, single lane", "L 50 × W 50 to L 510 × W 590 mm"],
+            ["PCB size, dual lane", "L 50 × W 50 to L 510 × W 300 mm"],
+            ["Heads", "16 / 8 / 3 nozzle"],
+            [
+              "Max. speed",
+              "55,500 cph (0.065 s/chip)\n51,000 cph (0.071 s/chip)\n20,000 cph (0.180 s/chip)"
+            ],
+            [
+              "Placement accuracy (Cpk ≥ 1)",
+              "±25 μm, ±15 μm, ±10 μm per chip (±10 μm with ASF only)"
+            ],
+            [
+              "Component size",
+              "0201 chip to L 120 × W 90 × T 30 mm or L 150 × W 25 × T 30 mm"
+            ],
+            [
+              "PCB exchange time",
+              "2.3 s (PCB L ≤ 350 mm), 5.0 s (L 350 to 510 mm)"
+            ],
+            [
+              "Component supply",
+              "Tape, stick, tray; max. 80 inputs (4 / 8 mm tape)"
+            ],
+            [
+              "Electric source",
+              "3-phase AC 200 / 220 / 380 / 400 / 420 / 480 V, 2.1 kVA"
+            ],
+            ["Pneumatic source", "0.5 to 0.8 MPa, 100 L/min"],
+            [
+              "Dimensions",
+              "W 975 × D 2,473 × H 1,444 mm (standard configuration)"
+            ],
+            ["Mass", "2,330 kg (standard configuration)"]
           ]
         },
         {
           "t": "p",
-          "text": "Standard specifications from Panasonic. Actual performance depends on usage conditions."
+          "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
         },
         {
           "t": "link",
-          "href": "https://connect.panasonic.com/en/products-services/fa_products_mounting-related/lineup/npm-gh/spec",
-          "text": "NPM-GH specifications"
+          "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-gh-autonomous-labor-saving-factory-solution",
+          "text": "NPM-GH"
         }
       ]
     }
-  ]
+  ],
+  "ja": {
+    "type": "自律型 部品実装機",
+    "tagline": "Gシリーズ第1弾、少ない作業で高い生産性",
+    "intro": [
+      {
+        "t": "p",
+        "text": "パナソニックNPM-GHは、Gシリーズ第1弾の部品実装機です。新設計の軽量ヘッド3種とスピンドルストロークの短縮で生産性を高めて振動を抑え、予知保全・ピンポイント保全により少ないオペレーター作業でラインの稼働を維持します。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "最大 55,500 cph（0.065 秒/チップ）",
+              "実装精度 最高 ±10 μm/チップ（ASF使用時）",
+              "新設計の軽量16・8・3ノズルヘッド",
+              "予知保全・ピンポイント保全オプション",
+              "既存フィーダー・資産と互換、12.1インチ表示モニター"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              ["型番", "NPM-GH（NM-EJM8E）"],
+              ["基板寸法（シングルレーン）", "L 50 × W 50 ～ L 510 × W 590 mm"],
+              ["基板寸法（デュアルレーン）", "L 50 × W 50 ～ L 510 × W 300 mm"],
+              ["ヘッド", "16 / 8 / 3 ノズル"],
+              [
+                "最大速度",
+                "55,500 cph（0.065 秒/チップ）\n51,000 cph（0.071 秒/チップ）\n20,000 cph（0.180 秒/チップ）"
+              ],
+              [
+                "実装精度（Cpk ≥ 1）",
+                "±25 μm、±15 μm、±10 μm/チップ（±10 μm は ASF 使用時のみ）"
+              ],
+              [
+                "部品寸法",
+                "0201 チップ ～ L 120 × W 90 × T 30 mm または L 150 × W 25 × T 30 mm"
+              ],
+              [
+                "基板交換時間",
+                "2.3 秒（基板 L 350 mm 以下）、5.0 秒（L 350 ～ 510 mm）"
+              ],
+              [
+                "部品供給",
+                "テープ、スティック、トレイ。最大 80 品種（4 / 8 mm テープ）"
+              ],
+              ["電源", "三相 AC 200 / 220 / 380 / 400 / 420 / 480 V、2.1 kVA"],
+              ["空圧源", "0.5 ～ 0.8 MPa、100 L/min"],
+              ["外形寸法", "W 975 × D 2,473 × H 1,444 mm（標準構成）"],
+              ["質量", "2,330 kg（標準構成）"]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
+          },
+          {
+            "t": "link",
+            "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-gh-autonomous-labor-saving-factory-solution",
+            "text": "NPM-GH"
+          }
+        ]
+      }
+    ]
+  }
 }

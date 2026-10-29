@@ -1,0 +1,133 @@
+{
+  "name": "NPM-GW",
+  "type": "Autonomous High-Capacity Placement Machine",
+  "image": null,
+  "tagline": "Up to 104,000 cph for large-capacity production",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Panasonic NPM-GW is a G-series placement machine for larger-capacity production. Lighter heads, shorter moving distances, higher X-axis acceleration and Auto Setting Feeders raise productivity and board flexibility, and it supports remote operation within Panasonic's Autonomous Factory concept."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Up to 104,000 cph with the FC16 head",
+            "Placement accuracy of ±25 μm",
+            "Chips from 0201 up to larger packages",
+            "Auto Setting Feeders (ASF) and Intelligent Tape Feeders (ITF) reduce loading time and downtime",
+            "Dual conveyor for long and short PCBs; remote operation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "NPM-GW (NM-EJM2F)"],
+            ["Max. speed", "104,000 cph (FC16 head)"],
+            ["Placement accuracy", "±25 μm"],
+            [
+              "PCB size, single conveyor, batch",
+              "L 50 × W 50 to L 760 × W 687 mm"
+            ],
+            [
+              "PCB size, single conveyor, 2-position",
+              "L 50 × W 50 to L 360 × W 687 mm"
+            ],
+            [
+              "Electric source",
+              "3-phase AC 200 / 220 / 380 / 400 / 420 / 480 V, 2.5 kVA"
+            ],
+            ["Pneumatic source", "Min. 0.5 MPa, 200 L/min"],
+            [
+              "Dimensions",
+              "W 1,410 × D 2,320 × H 1,444 mm (standard); D 2,478 mm with two 30-slot ITF carts"
+            ],
+            ["Mass", "2,810 kg (standard); 2,840 kg with two 30-slot ITF carts"]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
+        },
+        {
+          "t": "link",
+          "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-gw-autonomous-high-capacity-manufacturing-solution",
+          "text": "NPM-GW"
+        }
+      ]
+    }
+  ],
+  "ja": {
+    "type": "自律型 大容量部品実装機",
+    "tagline": "大容量生産向け、最大 104,000 cph",
+    "intro": [
+      {
+        "t": "p",
+        "text": "パナソニックNPM-GWは、大容量生産向けのGシリーズ部品実装機です。軽量ヘッド、移動距離の短縮、X軸加速度の向上、オートセッティングフィーダーにより生産性と基板対応力を高め、パナソニックの自律工場コンセプトのもとでリモート操作にも対応します。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "FC16ヘッドで最大 104,000 cph",
+              "実装精度 ±25 μm",
+              "0201 チップから大型部品まで対応",
+              "オートセッティングフィーダー（ASF）とインテリジェントテープフィーダー（ITF）で段取りと停止時間を削減",
+              "長尺・短尺基板に対応するデュアルコンベア、リモート操作"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              ["型番", "NPM-GW（NM-EJM2F）"],
+              ["最大速度", "104,000 cph（FC16 ヘッド）"],
+              ["実装精度", "±25 μm"],
+              [
+                "基板寸法（シングルコンベア・一括）",
+                "L 50 × W 50 ～ L 760 × W 687 mm"
+              ],
+              [
+                "基板寸法（シングルコンベア・2ポジション）",
+                "L 50 × W 50 ～ L 360 × W 687 mm"
+              ],
+              ["電源", "三相 AC 200 / 220 / 380 / 400 / 420 / 480 V、2.5 kVA"],
+              ["空圧源", "最小 0.5 MPa、200 L/min"],
+              [
+                "外形寸法",
+                "W 1,410 × D 2,320 × H 1,444 mm（標準）、30スロットITF台車2台時 D 2,478 mm"
+              ],
+              ["質量", "2,810 kg（標準）、30スロットITF台車2台時 2,840 kg"]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
+          },
+          {
+            "t": "link",
+            "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-gw-autonomous-high-capacity-manufacturing-solution",
+            "text": "NPM-GW"
+          }
+        ]
+      }
+    ]
+  }
+}

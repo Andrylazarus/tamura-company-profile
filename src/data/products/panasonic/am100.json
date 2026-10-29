@@ -1,0 +1,143 @@
+{
+  "name": "AM100",
+  "type": "All-in-One Placement System",
+  "image": null,
+  "tagline": "One machine to start high-mix production, then scale up",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Panasonic AM100 is a single-beam, single-head placement system for cost-effective high-mix production. One machine is enough to start, you can add units or new technologies over time, and the next product can be prepared while the machine is running."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "35,800 cph for chips, 12,200 cph for QFP",
+            "Parts from 0402 up to 120 × 90 × 28 mm, including large connectors and PoP",
+            "Up to 160 tape inputs",
+            "Feeder Anywhere and Nozzle Anywhere for flexible setup",
+            "Feeders, nozzles and chucks shared with CM and NPM series"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "AM100 (NM-EJM4D)"],
+            ["PCB size", "L 50 × W 50 to L 515 × W 460 mm"],
+            [
+              "Placement speed",
+              "35,800 cph (0.1006 s/chip)\n12,200 cph (0.295 s per QFP ≤ 12 mm)"
+            ],
+            [
+              "Placement accuracy (Cpk ≥ 1)",
+              "±40 μm per chip; ±50 μm QFP ≤ 12 mm; ±30 μm QFP 12 to 32 mm"
+            ],
+            [
+              "Component size",
+              "0402 chip (option) to L 120 × W 90 mm or L 150 × W 25 mm, T 28 mm"
+            ],
+            ["Feeder inputs", "Tape: max. 160; stick: max. 40; tray: max. 20"],
+            ["PCB exchange time", "4.0 s"],
+            [
+              "Electric source",
+              "3-phase AC 200 / 220 V ±10 V or 380 / 400 / 420 / 480 V ±20 V, 2.0 kVA"
+            ],
+            ["Pneumatic source", "0.5 to 0.8 MPa, 200 L/min"],
+            ["Dimensions", "W 1,970 × D 2,019 × H 1,500 mm"],
+            ["Mass", "2,650 kg (with 4 fixed feeder bases)"]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
+        },
+        {
+          "t": "link",
+          "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/am100-flexible-all-in-one-placement-system",
+          "text": "AM100"
+        }
+      ]
+    }
+  ],
+  "ja": {
+    "type": "オールインワン 部品実装機",
+    "tagline": "1台で高混流生産を始めて段階的に拡張",
+    "intro": [
+      {
+        "t": "p",
+        "text": "パナソニックAM100は、コストを抑えた高混流生産向けのシングルビーム・シングルヘッド実装機です。1台から生産を始め、必要に応じて台数や新技術を追加でき、稼働中に次の製品の段取りができます。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "チップ 35,800 cph、QFP 12,200 cph",
+              "0402 ～ 120 × 90 × 28 mm の部品、大型コネクタや PoP に対応",
+              "最大 160 品種のテープ供給",
+              "フィーダーエニウェア・ノズルエニウェアで柔軟な段取り",
+              "フィーダー、ノズル、チャックは CM・NPM シリーズと共通"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              ["型番", "AM100（NM-EJM4D）"],
+              ["基板寸法", "L 50 × W 50 ～ L 515 × W 460 mm"],
+              [
+                "実装速度",
+                "35,800 cph（0.1006 秒/チップ）\n12,200 cph（QFP 12 mm 以下 0.295 秒）"
+              ],
+              [
+                "実装精度（Cpk ≥ 1）",
+                "チップ ±40 μm、QFP 12 mm 以下 ±50 μm、QFP 12 ～ 32 mm ±30 μm"
+              ],
+              [
+                "部品寸法",
+                "0402 チップ（オプション）～ L 120 × W 90 mm または L 150 × W 25 mm、T 28 mm"
+              ],
+              [
+                "フィーダー品種数",
+                "テープ：最大 160、スティック：最大 40、トレイ：最大 20"
+              ],
+              ["基板交換時間", "4.0 秒"],
+              [
+                "電源",
+                "三相 AC 200 / 220 V ±10 V または 380 / 400 / 420 / 480 V ±20 V、2.0 kVA"
+              ],
+              ["空圧源", "0.5 ～ 0.8 MPa、200 L/min"],
+              ["外形寸法", "W 1,970 × D 2,019 × H 1,500 mm"],
+              ["質量", "2,650 kg（固定フィーダーベース4台時）"]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
+          },
+          {
+            "t": "link",
+            "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/am100-flexible-all-in-one-placement-system",
+            "text": "AM100"
+          }
+        ]
+      }
+    ]
+  }
+}

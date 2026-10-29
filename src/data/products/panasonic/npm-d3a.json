@@ -1,0 +1,131 @@
+{
+  "name": "NPM-D3A",
+  "type": "High-Volume Placer",
+  "image": null,
+  "tagline": "Compact dual-beam placer, up to 92,000 cph",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Panasonic NPM-D3A is a compact dual-beam high-speed placer with a reinforced frame, an upgraded head and a Multi Recognition Camera. It is built for high-volume work in automotive, industrial and medical electronics."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Up to 92,000 cph",
+            "Placement accuracy down to 30 μm",
+            "Handles large connectors, odd-shaped parts and PoP",
+            "Feeders, nozzles and chucks interchangeable with CM and NPM series",
+            "Narrow 832 mm module saves floor space"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "NPM-D3A (NM-EJM6E)"],
+            ["Max. speed", "92,000 cph"],
+            ["Placement accuracy", "Down to 30 μm"],
+            ["Component size", "0402 chip to L 120 × W 90 × T 28 mm"],
+            ["PCB size, dual lane", "L 50 × W 50 to L 510 × W 300 mm"],
+            ["PCB size, single lane", "L 50 × W 50 to L 510 × W 590 mm"],
+            [
+              "PCB exchange time",
+              "Dual lane: 0 s (not 0 s when cycle time ≤ 3.6 s); single lane: 3.6 s"
+            ],
+            [
+              "Electric source",
+              "3-phase AC 200 / 220 / 380 / 400 / 420 / 480 V, 2.7 kVA"
+            ],
+            ["Pneumatic source", "0.5 MPa, 100 L/min"],
+            [
+              "Dimensions",
+              "W 832 × D 2,652 × H 1,444 mm (D incl. feeder cart)"
+            ],
+            ["Mass", "1,680 kg (main body)"]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
+        },
+        {
+          "t": "link",
+          "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-3da-high-volume-placer",
+          "text": "NPM-D3A"
+        }
+      ]
+    }
+  ],
+  "ja": {
+    "type": "高速 部品実装機",
+    "tagline": "コンパクトなデュアルビーム機、最大 92,000 cph",
+    "intro": [
+      {
+        "t": "p",
+        "text": "パナソニックNPM-D3Aは、強化フレーム、改良ヘッド、マルチ認識カメラを備えたコンパクトなデュアルビーム高速実装機です。車載、産業、医療用電子機器の大量生産に適しています。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "最大 92,000 cph",
+              "実装精度 最高 30 μm",
+              "大型コネクタ、異形部品、PoP に対応",
+              "フィーダー、ノズル、チャックは CM・NPM シリーズと共通",
+              "幅 832 mm の省スペースモジュール"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              ["型番", "NPM-D3A（NM-EJM6E）"],
+              ["最大速度", "92,000 cph"],
+              ["実装精度", "最高 30 μm"],
+              ["部品寸法", "0402 チップ ～ L 120 × W 90 × T 28 mm"],
+              ["基板寸法（デュアルレーン）", "L 50 × W 50 ～ L 510 × W 300 mm"],
+              ["基板寸法（シングルレーン）", "L 50 × W 50 ～ L 510 × W 590 mm"],
+              [
+                "基板交換時間",
+                "デュアルレーン：0 秒（サイクルタイム 3.6 秒以下を除く）、シングルレーン：3.6 秒"
+              ],
+              ["電源", "三相 AC 200 / 220 / 380 / 400 / 420 / 480 V、2.7 kVA"],
+              ["空圧源", "0.5 MPa、100 L/min"],
+              [
+                "外形寸法",
+                "W 832 × D 2,652 × H 1,444 mm（D はフィーダー台車を含む）"
+              ],
+              ["質量", "1,680 kg（本体）"]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
+          },
+          {
+            "t": "link",
+            "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-3da-high-volume-placer",
+            "text": "NPM-D3A"
+          }
+        ]
+      }
+    ]
+  }
+}

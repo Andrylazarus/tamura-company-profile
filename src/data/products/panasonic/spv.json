@@ -1,0 +1,118 @@
+{
+  "name": "SPV",
+  "type": "Screen Printer",
+  "image": null,
+  "tagline": "10-second print-and-clean cycle with built-in board sorting",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Panasonic SPV is a high-productivity screen printer for M-size boards up to 350 × 300 mm. It completes printing, transport, recognition and cleaning in a 10-second cycle, and a built-in PCB sorting function removes the need for a separate traverser in dual-printer lines."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "10-second cycle per board, including transport, recognition and cleaning",
+            "Automatic solder supply option with two solder pots for about 4 hours of continuous operation",
+            "Mask adsorption plate separation and hybrid PCB adsorption for clean solder release",
+            "Optional APC-FB line solution corrects print position (X, Y, θ) from solder inspection data",
+            "Built-in PCB sorting gives flexible line layouts without a traverser"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "SPV"],
+            ["PCB size", "L 50 × W 50 to L 350 × W 300 mm"],
+            ["PCB size, 2-in-1", "Max. L 350 × W 165 mm"],
+            [
+              "Cycle time",
+              "10.0 s (PCB L 250 × W 165 mm, incl. transfer, positioning, recognition and cleaning)"
+            ],
+            ["Repeatability", "±5.0 μm (2 Cpk, 6σ)"],
+            [
+              "Screen frame size",
+              "736 × 736, 650 × 550, 550 × 650, 750 × 750, 584 × 584 mm"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
+        },
+        {
+          "t": "link",
+          "href": "https://connect.panasonic.com/en/products-services_fa/products/mounting-related/spv",
+          "text": "SPV"
+        }
+      ]
+    }
+  ],
+  "ja": {
+    "type": "スクリーン印刷機",
+    "tagline": "10秒の印刷・クリーニングサイクルと基板振り分け機能",
+    "intro": [
+      {
+        "t": "p",
+        "text": "パナソニックSPVは、最大350 × 300 mmのMサイズ基板に対応する高生産性のスクリーン印刷機です。印刷・搬送・認識・クリーニングを10秒サイクルで行い、基板振り分け機能を内蔵しているため、印刷機2台構成でもトラバーサーが不要です。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "搬送・認識・クリーニングを含めて1枚10秒のサイクル",
+              "はんだポット2個の自動はんだ供給オプションで約4時間の連続運転",
+              "マスク吸着版離れとハイブリッド基板吸着で良好なはんだ抜け",
+              "オプションのAPC-FBで、はんだ検査データから印刷位置（X、Y、θ）を補正",
+              "基板振り分け機能内蔵で、トラバーサーなしの柔軟なライン構成"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              ["型番", "SPV"],
+              ["基板寸法", "L 50 × W 50 ～ L 350 × W 300 mm"],
+              ["基板寸法（2-in-1）", "最大 L 350 × W 165 mm"],
+              [
+                "サイクルタイム",
+                "10.0 秒（基板 L 250 × W 165 mm、搬送・位置決め・認識・クリーニングを含む）"
+              ],
+              ["繰り返し精度", "±5.0 μm（2 Cpk、6σ）"],
+              [
+                "スクリーン枠寸法",
+                "736 × 736、650 × 550、550 × 650、750 × 750、584 × 584 mm"
+              ]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
+          },
+          {
+            "t": "link",
+            "href": "https://connect.panasonic.com/en/products-services_fa/products/mounting-related/spv",
+            "text": "SPV"
+          }
+        ]
+      }
+    ]
+  }
+}

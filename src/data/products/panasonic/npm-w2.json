@@ -1,0 +1,142 @@
+{
+  "name": "NPM-W2",
+  "type": "Versatile Placement Platform",
+  "image": null,
+  "tagline": "Large boards up to 750 × 550 mm with 3D coplanarity checking",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Panasonic NPM-W2 builds on the NPM-W with about 10% more throughput and 25% better accuracy. Its Multi Recognition Camera combines 2D alignment, component thickness inspection and 3D coplanarity measurement, for parts from 03015 chips to large connectors."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "77,000 cph with the lightweight 16-nozzle head",
+            "Placement accuracy of 25 μm (Cpk ≥ 1.0)",
+            "Boards up to 750 × 550 mm",
+            "Dual-lane placement for higher area productivity",
+            "Quick-change feeder carts and nozzle banks"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "NPM-W2 (NM-EJM7D)"],
+            ["PCB size, single lane, batch", "L 50 × W 50 to L 750 × W 550 mm"],
+            [
+              "PCB size, single lane, 2-position",
+              "L 50 × W 50 to L 350 × W 550 mm"
+            ],
+            [
+              "PCB size, dual lane, dual transfer",
+              "L 50 × W 50 to L 750 × W 260 mm"
+            ],
+            [
+              "PCB size, dual lane, single transfer",
+              "L 50 × W 50 to L 750 × W 510 mm"
+            ],
+            ["Max. speed", "77,000 cph (16-nozzle head)"],
+            ["Placement accuracy", "25 μm (Cpk ≥ 1.0)"],
+            ["Component size", "03015 chip up to L 150 × W 25 × T 30 mm"],
+            [
+              "Electric source",
+              "3-phase AC 200 / 220 / 380 / 400 / 420 / 480 V, 2.8 kVA"
+            ],
+            ["Pneumatic source", "0.5 MPa, 200 L/min"],
+            ["Dimensions", "W 1,280 × D 2,332 × H 1,444 mm (main body)"],
+            ["Mass", "2,470 kg (main body)"]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Standard specifications from Panasonic. Actual performance depends on board, components and line conditions."
+        },
+        {
+          "t": "link",
+          "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-w2-versatile-platform",
+          "text": "NPM-W2"
+        }
+      ]
+    }
+  ],
+  "ja": {
+    "type": "多用途 部品実装プラットフォーム",
+    "tagline": "750 × 550 mm の大型基板と3Dコプラナリティ検査に対応",
+    "intro": [
+      {
+        "t": "p",
+        "text": "パナソニックNPM-W2は、NPM-Wより生産性を約10%、精度を25%向上させた部品実装プラットフォームです。マルチ認識カメラで2D位置合わせ、部品厚み検査、3Dコプラナリティ測定を一台で行い、03015チップから大型コネクタまで対応します。"
+      }
+    ],
+    "sections": [
+      {
+        "title": "主な特長",
+        "blocks": [
+          {
+            "t": "list",
+            "items": [
+              "軽量16ノズルヘッドで 77,000 cph",
+              "実装精度 25 μm（Cpk ≥ 1.0）",
+              "最大 750 × 550 mm の基板に対応",
+              "デュアルレーン実装で面積生産性を向上",
+              "フィーダー台車とノズルバンクの素早い交換"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "仕様",
+        "blocks": [
+          {
+            "t": "table",
+            "rows": [
+              ["型番", "NPM-W2（NM-EJM7D）"],
+              [
+                "基板寸法（シングルレーン・一括）",
+                "L 50 × W 50 ～ L 750 × W 550 mm"
+              ],
+              [
+                "基板寸法（シングルレーン・2ポジション）",
+                "L 50 × W 50 ～ L 350 × W 550 mm"
+              ],
+              [
+                "基板寸法（デュアルレーン・デュアル搬送）",
+                "L 50 × W 50 ～ L 750 × W 260 mm"
+              ],
+              [
+                "基板寸法（デュアルレーン・シングル搬送）",
+                "L 50 × W 50 ～ L 750 × W 510 mm"
+              ],
+              ["最大速度", "77,000 cph（16ノズルヘッド）"],
+              ["実装精度", "25 μm（Cpk ≥ 1.0）"],
+              ["部品寸法", "03015 チップ ～ L 150 × W 25 × T 30 mm"],
+              ["電源", "三相 AC 200 / 220 / 380 / 400 / 420 / 480 V、2.8 kVA"],
+              ["空圧源", "0.5 MPa、200 L/min"],
+              ["外形寸法", "W 1,280 × D 2,332 × H 1,444 mm（本体）"],
+              ["質量", "2,470 kg（本体）"]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "パナソニック公表の標準仕様です。実際の性能は基板、部品、ラインの条件により異なります。"
+          },
+          {
+            "t": "link",
+            "href": "https://connect.na.panasonic.com/smart-factory/electronics-assembly/smt/npm-w2-versatile-platform",
+            "text": "NPM-W2"
+          }
+        ]
+      }
+    ]
+  }
+}
