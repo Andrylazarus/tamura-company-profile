@@ -1,0 +1,164 @@
+{
+  "name": "CLM-Z Series",
+  "type": "SMT Traceability Laser Marking System",
+  "image": "/images/products/mpi/clm-z/clm-z.jpg",
+  "tagline": "Keyence 3D CO₂ laser marking with built-in code verification",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The CLM-Z series is a fully automatic laser marking system for SMT lines, built for high stability and cost performance. It combines a Keyence CO₂ 3D laser with a Keyence AI code reader for accurate marking and a long service life, and connects to your SMT production management system for complete traceability."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Verification: every code is read back after laser marking.",
+            "Marks both sides of the PCB.",
+            "Dust collector built into the machine body.",
+            "Main components made in Japan for high quality and durability.",
+            "Laser marker: Keyence CO₂ 3D laser. No consumables and no damage to copper. The Z-axis focal length adjusts automatically, so warped or deformed boards still get high-quality marks.",
+            "Code reader: Keyence AI reader with quality inspection based on international standards, not just reading.",
+            "X and Y axes: servo control with precision ball screws from THK, Japan.",
+            "Other major components from SMC, Japan.",
+            "Integrates with your SMT production management system for traceability."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3D Laser Marking",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A Japanese-made Keyence 30 W CO₂ 3D laser and controller work with the new Marking Builder software for high stability and a long service life. Marking is fast, clear and accurate."
+        },
+        {
+          "t": "p",
+          "text": "The laser needs no consumables and does not damage copper. Its automatic Z-axis focus compensates for board warpage on the SMT line, which solves unclear QR codes, unreadable codes and low code grades in one step."
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/clm-z/clm-z-laser-unit.jpg"
+        },
+        { "t": "img", "src": "/images/products/mpi/clm-z/clm-z-3d-laser.jpg" }
+      ]
+    },
+    {
+      "title": "Code Reading and Verification",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A Keyence SR-X series autofocus AI code reader greatly improves read performance. It copes with changes in board condition, environment and marking quality, and makes the cause of any error clear at a glance."
+        },
+        {
+          "t": "p",
+          "text": "The reader outputs international code grades. Results follow ISO/IEC TR 29158 for direct part marking quality."
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/clm-z/clm-z-code-reader.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Operating System",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The CLM-Z software runs on Microsoft Windows 10. It is simple and user friendly, and includes CCD vision processing with fiducial mark and bad mark recognition."
+        },
+        {
+          "t": "p",
+          "text": "The system links to your SMT production management system in real time. Work order content is controlled directly by the traceability system, which prevents wrong or missed marks caused by manual operation. Marking content and reading results are visible at a glance."
+        }
+      ]
+    },
+    {
+      "title": "Mechanical Design",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A Japanese servo control system and THK precision ball screws give more accurate X and Y positioning. The integrated precision frame keeps the laser stable and reliable."
+        },
+        {
+          "t": "h3",
+          "text": "Patented board flipping system"
+        },
+        {
+          "t": "p",
+          "text": "The built-in automatic board flipper lets you choose double-side or single-side marking and reading modes, so production stays flexible."
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/clm-z/clm-z-board-flip.jpg"
+        },
+        {
+          "t": "h3",
+          "text": "Dust collector and smoke filter"
+        },
+        {
+          "t": "p",
+          "text": "The built-in dust collector and smoke filter reduce dust damage inside the laser unit. Connect an external exhaust duct to keep the production area free of odour."
+        }
+      ]
+    },
+    {
+      "title": "Marking Samples",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Barcodes, QR codes, text and logos marked on different PCB solder mask colours and materials."
+        },
+        {
+          "t": "img",
+          "src": "/images/products/mpi/clm-z/clm-z-marking-samples.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "CLM-Z800", "CLM-Z880"],
+            ["PCB marking mode", "Single-side marking", "Double-side marking"],
+            [
+              "PCB size",
+              "W50 × L50 to W330 × L460 mm",
+              "W50 × L50 to W330 × L460 mm"
+            ],
+            ["Marking area", "W330 × L460 mm", "W330 × L460 mm"],
+            ["Laser source", "Keyence 30 W CO₂ laser, made in Japan", ""],
+            ["Marking types", "Barcode, QR code, text, logo", ""],
+            ["Cycle time", "Transfer < 1 s, marking < 0.3 s", ""],
+            [
+              "System connection",
+              "Connects to production management systems such as SHOPFLOW, MES, IMS and PMS",
+              ""
+            ],
+            [
+              "Transport direction",
+              "Left to right, or right to left (option)",
+              ""
+            ],
+            ["Conveyor height", "900 ± 30 mm", ""],
+            ["Signal interface", "Standard SMEMA", ""],
+            ["Power supply", "AC 220 V, 50/60 Hz, 1 phase", ""],
+            ["Air pressure", "4–6 kg/cm²", ""],
+            [
+              "Machine size (L × W × H)",
+              "L880 × W1600 × H1500 mm",
+              "L880 × W1600 × H1500 mm"
+            ],
+            ["Weight", "850 kg", "920 kg"]
+          ]
+        }
+      ]
+    }
+  ]
+}

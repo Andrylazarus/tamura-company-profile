@@ -16,15 +16,23 @@ function SpecTable({ rows }) {
                 </tr>
               );
             }
+            // A value followed by empty cells spans them (it applies to every model).
+            let last = cells.length - 1;
+            while (last > 1 && !cells[last]) last--;
             return (
               <tr key={i}>
-                {cells.map((c, j) =>
+                {cells.slice(0, last + 1).map((c, j) =>
                   j === 0 ? (
                     <th key={j} scope="row">
                       {c}
                     </th>
                   ) : (
-                    <td key={j}>{c}</td>
+                    <td
+                      key={j}
+                      colSpan={j === last ? cells.length - last : undefined}
+                    >
+                      {c}
+                    </td>
                   ),
                 )}
               </tr>
@@ -135,7 +143,11 @@ export default function ProductDetail({ product, brand, category, related }) {
               <li aria-current="page">{product.name}</li>
             </ol>
             <div className="detail-head__brand">
-              {brand.logo && <img src={brand.logo} alt={brand.name} />}
+              {brand.logo ? (
+                <img src={brand.logo} alt={brand.name} />
+              ) : (
+                <span className="brand-tile__wordmark">{brand.name}</span>
+              )}
             </div>
             {product.type && (
               <p className="detail-head__type">{product.type}</p>

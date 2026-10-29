@@ -53,6 +53,7 @@ export default function SiteHeader({ variant = "solid" }) {
   const [megaOpen, setMegaOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const closeTimer = useRef(null);
+  const hoverOpened = useRef(false);
 
   useEffect(() => {
     if (variant !== "overlay") return undefined;
@@ -89,11 +90,24 @@ export default function SiteHeader({ variant = "solid" }) {
 
   const openMega = () => {
     clearTimeout(closeTimer.current);
+    if (!megaOpen) hoverOpened.current = true;
     setMegaOpen(true);
+  };
+  // A click right after hover-opening keeps the menu open instead of closing it.
+  const clickMega = () => {
+    if (hoverOpened.current) {
+      hoverOpened.current = false;
+      setMegaOpen(true);
+    } else {
+      setMegaOpen((o) => !o);
+    }
   };
   const closeMegaSoon = () => {
     clearTimeout(closeTimer.current);
-    closeTimer.current = setTimeout(() => setMegaOpen(false), 120);
+    closeTimer.current = setTimeout(() => {
+      hoverOpened.current = false;
+      setMegaOpen(false);
+    }, 120);
   };
 
   return (
@@ -128,7 +142,7 @@ export default function SiteHeader({ variant = "solid" }) {
                 aria-expanded={megaOpen}
                 aria-controls="products-menu"
                 aria-current={isActive("/products") ? "page" : undefined}
-                onClick={() => setMegaOpen((o) => !o)}
+                onClick={clickMega}
               >
                 Products
                 <ChevronDown className="site-nav__chev" />
@@ -192,8 +206,8 @@ export default function SiteHeader({ variant = "solid" }) {
             </ol>
             <div className="mega__aside">
               <p>
-                Browse machines for marking, SMT, through-hole, conformal coating
-                and more, or search by model name.
+                Browse machines for marking, SMT, through-hole, conformal
+                coating and more, or search by model name.
               </p>
               <Link
                 href="/products"

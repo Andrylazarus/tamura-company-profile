@@ -29,11 +29,19 @@ export const categories = [
     name: "Surface Mount Technology (SMT)",
     short: "SMT",
     summary:
-      "Solder paste inspection, reflow soldering and automated optical inspection.",
+      "Screen printing, solder paste inspection, pick-and-place, reflow soldering and AOI.",
     sections: [
+      {
+        id: "printing",
+        label: "Screen printing",
+      },
       {
         id: "spi",
         label: "Solder paste inspection (SPI)",
+      },
+      {
+        id: "placement",
+        label: "Pick-and-place",
       },
       {
         id: "reflow",
@@ -136,6 +144,12 @@ export const categories = [
 
 export const brands = [
   {
+    id: "panasonic",
+    name: "Panasonic",
+    logo: null,
+    focus: "Screen printing and component placement",
+  },
+  {
     id: "tamura",
     name: "Tamura",
     logo: "/logo/tamura03.png",
@@ -205,6 +219,24 @@ export const brands = [
 
 export const products = [
   {
+    id: "panasonic-npm-gp-l",
+    name: "NPM-GP/L",
+    brand: "Panasonic",
+    category: "smt",
+    section: "printing",
+    href: "/products/panasonic/details/npm-gp-l",
+    image: null,
+  },
+  {
+    id: "panasonic-npm-gh",
+    name: "NPM-GH",
+    brand: "Panasonic",
+    category: "smt",
+    section: "placement",
+    href: "/products/panasonic/details/npm-gh",
+    image: null,
+  },
+  {
     id: "mpi-plm-series",
     name: "PLM Series",
     brand: "MPI",
@@ -239,6 +271,15 @@ export const products = [
     section: "laser",
     href: "/products/mpi/details/zlm-series",
     image: "/images/catalog/mpi-zlm-series.webp",
+  },
+  {
+    id: "mpi-clm-z-series",
+    name: "CLM-Z Series",
+    brand: "MPI",
+    category: "marking",
+    section: "laser",
+    href: "/products/mpi/details/clm-z-series",
+    image: "/images/catalog/mpi-clm-z-series.webp",
   },
   {
     id: "mpi-aim-series",

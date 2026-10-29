@@ -1,0 +1,58 @@
+{
+  "name": "NPM-GH",
+  "type": "Autonomous Component Placement Machine",
+  "image": null,
+  "tagline": "High-speed, labour-saving placement for SMT lines",
+  "intro": [
+    {
+      "t": "p",
+      "text": "The Panasonic NPM-GH is a component placement machine from the NPM-G series, built to reduce operator work on the line. It handles parts from 0201 chips up to large components, on single or dual lanes."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Up to 55,500 cph (0.065 s/chip) with the 16-nozzle head",
+            "Placement accuracy down to ±10 μm/chip with the 3-nozzle head",
+            "Single-lane or dual-lane PCB transfer",
+            "Tape, stick and tray component supply, up to 80 feeder inputs (4 mm / 8 mm tape)",
+            "Components from 0201 chips up to L 150 × W 25 × T 30 mm"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "NPM-GH", ""],
+            ["PCB size, single lane", "L 50 × W 50 to L 510 × W 590 mm", ""],
+            ["PCB size, dual lane", "L 50 × W 50 to L 510 × W 300 mm", ""],
+            ["Heads", "2", ""],
+            ["Placement speed", "16-nozzle head: 55,500 cph (0.065 s/chip)\n8-nozzle head: 51,000 cph (0.071 s/chip)\n3-nozzle head: 20,000 cph (0.180 s/chip)", ""],
+            ["Placement accuracy (Cpk ≥ 1)", "±25 μm/chip, ±15 μm/chip, ±10 μm/chip (±10 μm with ASF only)", ""],
+            ["Component size", "0201 chip to L 120 × W 90 × T 30 mm or L 150 × W 25 × T 30 mm", ""],
+            ["PCB transfer", "Single or dual lane", ""],
+            ["Component supply", "Tape, stick, tray", ""],
+            ["Max. component inputs", "80 (4 mm / 8 mm tape)", ""]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Standard specifications from Panasonic. Actual performance depends on usage conditions."
+        },
+        {
+          "t": "link",
+          "href": "https://connect.panasonic.com/en/products-services/fa_products_mounting-related/lineup/npm-gh/spec",
+          "text": "NPM-GH specifications"
+        }
+      ]
+    }
+  ]
+}

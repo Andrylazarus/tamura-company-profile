@@ -7,11 +7,19 @@ export default function ProductCard({ product }) {
   const body = (
     <>
       <div className="product-card__media">
-        <img
-          src={product.image}
-          alt={`${product.brand} ${product.name}`}
-          loading="lazy"
-        />
+        {product.image ? (
+          <img
+            src={product.image}
+            alt={`${product.brand} ${product.name}`}
+            loading="lazy"
+          />
+        ) : (
+          <span className="product-card__noimg">
+            {product.brand}
+            <br />
+            {product.name}
+          </span>
+        )}
       </div>
       <div className="product-card__body">
         <span className="product-card__brand">{product.brand}</span>

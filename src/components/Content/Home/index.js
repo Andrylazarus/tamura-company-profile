@@ -157,7 +157,11 @@ export default function HomeContent() {
                 className="brand-tile"
               >
                 <div className="brand-tile__logo">
-                  <img src={b.logo} alt={b.name} loading="lazy" />
+                  {b.logo ? (
+                    <img src={b.logo} alt={b.name} loading="lazy" />
+                  ) : (
+                    <span className="brand-tile__wordmark">{b.name}</span>
+                  )}
                 </div>
                 <div>
                   <div className="brand-tile__name">{b.name}</div>
@@ -165,13 +169,6 @@ export default function HomeContent() {
                 </div>
               </Link>
             ))}
-            <Link href="/contact" className="brand-tile brand-tile--ask">
-              <div className="brand-tile__name">Need another brand?</div>
-              <div className="brand-tile__focus">
-                We source machines and parts from other manufacturers too. Ask
-                our sales team.
-              </div>
-            </Link>
           </div>
         </div>
       </section>
