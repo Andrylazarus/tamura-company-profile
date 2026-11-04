@@ -1,0 +1,48 @@
+{
+  "name": "YS-TU460",
+  "type": "Turning Conveyor (Motor)",
+  "image": "/images/products/hayawin/ys-tu460.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Turns boards at the corner of a U-shaped or L-shaped line, so the line can change direction without manual handling."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Servo-driven rotation, ball-screw and linear slide translation",
+            "Fully enclosed with transparent window",
+            "Frame of high-strength steel plate and aviation-grade aluminium profile",
+            "Safety door lock that stops the machine when a door is opened",
+            "PLC controller with touch screen",
+            "ESD belt",
+            "Selectable flow direction, left to right or right to left",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Cycle time", "≈ 12 s"],
+            ["PCB size (L × W)", "80 × 50 to 530 × 460 mm"],
+            ["Transport height", "950 ± 30 mm"],
+            ["Power", "AC 220 V, 50 Hz"],
+            ["Air supply", "0.4–0.6 MPa, ≤ 10 L/min"],
+            ["Dimensions (L × W × H)", "840 × 840 × 1310 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

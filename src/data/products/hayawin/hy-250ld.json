@@ -1,0 +1,50 @@
+{
+  "name": "HY-250LD",
+  "type": "Automatic PCB Loader",
+  "image": "/images/products/hayawin/hy-250ld.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "A magazine loader for the start of an SMT line that feeds boards one by one onto the next machine."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Reinforced aluminium structure with plastic chains",
+            "Panasonic PLC and TFT touch screen",
+            "Pitch 10, 20, 30 or 40 mm",
+            "Two magazines exchange for uninterrupted loading",
+            "Anti-jam, foolproof design",
+            "SMEMA compatible"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Max PCB size (L × W)", "330 × 250 mm"],
+            ["Magazine size (L × W × H)", "355 × 320 × 565 mm"],
+            ["Magazines", "1 on lifter, 1 on conveyor platform"],
+            ["Pitch", "10, 20, 30, 40 mm"],
+            ["Cycle time", "Approx. 6 s"],
+            ["Belt speed", "0–8 m/min"],
+            ["Transport height", "920 ± 20 mm"],
+            ["Power", "AC 100–230 V, 300 W"],
+            ["Air supply", "4–6 bar, max. 10 L/min"],
+            ["Dimensions (L × W × H)", "1100 × 780 × 1200 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

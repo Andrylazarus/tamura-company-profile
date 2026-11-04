@@ -1,0 +1,53 @@
+{
+  "name": "YS-RCV460 / 460S",
+  "type": "Reject Conveyor",
+  "image": "/images/products/hayawin/ys-rcv460.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Placed after SPI or test equipment, it pulls NG boards out of the flow into reject layers while OK boards continue. Single-lane and dual-lane versions."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Stainless steel rollers with belt conveying",
+            "Adjustable lift height for single-layer screening",
+            "Frame of high-strength steel plate and aviation-grade aluminium profile",
+            "Safety door lock that stops the machine when a door is opened",
+            "PLC controller with touch screen",
+            "Selectable flow direction, left to right or right to left",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "YS-RCV460", "YS-RCV460S"],
+            ["Lanes", "Single", "Dual"],
+            ["Reject layers", "5", "10"],
+            ["Layer spacing", "30 mm", "30 mm"],
+            ["PCB width", "50–460 mm", "50–280 mm"],
+            ["Cycle time", "≈ 10 s", "≈ 8 s"],
+            ["Transport height", "950 ± 30 mm", "950 ± 30 mm"],
+            [
+              "Dimensions (L × W × H)",
+              "(500–1000) × 950 × 1000 mm",
+              "(500–1000) × 1180 × 1000 mm"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

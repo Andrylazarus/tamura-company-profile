@@ -1,0 +1,56 @@
+{
+  "name": "YS-BF460A / 460AS",
+  "type": "NG/OK Buffer",
+  "image": "/images/products/hayawin/ys-bf460a.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Buffers OK and NG boards separately so boards can be re-judged before they continue down the line."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "FIFO buffer with NG board outflow",
+            "Pitch 25, 50, 75 or 100 mm",
+            "Frame of high-strength steel plate and aviation-grade aluminium profile",
+            "Safety door lock that stops the machine when a door is opened",
+            "PLC controller with touch screen",
+            "Servo motor and precision ball screw lifting, ±0.1 mm accuracy",
+            "ESD flat belt",
+            "Selectable flow direction, left to right or right to left",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "YS-BF460A", "YS-BF460AS"],
+            ["Lanes", "Single", "Dual"],
+            ["Min. PCB size (L × W)", "80 × 50 mm", "80 × 50 mm"],
+            ["Max. PCB size (L × W)", "480 × 460 mm", "480 × 280 mm"],
+            ["Slots", "20", "20"],
+            ["Layer spacing", "25 mm", "25 mm"],
+            ["Cycle time", "≈ 12 s", "≈ 12 s"],
+            ["Transport height", "950 ± 30 mm", "950 ± 30 mm"],
+            [
+              "Dimensions (L × W × H)",
+              "1200 × 1350 × 1800 mm",
+              "1200 × 1550 × 1800 mm"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

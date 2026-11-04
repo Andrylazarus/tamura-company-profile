@@ -1,0 +1,50 @@
+{
+  "name": "YS-VLD460",
+  "type": "Vacuum Loader",
+  "image": "/images/products/hayawin/ys-vld460.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Feeds bare boards at the start of the line: it lifts the top board off a stack with vacuum and passes it to the next conveyor."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Vacuum pick-up, stacks of 200–300 boards",
+            "Lift step adjusts automatically to board thickness",
+            "Frame of high-strength steel plate and aviation-grade aluminium profile",
+            "Safety door lock that stops the machine when a door is opened",
+            "PLC controller with touch screen",
+            "ESD belt transmission",
+            "Fully enclosed with tilting window",
+            "Selectable flow direction, left to right or right to left",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Cycle time", "≈ 6 s"],
+            ["Stack height / weight", "200 mm, ≤ 30 kg"],
+            ["PCB size (L × W)", "80 × 50 to 530 × 460 mm"],
+            ["Transport height", "950 ± 30 mm"],
+            ["Power", "AC 220 V, 50 Hz"],
+            ["Air supply", "0.4–0.6 MPa, ≤ 10 L/min"],
+            ["Dimensions (L × W × H)", "600 × 1315 × 1365 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

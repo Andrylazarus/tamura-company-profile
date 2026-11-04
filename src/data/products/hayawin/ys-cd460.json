@@ -1,0 +1,51 @@
+{
+  "name": "YS-CD460",
+  "type": "Turning Conveyor (Clamp)",
+  "image": "/images/products/hayawin/ys-cd460.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Clamps and rotates boards to change their orientation without changing the direction of the line."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "PLC control synchronised with the line",
+            "Motor-driven width adjustment with torque limiter",
+            "Aluminium rails for low vibration",
+            "Welded sheet-metal frame, powder coated",
+            "Fault code display and safety door lock",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Rotation", "±90°"],
+            ["Cycle time", "≈ 15 s"],
+            [
+              "Pass-through PCB size",
+              "80 × 50 to 530 × 460 mm (or customised)"
+            ],
+            ["Rotating PCB size", "150 × 150 to 530 × 460 mm (or customised)"],
+            ["Transport height", "950 ± 30 mm"],
+            ["Power", "AC 220 V, 50 Hz"],
+            ["Air supply", "0.4–0.6 MPa, ≤ 10 L/min"],
+            ["Dimensions (L × W × H)", "1000 × 1300 × 1100 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

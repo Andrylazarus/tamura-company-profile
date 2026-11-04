@@ -1,0 +1,58 @@
+{
+  "name": "YS-LCV460 / 460S",
+  "type": "PCB Flipper",
+  "image": "/images/products/hayawin/ys-lcv460.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Turns boards over 180 degrees between top-side and bottom-side processes. Available in single-lane and dual-lane versions."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Servo-driven flipping; rails align smoothly with machines before and after",
+            "Frame of high-strength steel plate and aviation-grade aluminium profile",
+            "Safety door lock that stops the machine when a door is opened",
+            "PLC controller with touch screen",
+            "ESD belt",
+            "Selectable flow direction, left to right or right to left",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "YS-LCV460", "YS-LCV460S"],
+            ["Lanes", "Single", "Dual"],
+            ["Min. PCB size (L × W)", "80 × 50 mm", "80 × 50 mm"],
+            ["Max. PCB size (L × W)", "530 × 460 mm", "530 × 280 mm"],
+            ["Cycle time", "≤ 12 s", "≤ 12 s"],
+            ["Transport height", "950 ± 30 mm", "950 ± 30 mm"],
+            ["Power", "AC 220 V, 50 Hz", "AC 220 V, 50 Hz"],
+            [
+              "Air supply",
+              "0.4–0.6 MPa, ≤ 10 L/min",
+              "0.4–0.6 MPa, ≤ 10 L/min"
+            ],
+            [
+              "Dimensions (L × W × H)",
+              "600 × 920 × 1370 mm",
+              "600 × 1210 × 1285 mm"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

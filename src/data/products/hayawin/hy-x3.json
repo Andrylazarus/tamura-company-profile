@@ -1,0 +1,51 @@
+{
+  "name": "HY-X3",
+  "type": "Automatic PCB Labeling Machine",
+  "image": "/images/products/hayawin/hy-x3.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "An inline machine that places traceability labels on PCBs automatically, with vision correction for accurate placement."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Servo motors with lead screw drive in full closed loop",
+            "Visual and offline programming",
+            "Fiducial mark scanning corrects PCB offset",
+            "Camera correction of label position",
+            "Two label feeders",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Labeling speed", "Average 2700 pcs/h"],
+            ["Labeling accuracy", "±0.09 mm"],
+            ["Feeders", "2"],
+            ["Label size", "3 × 3 to 60 × 60 mm"],
+            ["Tape width", "≤ 80 mm"],
+            ["PCB size (L × W)", "50 × 50 to 320 × 380 mm"],
+            ["PCB thickness", "0.4–5 mm"],
+            ["Transport height", "910 ± 30 mm"],
+            ["Air supply", "0.6 ± 0.1 MPa"],
+            ["Power", "AC 220 V ±10%, 50/60 Hz, 2500 W"],
+            ["Dimensions (L × W × H)", "1000 × 1250 × 1450 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "YS-BF250B / 330B",
+  "type": "Magazine Buffer",
+  "image": "/images/products/hayawin/ys-bf250b.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Uses magazines to load, unload and buffer boards, balancing the speed of machines before and after it."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Buffer, timed storage, pass-through and FIFO modes",
+            "Frame of high-strength steel plate and aviation-grade aluminium profile",
+            "Safety door lock that stops the machine when a door is opened",
+            "PLC controller with touch screen",
+            "Servo motor and precision ball screw lifting, ±0.1 mm accuracy",
+            "Selectable flow direction, left to right or right to left",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "YS-BF250B", "YS-BF330B"],
+            ["Min. PCB size (L × W)", "80 × 80 mm", "80 × 80 mm"],
+            ["Max. PCB size (L × W)", "350 × 250 mm", "455 × 330 mm"],
+            [
+              "Magazine size (L × W × H)",
+              "355 × 320 × 565 mm",
+              "460 × 400 × 565 mm"
+            ],
+            ["Cycle time", "≈ 12 s", "≈ 12 s"],
+            ["Pitch", "10–100 mm", "10–100 mm"],
+            ["Transport height", "950 ± 30 mm", "950 ± 30 mm"],
+            [
+              "Dimensions (L × W × H)",
+              "1175 × 1230 × 1850 mm",
+              "1300 × 1450 × 1850 mm"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "HY-460BF",
+  "type": "PCB Buffer",
+  "image": "/images/products/hayawin/hy-460bf.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Holds up to 20 boards between machines when upstream and downstream speeds differ, or after reflow to let boards cool."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "20 aluminium-alloy slots with 3.5 mm flat belts",
+            "FIFO, LIFO and pass-through modes",
+            "Pitch 25 or 50 mm",
+            "Panasonic PLC with TFT touch screen",
+            "Enclosed for operator safety",
+            "SMEMA compatible"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["PCB size (L × W)", "80 × 50 to 480 × 460 mm"],
+            ["Min. PCB thickness", "0.4 mm"],
+            ["Capacity", "20 boards"],
+            ["Pitch", "25, 50 mm"],
+            ["Cycle time", "Approx. 15 s"],
+            ["Transport height", "920 ± 30 mm"],
+            ["Power", "AC 220 V, 50 Hz, 800 W"],
+            ["Air supply", "0.4–0.6 MPa"],
+            ["Dimensions (L × W × H)", "600 × 1240 × 1800 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

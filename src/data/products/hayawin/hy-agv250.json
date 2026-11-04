@@ -1,0 +1,52 @@
+{
+  "name": "HY-AGV250",
+  "type": "SMT AGV (Magazine Type)",
+  "image": "/images/products/hayawin/hy-agv250.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "An automated guided vehicle that docks with SMT lines to load and unload magazine racks and fixtures, automating material logistics between machines."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Navigates without rails or markers, using environment mapping and self-planned routes",
+            "Vision, laser, collision bar and emergency stop for multi-level safety",
+            "Fast, precise magazine pickup and delivery",
+            "Runs around the clock with self-charging, manual charging or battery swap",
+            "Light and sound signals plus teaching-device support"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Docking accuracy", "±10 mm (laser), ±5 mm (QR code)"],
+            ["Running speed", "0–1 m/s"],
+            ["Navigation accuracy", "±20 mm"],
+            ["Rotation diameter", "1220 mm"],
+            ["Lifting stroke", "800 mm"],
+            ["Transport height", "250–1050 mm"],
+            ["Magazine capacity", "1"],
+            ["Magazine size (L × W × H)", "355 × 320 × 565 mm"],
+            ["Battery life", "8 h"],
+            ["Charging time", "≤ 1.5 h"],
+            ["Rated load", "50 kg"],
+            ["Ambient temperature", "0–40 °C"],
+            ["Dimensions (L × W × H)", "1120 × 600 × 1375 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

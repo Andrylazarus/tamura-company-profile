@@ -1,0 +1,91 @@
+{
+  "name": "YS-NGOK ULD250/330/390/460",
+  "type": "NG/OK Unloader",
+  "image": "/images/products/hayawin/ys-ngok-uld.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Sorts boards after AOI or test: OK boards go into one set of magazines and NG boards into another for rework."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Frame of high-strength steel plate and aviation-grade aluminium profile",
+            "Safety door lock that stops the machine when a door is opened",
+            "PLC controller with touch screen",
+            "Servo motor and precision ball screw lifting, ±0.1 mm accuracy",
+            "Pneumatic clamps position the magazine precisely",
+            "Selectable flow direction, left to right or right to left",
+            "Standard SMEMA interface for inline connection with other equipment",
+            "Supports IPC-HERMES and IPC-CFX",
+            "CE certified"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Cycle time", "≈ 12 s"],
+            ["Magazine positions", "2 NG + 2 OK (or customised)"],
+            ["Magazine change time", "≈ 25 s"],
+            ["Magazine slots", "50"],
+            ["Pitch", "10–100 mm (adjustable)"],
+            ["Transport height", "950 ± 30 mm"],
+            ["Power", "AC 220 V, 50 Hz"],
+            ["Air supply", "0.4–0.6 MPa, ≤ 10 L/min"]
+          ]
+        },
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Model",
+              "YS-NGOK ULD250",
+              "YS-NGOK ULD330",
+              "YS-NGOK ULD390",
+              "YS-NGOK ULD460"
+            ],
+            [
+              "Min. PCB size (L × W)",
+              "80 × 50 mm",
+              "80 × 50 mm",
+              "80 × 50 mm",
+              "80 × 50 mm"
+            ],
+            [
+              "Max. PCB size (L × W)",
+              "350 × 250 mm",
+              "455 × 330 mm",
+              "530 × 390 mm",
+              "530 × 460 mm"
+            ],
+            [
+              "Magazine size (L × W × H)",
+              "355 × 320 × 565 mm",
+              "460 × 400 × 565 mm",
+              "535 × 460 × 565 mm",
+              "535 × 530 × 565 mm"
+            ],
+            [
+              "Dimensions (L × W × H)",
+              "1480 × 1550 × 1750 mm",
+              "1965 × 1860 × 1750 mm",
+              "2245 × 2120 × 1750 mm",
+              "2245 × 2120 × 1750 mm"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "YS-TCV460 / 460S",
+  "type": "Lifting Gate Conveyor",
+  "image": "/images/products/hayawin/ys-tcv460.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Opens a walkway through the line for safe operator access, feeding and maintenance. Single-lane and dual-lane versions."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "0.6 m access space (0.5–1 m on request)",
+            "Photoelectric sensors check the walkway",
+            "Frame of high-strength steel plate and aviation-grade aluminium profile",
+            "Safety door lock that stops the machine when a door is opened",
+            "PLC controller with touch screen",
+            "Selectable flow direction, left to right or right to left",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "YS-TCV460", "YS-TCV460S"],
+            ["Lanes", "Single", "Dual"],
+            ["Min. PCB size (L × W)", "80 × 50 mm", "80 × 50 mm"],
+            ["Max. PCB size (L × W)", "480 × 460 mm", "480 × 280 mm"],
+            ["Board pass cycle", "≈ 12 s", "≈ 12 s"],
+            ["Gate cycle", "30 s", "30 s"],
+            ["Transport height", "950 ± 30 mm", "950 ± 30 mm"],
+            [
+              "Air supply",
+              "0.4–0.6 MPa, ≤ 30 L/min",
+              "0.4–0.6 MPa, ≤ 30 L/min"
+            ],
+            [
+              "Dimensions (L × W × H)",
+              "1200 × 935 × 1410 mm",
+              "1200 × 1380 × 1430 mm"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

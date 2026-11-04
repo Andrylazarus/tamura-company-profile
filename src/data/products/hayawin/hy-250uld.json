@@ -1,0 +1,50 @@
+{
+  "name": "HY-250ULD",
+  "type": "Automatic PCB Unloader",
+  "image": "/images/products/hayawin/hy-250uld.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "A magazine unloader for the end of an SMT line that stacks finished boards into magazines without pushing or damaging them."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Reinforced aluminium structure with plastic chains",
+            "Panasonic PLC and TFT touch screen",
+            "Pitch 10, 20, 30 or 40 mm",
+            "Two magazines swap automatically for non-stop operation",
+            "Anti-jam, foolproof design",
+            "SMEMA compatible"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Max PCB size (L × W)", "330 × 250 mm"],
+            ["Magazine size (L × W × H)", "355 × 320 × 565 mm"],
+            ["Magazines", "2"],
+            ["Pitch", "10, 20, 30, 40 mm"],
+            ["Cycle time", "Approx. 6 s"],
+            ["Belt speed", "0–8 m/min"],
+            ["Transport height", "920 ± 20 mm"],
+            ["Power", "AC 100–230 V, 350 W"],
+            ["Air supply", "4–6 bar, max. 10 L/min"],
+            ["Dimensions (L × W × H)", "1700 × 780 × 1200 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

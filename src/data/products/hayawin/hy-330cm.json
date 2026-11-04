@@ -1,0 +1,50 @@
+{
+  "name": "HY-330CM",
+  "type": "Turning Conveyor",
+  "image": "/images/products/hayawin/hy-330cm.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Turns PCBs 90 degrees to change the flow direction of the line, typically between placement, reflow and inspection."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Panasonic PLC controller",
+            "90° rotation, clockwise or counter-clockwise",
+            "7 mm flat belt, 0–9 m/min",
+            "Turning section behind a transparent safety cover",
+            "Planetary reducer for accurate turning and parallel move",
+            "Manual width adjustment 50–390 mm",
+            "SMEMA compatible"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Max PCB size (L × W)", "460 × 390 mm"],
+            ["Rotation", "90°"],
+            ["Rail length", "500 mm"],
+            ["Parallel move stroke", "100 mm"],
+            ["Cycle time", "15 s"],
+            ["Transport height", "920 ± 20 mm"],
+            ["Power", "AC 220 V, 50 Hz, 100 W"],
+            ["Air supply", "4–6 bar"],
+            ["Dimensions (L × W × H)", "800 × 800 × 1200 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

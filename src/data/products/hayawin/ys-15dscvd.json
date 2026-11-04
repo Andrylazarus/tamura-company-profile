@@ -1,0 +1,46 @@
+{
+  "name": "YS-15DSCVD",
+  "type": "Shuttle Conveyor",
+  "image": "/images/products/hayawin/ys-15dscvd.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Shifts boards sideways to split one line into two, merge two lines into one, or link single-lane and dual-lane machines."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Rail width 50–390 mm (single lane) or 50–280 mm (dual lane)",
+            "Fully enclosed with opening transparent window",
+            "Frame of high-strength steel plate and aviation-grade aluminium profile",
+            "Safety door lock that stops the machine when a door is opened",
+            "PLC controller with touch screen",
+            "Selectable flow direction, left to right or right to left",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Cycle time", "≈ 12 s"],
+            ["PCB size (L × W)", "80 × 50 to 480 × 390 mm"],
+            ["Transport height", "950 ± 30 mm"],
+            ["Power", "AC 220 V, 50 Hz"],
+            ["Dimensions (L × W × H)", "600 × 1500 × 1200 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "HY-1.2TCVY",
+  "type": "Gate Conveyor",
+  "image": "/images/products/hayawin/hy-1-2tcvy.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "A conveyor that opens a 600 mm walkway through an automated line, so operators can pass without stopping production for long."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Panasonic PLC controller",
+            "Fully covered, with 4 sensors for pass-through detection",
+            "Cylinder-driven extension and retraction",
+            "Smooth parallel width adjustment by T-screw",
+            "SMEMA compatible"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Max PCB size (L × W)", "500 × 460 mm"],
+            ["Walkway opening", "600 mm"],
+            ["Cycle time", "±20 s"],
+            ["Transport height", "920 ± 20 mm"],
+            ["Power", "AC 100–230 V, 50 W"],
+            ["Air supply", "4–6 bar, max. 10 L/min"],
+            ["Dimensions (L × W × H)", "1200 (open) × 890 × 1200 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

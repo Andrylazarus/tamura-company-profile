@@ -1,0 +1,55 @@
+{
+  "name": "YS-BF460 / 460S",
+  "type": "Buffer Stocker",
+  "image": "/images/products/hayawin/ys-bf460.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "A vertical buffer for the whole line that also sorts OK/NG boards and lets boards cool after reflow."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Buffer, timed storage, bypass, FIFO and cooling modes",
+            "Wear-resistant aluminium-alloy magazine",
+            "Frame of high-strength steel plate and aviation-grade aluminium profile",
+            "Safety door lock that stops the machine when a door is opened",
+            "PLC controller with touch screen",
+            "Servo motor and precision ball screw lifting, ±0.1 mm accuracy",
+            "Selectable flow direction, left to right or right to left",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Model", "YS-BF460", "YS-BF460S"],
+            ["Lanes", "Single", "Dual"],
+            ["Min. PCB size (L × W)", "80 × 50 mm", "80 × 50 mm"],
+            ["Max. PCB size (L × W)", "480 × 460 mm", "480 × 280 mm"],
+            ["Slots", "20", "40"],
+            ["Layer spacing", "25 mm", "25 mm"],
+            ["Cycle time", "≤ 12 s", "≤ 12 s"],
+            ["Transport height", "950 ± 30 mm", "950 ± 30 mm"],
+            [
+              "Dimensions (L × W × H)",
+              "600 × 1350 × 1800 mm",
+              "600 × 1550 × 1800 mm"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

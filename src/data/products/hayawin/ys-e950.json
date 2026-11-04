@@ -1,0 +1,45 @@
+{
+  "name": "YS-E950",
+  "type": "PCB & Fixture Lift",
+  "image": "/images/products/hayawin/ys-e950.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Moves boards and fixtures between the upper line and the lower return line, for pallet return systems."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Frame of high-strength steel plate and aviation-grade aluminium profile",
+            "Safety door lock that stops the machine when a door is opened",
+            "PLC controller with touch screen",
+            "Works with fixtures",
+            "Selectable flow direction, left to right or right to left",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["PCB size (L × W)", "80 × 50 to 530 × 460 mm"],
+            ["Upper transport height", "950 ± 30 mm"],
+            ["Lower transport height", "200–250 mm (customised)"],
+            ["Power", "AC 220 V, 50 Hz"],
+            ["Dimensions (L × W × H)", "620 × 1315 × 1565 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}

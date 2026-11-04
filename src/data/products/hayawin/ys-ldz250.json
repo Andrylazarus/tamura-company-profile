@@ -1,0 +1,52 @@
+{
+  "name": "YS-LDZ250 / YS-ULDZ250",
+  "type": "Fixture Loading & Unloading Machine",
+  "image": "/images/products/hayawin/ys-ldz250.jpg",
+  "tagline": "",
+  "intro": [
+    {
+      "t": "p",
+      "text": "Automatically places PCBs into pallets or fixtures before the line and removes them afterwards, with camera correction for accuracy."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Key Features",
+      "blocks": [
+        {
+          "t": "list",
+          "items": [
+            "Steel plate and aviation aluminium frame for stability",
+            "Visual and offline programming",
+            "Lower CCD camera corrects board offset",
+            "Straight-through aluminium PCB conveyor",
+            "Fixtures fed by stacking with return feed",
+            "Standard SMEMA interface for inline connection with other equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "t": "table",
+          "rows": [
+            ["Cycle time", "22 s per board"],
+            ["Accuracy", "±0.09 mm"],
+            ["R-axis range / resolution", "0–360°, 0.01°/pulse"],
+            ["Z-axis stroke / resolution", "50 mm, 0.05 mm"],
+            ["PCB size", "50 × 50 to 250 × 250 mm"],
+            ["PCB thickness", "0.4–5 mm"],
+            ["Fixture size", "120 × 50 to 320 × 250 mm"],
+            ["Fixture thickness", "3–5 mm"],
+            ["Fixture capacity", "40 (5 mm fixtures)"],
+            ["Air supply", "0.6 ± 0.1 MPa"],
+            ["Power", "AC 220 V ±10%, 50/60 Hz, 2500 W"],
+            ["Dimensions (L × W × H)", "1000 × 1500 × 1600 mm"]
+          ]
+        }
+      ]
+    }
+  ]
+}
