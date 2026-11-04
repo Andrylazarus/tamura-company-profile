@@ -604,97 +604,84 @@ body.menu-open .site-header.is-overlay {
 }
 .line__track {
   position: relative;
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
   margin: 0;
   padding: 0;
   list-style: none;
-  border-bottom: 1px solid var(--line);
-  overflow-x: auto;
-  scrollbar-width: thin;
-  -webkit-overflow-scrolling: touch;
 }
-.line__station {
-  flex: 1 1 0;
-  min-width: 104px;
+/* the conveyor */
+.line__track::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 7px;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--line) 0 10px,
+    transparent 10px 14px
+  );
 }
 .line__station a,
 .line__station button {
   position: relative;
+  display: block;
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 12px 6px 14px;
+  padding: 30px 16px 4px 0;
   background: none;
   border: 0;
-  text-align: center;
+  text-align: left;
   color: inherit;
   font: inherit;
   text-decoration: none;
   cursor: pointer;
 }
-/* the active underline */
-.line__station a::after,
-.line__station button::after {
+.line__station a::before,
+.line__station button::before {
   content: "";
   position: absolute;
-  left: 6px;
-  right: 6px;
-  bottom: -1px;
-  height: 3px;
-  border-radius: 3px 3px 0 0;
-  background: var(--navy);
-  transform: scaleX(0);
-  transition: transform 0.25s var(--ease-out, ease-out);
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--white);
+  border: 2px solid var(--navy);
+  transition: background-color 0.15s, border-color 0.15s, transform 0.15s;
 }
-.line__station a:hover::after,
-.line__station button:hover::after {
-  transform: scaleX(0.4);
+.line__station a:hover::before,
+.line__station button:hover::before {
+  transform: scale(1.15);
 }
-.line__station [aria-current="true"]::after,
-.line__station [aria-pressed="true"]::after {
-  transform: scaleX(1);
+.line__station [aria-current="true"]::before,
+.line__station [aria-pressed="true"]::before {
+  background: var(--red);
+  border-color: var(--red);
+  box-shadow: 0 0 0 5px rgba(232, 44, 53, 0.16);
 }
 .line__step {
   display: block;
-  font: 700 2rem/1 var(--font-display);
-  color: #b3bccb;
-  margin-bottom: 8px;
-  transition: color 0.2s;
+  font: 700 0.9375rem/1 var(--font-display);
+  color: var(--muted);
+  margin-bottom: 6px;
 }
 .line__name {
   display: block;
-  font: 600 0.875rem/1.25 var(--font-body);
+  font: 700 1.5rem/1.05 var(--font-display);
   color: var(--ink);
-  max-width: 13ch;
-  margin: 0 auto;
-  transition: color 0.2s;
 }
 .line__count {
   display: block;
   margin-top: 4px;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   color: var(--muted);
-}
-.line__station a:hover .line__step,
-.line__station button:hover .line__step,
-.line__station [aria-current="true"] .line__step,
-.line__station [aria-pressed="true"] .line__step {
-  color: var(--navy);
 }
 .line__station [aria-current="true"] .line__name,
 .line__station [aria-pressed="true"] .line__name {
   color: var(--navy);
-}
-/* sub-process row under the tabs */
-.line__subs {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
-  padding-top: 18px;
 }
 
 /* on the home hero the line sits on a white plate */
@@ -710,14 +697,29 @@ body.menu-open .site-header.is-overlay {
 }
 
 @media (max-width: 900px) {
+  .line__track {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 22px;
+  }
+  .line__track::before {
+    display: none;
+  }
+  .line__station a,
+  .line__station button {
+    padding: 0 12px 0 26px;
+  }
+  .line__station a::before,
+  .line__station button::before {
+    top: 2px;
+  }
   .line__hint {
     display: none;
   }
-  .line__step {
-    font-size: 1.625rem;
-  }
-  .line__subs {
-    justify-content: flex-start;
+}
+@media (max-width: 520px) {
+  .line__track {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -1886,10 +1888,7 @@ a.brand-tile--ask:hover {
 :lang(ja) .statement h3 {
   line-height: 1.4;
 }
-:lang(ja) .line__name {
-  font-size: 0.875rem;
-  line-height: 1.4;
-}
+:lang(ja) .line__name,
 :lang(ja) .mega__name {
   font-size: 1.125rem;
   line-height: 1.4;
@@ -2228,6 +2227,48 @@ a.brand-tile:hover .brand-tile__logo img {
   animation-delay: 0.28s;
 }
 
+/* category line: boards moving along the conveyor, stations respond */
+@keyframes conveyor {
+  to {
+    background-position: 28px 0;
+  }
+}
+.line__track::before {
+  animation: conveyor 1.4s linear infinite;
+}
+.line__station a,
+.line__station button {
+  transition: transform 0.25s var(--ease-out);
+}
+.line__station a:hover,
+.line__station button:hover {
+  transform: translateY(-3px);
+}
+.line__station a:hover::before,
+.line__station button:hover::before {
+  background: var(--navy);
+  transform: scale(1.2);
+}
+@keyframes ping {
+  0% {
+    box-shadow: 0 0 0 0 rgba(232, 44, 53, 0.45);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(232, 44, 53, 0);
+  }
+}
+.line__station [aria-current="true"]::before,
+.line__station [aria-pressed="true"]::before {
+  animation: ping 1.6s ease-out infinite;
+}
+.line__name {
+  transition: color 0.2s;
+}
+.line__station a:hover .line__name,
+.line__station button:hover .line__name {
+  color: var(--navy);
+}
+
 /* products menu drops in */
 @keyframes drop {
   from {
@@ -2422,9 +2463,10 @@ a.brand-tile:hover .brand-tile__logo img {
 
 @media (prefers-reduced-motion: reduce) {
   .hero__photo,
-  .line__station a::after,
-  .line__station button::after {
-    transition: none !important;
+  .line__track::before,
+  .line__station [aria-current="true"]::before,
+  .line__station [aria-pressed="true"]::before {
+    animation: none !important;
   }
   .has-reveal .reveal {
     opacity: 1 !important;

@@ -11,7 +11,7 @@ import { localize, tr, useLang } from "@/i18n";
 const T = {
   en: {
     title: "Solutions",
-    lead: "Equipment for every stage of electronics assembly, from SMT material handling and marking to SMT, through-hole, cleaning, depaneling, coating, potting and factory automation.",
+    lead: "Equipment for every stage of electronics assembly, from SMT handling and marking to SMT, through-hole, conformal coating and factory automation.",
     search: "Search solutions",
     placeholder: "Model, brand or process",
     filter: "Filter by category",
@@ -35,7 +35,7 @@ const T = {
   },
   ja: {
     title: "ソリューション",
-    lead: "SMT部材管理やマーキングから、SMT、挿入実装、洗浄、基板分割、コーティング、ポッティング、ファクトリーオートメーションまで、電子機器実装の全工程に対応する装置。",
+    lead: "SMTハンドリングやマーキングから、SMT、挿入実装、コンフォーマルコーティング、工場自動化まで、電子機器実装の全工程に対応する装置。",
     search: "ソリューションを検索",
     placeholder: "型番・メーカー・工程で検索",
     filter: "分野で絞り込む",
@@ -203,39 +203,40 @@ export default function Products() {
                 brand: "",
               })
             }
-          >
-            {activeCategory && (
-              <div className="chips line__subs" aria-label={t.process}>
-                <button
-                  type="button"
-                  className="chip"
-                  aria-pressed={!section}
-                  onClick={() => update({ section: "" })}
-                >
-                  {t.all(tr(activeCategory, "short", lang))}
-                </button>
-                {activeCategory.sections.map((s) => (
-                  <button
-                    key={s.id}
-                    type="button"
-                    className="chip"
-                    aria-pressed={section === s.id}
-                    onClick={() =>
-                      update({ section: section === s.id ? "" : s.id })
-                    }
-                  >
-                    {tr(s, "label", lang)}
-                  </button>
-                ))}
-              </div>
-            )}
-          </AssemblyLine>
+          />
         </div>
       </div>
 
       <section className="section section--steel section--tight">
         <div className="container">
           <div className="catalog-tools">
+            <div className="chips" aria-label={t.process}>
+              {activeCategory && (
+                <>
+                  <button
+                    type="button"
+                    className="chip"
+                    aria-pressed={!section}
+                    onClick={() => update({ section: "" })}
+                  >
+                    {t.all(tr(activeCategory, "short", lang))}
+                  </button>
+                  {activeCategory.sections.map((s) => (
+                    <button
+                      key={s.id}
+                      type="button"
+                      className="chip"
+                      aria-pressed={section === s.id}
+                      onClick={() =>
+                        update({ section: section === s.id ? "" : s.id })
+                      }
+                    >
+                      {tr(s, "label", lang)}
+                    </button>
+                  ))}
+                </>
+              )}
+            </div>
             <div
               className="field"
               style={{ flexDirection: "row", alignItems: "center", gap: 10 }}

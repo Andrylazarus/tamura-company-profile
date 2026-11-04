@@ -29,7 +29,7 @@ const T = {
     openMenu: "Open menu",
     closeMenu: "Close menu",
     megaText:
-      "Solutions for every step of the line, from SMT material handling to factory automation. Choose a process or search by model name.",
+      "Solutions for every step of the line, from SMT handling to factory automation. Choose a process or search by model name.",
     viewAll: "View all solutions",
     language: "Language",
   },
@@ -47,7 +47,7 @@ const T = {
     openMenu: "メニューを開く",
     closeMenu: "メニューを閉じる",
     megaText:
-      "SMT部材管理からファクトリーオートメーションまで、ラインの全工程に対応するソリューション。工程から選ぶか、型番で検索できます。",
+      "SMTハンドリングから工場自動化まで、ラインの全工程に対応するソリューション。工程から選ぶか、型番で検索できます。",
     viewAll: "すべてのソリューションを見る",
     language: "言語",
   },
