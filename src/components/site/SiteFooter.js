@@ -7,22 +7,22 @@ const T = {
   en: {
     blurb:
       "Industrial supplier of electronics manufacturing equipment, spare parts and technical support for factories in Indonesia.",
-    products: "Products",
+    products: "Solutions",
     company: "Company",
     about: "About us",
     services: "Services",
-    all: "All products",
+    all: "All solutions",
     contact: "Contact",
     rights: "Brand names and logos belong to their respective manufacturers.",
   },
   ja: {
     blurb:
       "インドネシアの工場向けに、電子機器製造装置、スペアパーツ、技術サポートを提供する産業機器サプライヤーです。",
-    products: "製品",
+    products: "ソリューション",
     company: "会社情報",
     about: "会社概要",
     services: "サービス",
-    all: "すべての製品",
+    all: "すべてのソリューション",
     contact: "お問い合わせ",
     rights: "各ブランド名およびロゴは、それぞれのメーカーに帰属します。",
   },
@@ -47,7 +47,7 @@ export default function SiteFooter() {
           <p>{t.blurb}</p>
         </div>
 
-        <nav aria-label="Products">
+        <nav aria-label="Solutions">
           <h2>{t.products}</h2>
           <ul>
             {categories.map((c) => (

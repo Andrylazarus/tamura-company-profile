@@ -16,39 +16,39 @@ import { SearchIcon, ChevronDown, MenuIcon, CloseIcon } from "./icons";
 
 const T = {
   en: {
-    products: "Products",
+    products: "Solutions",
     links: [
       { href: "/about", label: "About" },
       { href: "/services", label: "Services" },
       { href: "/contact", label: "Contact" },
     ],
-    search: "Search products",
+    search: "Search solutions",
     quote: "Request a quote",
     skip: "Skip to content",
     home: "Tamura Trade Indonesia home",
     openMenu: "Open menu",
     closeMenu: "Close menu",
     megaText:
-      "Browse machines for marking, SMT, through-hole, conformal coating and more, or search by model name.",
-    viewAll: "View all products",
+      "Solutions for every step of the line, from SMT material handling to factory automation. Choose a process or search by model name.",
+    viewAll: "View all solutions",
     language: "Language",
   },
   ja: {
-    products: "製品",
+    products: "ソリューション",
     links: [
       { href: "/about", label: "会社概要" },
       { href: "/services", label: "サービス" },
       { href: "/contact", label: "お問い合わせ" },
     ],
-    search: "製品を検索",
+    search: "ソリューションを検索",
     quote: "お見積り依頼",
     skip: "本文へ移動",
     home: "Tamura Trade Indonesia ホーム",
     openMenu: "メニューを開く",
     closeMenu: "メニューを閉じる",
     megaText:
-      "マーキング、SMT、挿入実装、コンフォーマルコーティングなどの装置を分野別に探すか、型番で検索できます。",
-    viewAll: "すべての製品を見る",
+      "SMT部材管理からファクトリーオートメーションまで、ラインの全工程に対応するソリューション。工程から選ぶか、型番で検索できます。",
+    viewAll: "すべてのソリューションを見る",
     language: "言語",
   },
 };

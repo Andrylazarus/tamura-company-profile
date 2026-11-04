@@ -5,7 +5,7 @@ import { tr, useLang, asset } from "@/i18n";
 const T = {
   en: {
     home: "Home",
-    products: "Products",
+    products: "Solutions",
     quote: "Request a quote",
     specs: "View specifications",
     onPage: "On this page",
@@ -14,13 +14,13 @@ const T = {
     ctaText:
       "Ask for a quotation, a demonstration or the full specification sheet. Our sales team will reply.",
     related: "Related equipment",
-    allIn: (c) => `All ${c} products`,
+    allIn: (c) => `All ${c} solutions`,
     maker: (x) => `${x} on the manufacturer's website`,
     englishOnly: "",
   },
   ja: {
     home: "ホーム",
-    products: "製品",
+    products: "ソリューション",
     quote: "お見積り依頼",
     specs: "仕様を見る",
     onPage: "このページの内容",
@@ -28,8 +28,8 @@ const T = {
     interested: (n) => `${n}にご興味がありますか？`,
     ctaText:
       "お見積り、デモンストレーション、詳細な仕様書をご依頼ください。営業担当からご連絡します。",
-    related: "関連製品",
-    allIn: (c) => `${c}の製品をすべて見る`,
+    related: "関連装置",
+    allIn: (c) => `${c}のソリューションをすべて見る`,
     maker: (x) => `メーカーのウェブサイトで${x}を見る`,
     englishOnly: "この製品の詳細はメーカー資料に基づき英語で掲載しています。",
   },

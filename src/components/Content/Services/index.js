@@ -8,10 +8,10 @@ const services = [
     title: "Technical support",
     image: "/images/web/svc-support.jpg",
     alt: "Code reader inspecting a panel of PCBs inside a marking machine",
-    text: "We are confident in our products, and we still keep a strong technical team for the unexpected. Our engineers help you troubleshoot problems with the machines we supply, and our presence in South-East Asia lets us respond faster than suppliers further away.",
+    text: "We are confident in our products, and we still keep a strong technical team for the unexpected. Our engineers help you troubleshoot problems with the machines we supply, and with engineers on standby in Jakarta and Cikarang we respond faster than suppliers further away.",
     points: [
       "Troubleshooting for the equipment we supply",
-      "Fast response from a team based in Jakarta",
+      "Fast response from engineers on standby in Jakarta and Cikarang",
       "Support that continues after installation",
     ],
   },
@@ -70,10 +70,10 @@ const JA = {
   "technical-support": {
     title: "技術サポート",
     alt: "マーキング装置内で基板パネルを検査するコードリーダー",
-    text: "当社は製品に自信を持っていますが、万一に備えて強力な技術チームを擁しています。納入装置のトラブル対応はエンジニアがお手伝いし、東南アジアに拠点があるため遠方のサプライヤーより迅速に対応できます。",
+    text: "当社は製品に自信を持っていますが、万一に備えて強力な技術チームを擁しています。納入装置のトラブル対応はエンジニアがお手伝いし、ジャカルタとチカランにエンジニアが待機しているため、遠方のサプライヤーより迅速に対応できます。",
     points: [
       "納入装置のトラブルシューティング",
-      "ジャカルタのチームによる迅速な対応",
+      "ジャカルタとチカランに待機するエンジニアによる迅速な対応",
       "据付後も続くサポート",
     ],
   },

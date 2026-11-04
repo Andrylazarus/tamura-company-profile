@@ -36,7 +36,7 @@ const T = {
     ],
     partners: "Our partners",
     partnersLead: "We work in partnership with these equipment manufacturers.",
-    browse: "Browse their products",
+    browse: "Browse their solutions",
   },
   ja: {
     title: "会社概要",
@@ -67,7 +67,7 @@ const T = {
     ],
     partners: "取り扱いメーカー",
     partnersLead: "以下の装置メーカーと協力しています。",
-    browse: "製品を見る",
+    browse: "ソリューションを見る",
   },
 };
 

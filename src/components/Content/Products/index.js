@@ -10,9 +10,9 @@ import { localize, tr, useLang } from "@/i18n";
 
 const T = {
   en: {
-    title: "Products",
-    lead: "Machines for marking, SMT, through-hole, conformal coating, test and thermal profiling.",
-    search: "Search products",
+    title: "Solutions",
+    lead: "Equipment for every stage of electronics assembly, from SMT material handling and marking to SMT, through-hole, cleaning, depaneling, coating, potting and factory automation.",
+    search: "Search solutions",
     placeholder: "Model, brand or process",
     filter: "Filter by category",
     allCats: "Showing all categories",
@@ -20,20 +20,23 @@ const T = {
     process: "Process",
     brand: "Brand",
     allBrands: "All brands",
-    count: (n) => `${n} ${n === 1 ? "product" : "products"}`,
+    count: (n) => `${n} ${n === 1 ? "model" : "models"}`,
     matching: (q) => ` matching “${q}”`,
     from: (b) => ` from ${b}`,
     inCat: (c) => ` in ${c}`,
     clear: "Clear filters",
-    emptyTitle: "No products match these filters",
+    emptyTitle: "No models match these filters",
     emptyText:
       "Try a model name such as Zenith or a process such as reflow. If you cannot find a machine, our sales team can source it for you.",
     ask: "Ask our sales team",
+    onRequestTitle: (c) => `${c} solutions on request`,
+    onRequestText:
+      "We do not list models for this process yet, but our team can recommend and source the right equipment for your line.",
   },
   ja: {
-    title: "製品",
-    lead: "マーキング、SMT、挿入実装、コンフォーマルコーティング、テスト、温度プロファイル測定のための装置。",
-    search: "製品を検索",
+    title: "ソリューション",
+    lead: "SMT部材管理やマーキングから、SMT、挿入実装、洗浄、基板分割、コーティング、ポッティング、ファクトリーオートメーションまで、電子機器実装の全工程に対応する装置。",
+    search: "ソリューションを検索",
     placeholder: "型番・メーカー・工程で検索",
     filter: "分野で絞り込む",
     allCats: "すべての分野を表示中",
@@ -41,15 +44,18 @@ const T = {
     process: "工程",
     brand: "メーカー",
     allBrands: "すべてのメーカー",
-    count: (n) => `${n}件の製品`,
+    count: (n) => `${n}機種`,
     matching: (q) => `（「${q}」で検索）`,
     from: (b) => `・${b}`,
     inCat: (c) => `・${c}`,
     clear: "絞り込みを解除",
-    emptyTitle: "条件に一致する製品はありません",
+    emptyTitle: "条件に一致する機種はありません",
     emptyText:
       "Zenith などの型番や、リフローなどの工程名で検索してください。見つからない装置も、営業担当がお探しします。",
     ask: "営業担当に問い合わせる",
+    onRequestTitle: (c) => `${c}のソリューションはお問い合わせください`,
+    onRequestText:
+      "この工程の機種はまだ掲載していませんが、お客様のラインに合った装置を当社チームがご提案・手配します。",
   },
 };
 
@@ -155,6 +161,7 @@ export default function Products() {
         .filter((g) => g.items.length);
 
   const hasFilters = category || section || brand || query;
+  const onRequest = activeCategory && !brand && !query && visible.length === 0;
 
   return (
     <>
@@ -196,40 +203,39 @@ export default function Products() {
                 brand: "",
               })
             }
-          />
+          >
+            {activeCategory && (
+              <div className="chips line__subs" aria-label={t.process}>
+                <button
+                  type="button"
+                  className="chip"
+                  aria-pressed={!section}
+                  onClick={() => update({ section: "" })}
+                >
+                  {t.all(tr(activeCategory, "short", lang))}
+                </button>
+                {activeCategory.sections.map((s) => (
+                  <button
+                    key={s.id}
+                    type="button"
+                    className="chip"
+                    aria-pressed={section === s.id}
+                    onClick={() =>
+                      update({ section: section === s.id ? "" : s.id })
+                    }
+                  >
+                    {tr(s, "label", lang)}
+                  </button>
+                ))}
+              </div>
+            )}
+          </AssemblyLine>
         </div>
       </div>
 
       <section className="section section--steel section--tight">
         <div className="container">
           <div className="catalog-tools">
-            <div className="chips" aria-label={t.process}>
-              {activeCategory ? (
-                <>
-                  <button
-                    type="button"
-                    className="chip"
-                    aria-pressed={!section}
-                    onClick={() => update({ section: "" })}
-                  >
-                    {t.all(tr(activeCategory, "short", lang))}
-                  </button>
-                  {activeCategory.sections.map((s) => (
-                    <button
-                      key={s.id}
-                      type="button"
-                      className="chip"
-                      aria-pressed={section === s.id}
-                      onClick={() =>
-                        update({ section: section === s.id ? "" : s.id })
-                      }
-                    >
-                      {tr(s, "label", lang)}
-                    </button>
-                  ))}
-                </>
-              ) : null}
-            </div>
             <div
               className="field"
               style={{ flexDirection: "row", alignItems: "center", gap: 10 }}
@@ -282,8 +288,19 @@ export default function Products() {
 
           {visible.length === 0 ? (
             <div className="empty">
-              <h2 className="h3">{t.emptyTitle}</h2>
-              <p>{t.emptyText}</p>
+              {onRequest ? (
+                <>
+                  <h2 className="h3">
+                    {t.onRequestTitle(tr(activeCategory, "name", lang))}
+                  </h2>
+                  <p>{t.onRequestText}</p>
+                </>
+              ) : (
+                <>
+                  <h2 className="h3">{t.emptyTitle}</h2>
+                  <p>{t.emptyText}</p>
+                </>
+              )}
               <div className="btn-row" style={{ justifyContent: "center" }}>
                 <button
                   type="button"

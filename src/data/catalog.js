@@ -4,6 +4,34 @@
 
 export const categories = [
   {
+    id: "material",
+    name: "SMT Material Handling",
+    short: "Material Handling",
+    nameJa: "SMT部材管理",
+    shortJa: "部材管理",
+    summary:
+      "Reel relabeling, chip counting, counterfeit checks, reel storage, splitting, tape splicing and solder paste management.",
+    summaryJa:
+      "リール貼り替え、チップカウント、偽造部品チェック、リール保管、リール分割、テープスプライス、はんだペースト管理。",
+    sections: [
+      { id: "relabel", label: "Reel relabeling", labelJa: "リール貼り替え" },
+      { id: "counting", label: "Chip counting", labelJa: "チップカウント" },
+      {
+        id: "counterfeit",
+        label: "Chip counterfeit check",
+        labelJa: "偽造部品チェック",
+      },
+      { id: "storage", label: "Reel storage", labelJa: "リール保管" },
+      { id: "splitting", label: "Reel splitting", labelJa: "リール分割" },
+      { id: "splicing", label: "Tape splicing", labelJa: "テープスプライス" },
+      {
+        id: "paste",
+        label: "Solder paste management",
+        labelJa: "はんだペースト管理",
+      },
+    ],
+  },
+  {
     id: "marking",
     name: "Marking",
     short: "Marking",
@@ -107,6 +135,40 @@ export const categories = [
     ],
   },
   {
+    id: "cleaning",
+    name: "Cleaning",
+    short: "Cleaning",
+    nameJa: "洗浄",
+    shortJa: "洗浄",
+    summary: "PCB, stencil, mechanical parts and nozzle cleaning.",
+    summaryJa: "基板洗浄、メタルマスク洗浄、治具・機構部品洗浄、ノズル洗浄。",
+    sections: [
+      { id: "pcb", label: "PCB cleaning", labelJa: "基板洗浄" },
+      { id: "stencil", label: "Stencil cleaning", labelJa: "メタルマスク洗浄" },
+      {
+        id: "parts",
+        label: "Mechanical parts cleaning",
+        labelJa: "機構部品洗浄",
+      },
+      { id: "nozzle", label: "Nozzle cleaning", labelJa: "ノズル洗浄" },
+    ],
+  },
+  {
+    id: "depaneling",
+    name: "Depaneling",
+    short: "Depaneling",
+    nameJa: "基板分割",
+    shortJa: "基板分割",
+    summary: "Router, V-cut, punch and laser depaneling of assembled boards.",
+    summaryJa: "ルーター、Vカット、パンチ、レーザーによる実装基板の分割。",
+    sections: [
+      { id: "router", label: "Router depaneling", labelJa: "ルーター分割" },
+      { id: "vcut", label: "V-cut depaneling", labelJa: "Vカット分割" },
+      { id: "punch", label: "Punch depaneling", labelJa: "パンチ分割" },
+      { id: "laser-cut", label: "Laser depaneling", labelJa: "レーザー分割" },
+    ],
+  },
+  {
     id: "coating",
     name: "Conformal Coating",
     short: "Coating",
@@ -136,6 +198,35 @@ export const categories = [
         id: "curing",
         label: "Curing",
         labelJa: "硬化",
+      },
+    ],
+  },
+  {
+    id: "potting",
+    name: "2-Part Mixing & Potting",
+    short: "Potting",
+    nameJa: "2液混合・ポッティング",
+    shortJa: "ポッティング",
+    summary: "Meter-mix dispensing and vacuum potting for two-part materials.",
+    summaryJa: "2液材料の計量混合吐出と真空ポッティング。",
+    sections: [
+      { id: "mixing", label: "Meter-mix dispensing", labelJa: "計量混合吐出" },
+      { id: "vacuum", label: "Vacuum potting", labelJa: "真空ポッティング" },
+    ],
+  },
+  {
+    id: "automation",
+    name: "Factory Automation",
+    short: "Automation",
+    nameJa: "工場自動化（FA）",
+    shortJa: "自動化",
+    summary: "AGVs and automated material transport between lines and stores.",
+    summaryJa: "AGV や、ライン・倉庫間の自動搬送。",
+    sections: [
+      {
+        id: "agv",
+        label: "AGV & material transport",
+        labelJa: "AGV・自動搬送",
       },
     ],
   },
@@ -1049,8 +1140,8 @@ export const products = [
     id: "hayawin-hy-agv250",
     name: "HY-AGV250",
     brand: "Hayawin",
-    category: "others",
-    section: "loader",
+    category: "automation",
+    section: "agv",
     href: "/products/hayawin/details/hy-agv250",
     image: "/images/catalog/hayawin-hy-agv250.webp",
   },

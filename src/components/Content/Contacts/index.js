@@ -8,7 +8,7 @@ const T = {
   en: {
     title: "Contact us",
     crumb: "Contact",
-    lead: "Ask for a quotation, technical help or spare parts. Our team in Jakarta will reply.",
+    lead: "Ask for a quotation, technical help or spare parts. Our team in Jakarta and Cikarang will reply.",
     office: "Office",
     maps: "Open in Google Maps",
     email: "Email",
@@ -40,7 +40,7 @@ const T = {
   ja: {
     title: "お問い合わせ",
     crumb: "お問い合わせ",
-    lead: "お見積り、技術的なご相談、スペアパーツのご依頼はこちらから。ジャカルタのチームがご返信します。",
+    lead: "お見積り、技術的なご相談、スペアパーツのご依頼はこちらから。ジャカルタ・チカランのチームがご返信します。",
     office: "所在地",
     maps: "Google マップで開く",
     email: "メール",

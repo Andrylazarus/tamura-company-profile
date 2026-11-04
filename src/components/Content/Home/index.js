@@ -11,9 +11,9 @@ const T = {
     heroTitle: "Equipment and support for PCB assembly lines",
     heroLead: (n) =>
       `We supply inspection, soldering, coating and test machines from ${n} manufacturers to electronics factories in Indonesia, and keep them running with local engineers and spare parts.`,
-    browse: (n) => `Browse ${n} products`,
+    browse: (n) => `Browse ${n} machine models`,
     talk: "Talk to our sales team",
-    lineTitle: "Browse products by process",
+    lineTitle: "Solutions by process",
     lineHint: "Choose a category to see its machines",
     aboutTitle: "A trading partner for electronics manufacturers",
     aboutLead: `${company.name} is an industrial supplier and general trading company serving manufacturing industries.`,
@@ -21,8 +21,11 @@ const T = {
       "We help customers choose the right machine for their boards and volumes, install it, and support it for the years it runs. That combination has cut costs and raised quality on many of our customers' lines.",
     facts: (b, p, c) => [
       [String(b), "Equipment manufacturers represented"],
-      [String(p), `Machine models across ${c} product categories`],
-      ["Jakarta", "Local sales, service and spare-parts team"],
+      [String(p), `Machine models across ${c} solution categories`],
+      [
+        "Jakarta & Cikarang",
+        "Engineers on standby for sales, service and spare parts",
+      ],
       [
         "One stop",
         "Supply, installation, spare parts and sourcing from one supplier",
@@ -34,7 +37,7 @@ const T = {
       "Electronics and automotive manufacturers that run their lines with our equipment and support.",
     featured: "Featured equipment",
     featuredLead: "A few of the machines customers ask us about most.",
-    seeAll: "See all products",
+    seeAll: "See all solutions",
     brandsTitle: "Manufacturers we represent",
     brandsLead:
       "Each brand covers a part of the line, so one supplier can equip all of it.",
@@ -45,7 +48,7 @@ const T = {
     services: [
       [
         "Technical support",
-        "Engineers in Jakarta who troubleshoot, calibrate and keep your machines in production.",
+        "Engineers on standby in Jakarta and Cikarang who troubleshoot, calibrate and keep your machines in production.",
       ],
       [
         "Spare parts",
@@ -71,9 +74,9 @@ const T = {
     heroTitle: "PCB実装ラインのための装置とサポート",
     heroLead: (n) =>
       `${n}社のメーカーの検査装置、はんだ付け装置、コーティング装置、テスト装置をインドネシアの電子機器工場にお届けし、現地のエンジニアとスペアパーツで稼働を支えます。`,
-    browse: (n) => `${n}機種の製品を見る`,
+    browse: (n) => `${n}機種の装置を見る`,
     talk: "営業担当に相談する",
-    lineTitle: "工程から製品を探す",
+    lineTitle: "工程別ソリューション",
     lineHint: "分野を選ぶと該当する装置が表示されます",
     aboutTitle: "電子機器メーカーのための商社パートナー",
     aboutLead: `${company.name}は、製造業向けの産業機器サプライヤー兼総合商社です。`,
@@ -81,8 +84,11 @@ const T = {
       "基板や生産量に合った装置選びから据付、そして長年にわたる稼働のサポートまでお手伝いします。その結果、多くのお客様のラインでコスト削減と品質向上を実現してきました。",
     facts: (b, p, c) => [
       [`${b}社`, "取り扱いメーカー"],
-      [`${p}機種`, `${c}つの製品分野の装置`],
-      ["ジャカルタ", "現地の営業・サービス・スペアパーツ体制"],
+      [`${p}機種`, `${c}つのソリューション分野の装置`],
+      [
+        "ジャカルタ・チカラン",
+        "営業・サービス・スペアパーツのエンジニアが待機",
+      ],
       ["ワンストップ", "装置の供給、据付、スペアパーツ、調達をまとめて対応"],
     ],
     moreAbout: "会社概要を見る",
@@ -91,7 +97,7 @@ const T = {
       "当社の装置とサポートで生産ラインを稼働させている、電子機器・自動車部品メーカーの皆様です。",
     featured: "おすすめの装置",
     featuredLead: "お問い合わせの多い装置をご紹介します。",
-    seeAll: "すべての製品を見る",
+    seeAll: "すべてのソリューションを見る",
     brandsTitle: "取り扱いメーカー",
     brandsLead:
       "各メーカーがラインの各工程をカバーしているため、ライン全体を一社でそろえられます。",
@@ -102,7 +108,7 @@ const T = {
     services: [
       [
         "技術サポート",
-        "ジャカルタのエンジニアがトラブル対応や調整を行い、装置の稼働を維持します。",
+        "ジャカルタとチカランに待機するエンジニアがトラブル対応や調整を行い、装置の稼働を維持します。",
       ],
       [
         "スペアパーツ",

@@ -5,14 +5,14 @@ import { useLang } from "@/i18n";
 
 const META = {
   en: {
-    title: "Products",
+    title: "Solutions",
     description:
-      "Browse SMT, through-hole, conformal coating, marking and test equipment from Tamura, Koh Young, Panasonic, KIC, Anda, PTI and more.",
+      "Solutions for SMT material handling, marking, SMT, through-hole, cleaning, depaneling, coating, potting and factory automation from Tamura, Koh Young, Panasonic, KIC, Anda, PTI and more.",
   },
   ja: {
-    title: "製品",
+    title: "ソリューション",
     description:
-      "Tamura、Koh Young、Panasonic、KIC、Anda、PTI などの SMT、挿入実装、コンフォーマルコーティング、マーキング、テスト装置をご覧いただけます。",
+      "Tamura、Koh Young、Panasonic、KIC、Anda、PTI などによる、SMT部材管理、マーキング、SMT、挿入実装、洗浄、基板分割、コーティング、ポッティング、ファクトリーオートメーションのソリューション。",
   },
 };
 
